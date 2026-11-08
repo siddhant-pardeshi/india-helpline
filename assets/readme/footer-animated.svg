@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" role="img" aria-label="India Helpline — every number verified, every second counts">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C141C"/>
+      <stop offset="0.5" stop-color="#14202C"/>
+      <stop offset="1" stop-color="#0A1118"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C41414" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#E8871E" stop-opacity="0.20"/>
+      <stop offset="0.55" stop-color="#E8871E" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#C41414" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="badge2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D21B1B">
+        <animate attributeName="stop-color" values="#D21B1B;#E8462E;#D21B1B" dur="3.2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#8E0D0D"/>
+    </linearGradient>
+    <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C41414" stop-opacity="0.1"/>
+      <stop offset="0.5" stop-color="#E8871E" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#3DD3A5" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="fglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#C41414" flood-opacity="0.45"/>
+    </filter>
+    <style>
+      @media (prefers-reduced-motion: reduce) {
+        .sweepRect, .ring, .marquee, .tick, .shimmer, .pulseDot { animation: none !important; }
+        .frozen { opacity: 0.25; }
+      }
+      .sweepRect { animation: sweep 9s ease-in-out infinite; }
+      @keyframes sweep {
+        0%   { transform: translateX(-900px); opacity: 0; }
+        15%  { opacity: 1; }
+        85%  { opacity: 1; }
+        100% { transform: translateX(1700px); opacity: 0; }
+      }
+      .ring { animation: ring 3.4s cubic-bezier(.2,.7,.3,1) infinite; transform-origin: 218px 240px; }
+      .ring.r2 { animation-delay: 1.7s; }
+      @keyframes ring {
+        0%   { transform: scale(0.35); opacity: 0.55; }
+        100% { transform: scale(1.9); opacity: 0; }
+      }
+      .pulseDot { animation: pd 3.4s ease-in-out infinite; transform-origin: 218px 240px; }
+      @keyframes pd {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.045); }
+      }
+      .marquee { animation: march 26s linear infinite; }
+      @keyframes march {
+        from { transform: translateX(0); }
+        to { transform: translateX(-50%); }
+      }
+      .shimmer { animation: shim 5.5s linear infinite; }
+      @keyframes shim {
+        0%   { transform: translateX(-160px); opacity: 0; }
+        12%  { opacity: 1; }
+        55%  { opacity: 1; }
+        70%  { transform: translateX(1560px); opacity: 0; }
+        100% { transform: translateX(1560px); opacity: 0; }
+      }
+      .tick { opacity: 0.28; animation: tick 4.8s ease-in-out infinite; }
+      .tick.t1 { animation-delay: 0s; }
+      .tick.t2 { animation-delay: 1.6s; }
+      .tick.t3 { animation-delay: 3.2s; }
+      @keyframes tick {
+        0%, 28%, 100% { opacity: 0.28; }
+        10% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1600" height="560" fill="url(#fbg)"/>
+
+  <!-- bold gradient sweep -->
+  <g clip-path="url(#clipAll)"><rect class="sweepRect" x="0" y="0" width="900" height="560" fill="url(#sweep)"/></g>
+  <clipPath id="clipAll"><rect width="1600" height="560"/></clipPath>
+
+  <!-- pulsing badge + radar rings -->
+  <g filter="url(#fglow)">
+    <rect class="pulseDot" x="118" y="140" width="200" height="200" rx="46" fill="url(#badge2)"/>
+  </g>
+  <circle class="ring" cx="218" cy="240" r="120" fill="none" stroke="#E8871E" stroke-width="2"/>
+  <circle class="ring r2" cx="218" cy="240" r="120" fill="none" stroke="#C41414" stroke-width="2"/>
+  <text x="218" y="262" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="92" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">112</text>
+
+  <!-- headline -->
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <text x="392" y="196" font-size="52" font-weight="800" fill="#F2F1EC" letter-spacing="-0.5">Every number verified. Every second counts.</text>
+    <text x="394" y="244" font-size="26" font-weight="500" fill="#A9B2BD">27+ national services · 36 States &amp; UTs · English + हिंदी · offline-first · zero tracking</text>
+
+    <!-- verify → publish → repeat ticker -->
+    <g font-size="24" font-weight="800" letter-spacing="1">
+      <text class="tick t1" x="394" y="298" fill="#3DD3A5">✓ VERIFY on official pages</text>
+      <text class="tick t2" x="746" y="298" fill="#7FA6FF">➜ PUBLISH with source</text>
+      <text class="tick t3" x="1080" y="298" fill="#F5A94E">⟳ RETIRE when it changes</text>
+    </g>
+  </g>
+
+  <!-- marching numbers marquee -->
+  <rect x="0" y="356" width="1600" height="2" fill="#1E2936"/>
+  <g clip-path="url(#clipAll)">
+    <g class="marquee" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="800">
+      <g fill="#8593A4">
+        <text x="20" y="428">112</text><text x="110" y="428" fill="#3A4654">·</text>
+        <text x="160" y="428">139</text><text x="255" y="428" fill="#3A4654">·</text>
+        <text x="305" y="428">182</text><text x="400" y="428" fill="#3A4654">·</text>
+        <text x="450" y="428">1930</text><text x="560" y="428" fill="#3A4654">·</text>
+        <text x="610" y="428">1098</text><text x="720" y="428" fill="#3A4654">·</text>
+        <text x="770" y="428">181</text><text x="860" y="428" fill="#3A4654">·</text>
+        <text x="910" y="428">1554</text><text x="1020" y="428" fill="#3A4654">·</text>
+        <text x="1070" y="428">14416</text><text x="1190" y="428" fill="#3A4654">·</text>
+        <text x="1240" y="428">1033</text><text x="1345" y="428" fill="#3A4654">·</text>
+        <text x="1395" y="428">1906</text><text x="1490" y="428" fill="#3A4654">·</text>
+        <text x="1540" y="428">14567</text><text x="1655" y="428" fill="#3A4654">·</text>
+        <text x="1705" y="428">15100</text><text x="1815" y="428" fill="#3A4654">·</text>
+        <text x="1865" y="428">1078</text><text x="1965" y="428" fill="#3A4654">·</text>
+        <text x="2015" y="428">155216</text>
+        <!-- duplicate for seamless loop -->
+        <text x="2220" y="428">112</text><text x="2310" y="428" fill="#3A4654">·</text>
+        <text x="2360" y="428">139</text><text x="2455" y="428" fill="#3A4654">·</text>
+        <text x="2505" y="428">182</text><text x="2600" y="428" fill="#3A4654">·</text>
+        <text x="2650" y="428">1930</text><text x="2760" y="428" fill="#3A4654">·</text>
+        <text x="2810" y="428">1098</text><text x="2920" y="428" fill="#3A4654">·</text>
+        <text x="2970" y="428">181</text><text x="3060" y="428" fill="#3A4654">·</text>
+        <text x="3110" y="428">1554</text><text x="3220" y="428" fill="#3A4654">·</text>
+        <text x="3270" y="428">14416</text><text x="3390" y="428" fill="#3A4654">·</text>
+        <text x="3440" y="428">1033</text><text x="3545" y="428" fill="#3A4654">·</text>
+        <text x="3595" y="428">1906</text><text x="3690" y="428" fill="#3A4654">·</text>
+        <text x="3740" y="428">14567</text><text x="3855" y="428" fill="#3A4654">·</text>
+        <text x="3905" y="428">15100</text><text x="4015" y="428" fill="#3A4654">·</text>
+        <text x="4065" y="428">1078</text><text x="4165" y="428" fill="#3A4654">·</text>
+        <text x="4215" y="428">155216</text>
+      </g>
+    </g>
+  </g>
+  <rect x="0" y="452" width="1600" height="2" fill="#1E2936"/>
+
+  <!-- CTA row -->
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="22">
+    <a href="https://siddhant-pardeshi.github.io/india-helpline/">
+      <rect x="392" y="488" width="252" height="46" rx="23" fill="#C41414"/>
+      <text x="518" y="518" fill="#FFFFFF" text-anchor="middle">🌐 Open the site</text>
+    </a>
+    <a href="https://github.com/siddhant-pardeshi/india-helpline/issues">
+      <rect x="664" y="488" width="300" height="46" rx="23" fill="none" stroke="#3DD3A5" stroke-width="1.6"/>
+      <text x="814" y="518" fill="#3DD3A5" text-anchor="middle">Report a wrong number</text>
+    </a>
+    <text x="996" y="518" fill="#6E7A87" font-weight="500" font-size="20">Always call 112 first in an emergency.</text>
+  </g>
+
+  <!-- shimmer on bottom edge -->
+  <g clip-path="url(#clipAll)">
+    <rect x="0" y="556" width="1600" height="4" fill="#0A1118"/>
+    <rect class="shimmer" x="0" y="556" width="160" height="4" fill="url(#hairline)"/>
+  </g>
+</svg>

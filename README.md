@@ -123,4 +123,8 @@ Every listing has **"Report incorrect details"** — it opens a pre-filled mail 
 
 **If this repo helps you, a ⭐ helps it reach someone who might need it at 2 AM.**
 
+<img src="assets/readme/footer-animated.svg" alt="India Helpline animated footer — pulsing 112 badge, verify-publish-retire cycle, and the live numbers marquee" width="100%">
+
+*⚡ The badge pulses, the cycle glows and the numbers march — this footer is a live animation, no JavaScript required.*
+
 </div>
