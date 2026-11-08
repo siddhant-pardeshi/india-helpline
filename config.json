@@ -1,0 +1,4 @@
+{
+  "contactEmail": "reports@indiahelpline.example",
+  "ownerNote": "Owner contact channel: this default address is a placeholder. The site owner must replace it in config.json with a monitored mailbox or issue tracker they control (see MAINTENANCE.md). Until then, every listing also links to the operator's own official source page."
+}

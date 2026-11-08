@@ -1,0 +1,64 @@
+BUILD AND DEPLOY | INDIA HELPLINE DIRECTORY
+
+Build "India Helpline", an independent public-service website for people in India. Someone on a railway platform, at home with a sick relative, or trying to report a stolen payment should be able to open the same URL, recognise their situation, and reach the right service in seconds. Deliver the working website at a public HTTPS URL. Use your available research, coding, testing and hosting tools. Make routine design and implementation decisions yourself.
+
+1. Start with the moment someone needs help
+
+On the first mobile screen show "In immediate danger?" and a large "Call 112" link, with "Police, fire or medical emergency" beneath it. Follow with a labelled search field, "What do you need help with?", and recognisable choices such as Ambulance, Police, Fire, Child in danger, Financial fraud, and More services. Keep the number readable at a glance and reachable from every page. The home page must work before a person selects a language or location. Show the active region and offer a manual "Choose state or union territory" control. Someone in Delhi must be able to find help for a relative in Assam.
+
+Use a quiet, high-contrast layout, clearly separated rows, large digits, and one primary action per result. Reserve emergency red for immediate danger. Skip splash screens, carousels, ads, decorative hero images, government emblems, sign-in prompts and anything that delays calling. Render the number as selectable text beside a native tel: link. One tap opens the phone's dialer. On a laptop, the person can read or copy the same number. Never place a call automatically. Explain briefly that the site lists contacts and does not receive emergency requests.
+
+2. Research the real directory
+
+Build a national directory plus meaningful state, union territory and local coverage. Take the current list of jurisdictions from an official Government of India source. Research every jurisdiction individually. Check each state's or UT's police, health, disaster management and public assistance authorities for distinct services. Include district, city, route or provider-specific contacts wherever credible sources identify their scope. Provide searchable state pages that show locally verified services followed by applicable national services. A location filter must never show another state's control room as local.
+
+Use the following as a research checklist. Create entries from evidence, not by generating a number for each category.
+
+• Immediate danger: police, fire and rescue, medical emergencies, ambulance and road crashes.
+• Health: poison information, pregnancy and newborn transport, mental health crisis and counselling, and blood bank referral services.
+• Personal safety: child protection, missing children or adults, domestic or sexual violence, trafficking, elder abuse and support for people with disabilities.
+• Disaster and environment: state and district control rooms, floods, cyclones, earthquakes, landslides, heat emergencies, coastal and maritime rescue, forest fires and wildlife incidents.
+• Travel: railway security and medical assistance, highway emergencies, public transport, tourists and airport-specific assistance.
+• Utilities: LPG leaks, electrical hazards, downed wires, water and municipal hazards. Check the relevant utility and service territory.
+• Crime and financial harm: cybercrime, recent financial fraud, bank reporting routes and verified online complaint channels.
+• Other urgent support: shelter, migrant and worker assistance, legal aid, animal rescue and other officially documented needs discovered during research. Keep routine grievances clearly labelled so they never displace an emergency action.
+
+Start with the Emergency Response Support System at https://112.gov.in/ and its state portal index at https://112.gov.in/states. For railway security or medical assistance, Indian Railways lists 139 on RailMadad at https://railmadad.indianrailways.gov.in/madad/final/home.jsp. Recheck both listings when building. For other categories consult the responsible agency directly, for example the Indian Cyber Crime Coordination Centre, Ministry of Women and Child Development, National Health Mission, NDMA, NHAI, state disaster authorities, and the relevant utilities. These are starting points. Find the specific page or official notice supporting each record.
+
+3. Make every dial button defensible
+
+Store records in a version-controlled data file separate from the interface. Each published record needs a stable ID, service name, operator, plain-language purpose, category, service type (dispatch, reporting, advice or complaints), exact display number, dial string, geographic scope, directly supporting source URL and date checked. Keep aliases, scripts, eligibility, languages, hours with time zone, call charges and alternative accessible channels where the operator documents them. Display "Hours not published" where appropriate. Never infer toll-free status, nationwide coverage, anonymity, availability from abroad or 24-hour service from a short code.
+
+Read the source and match the digits, operator, purpose and jurisdiction before publishing. Search snippets, other directories, generated text and a successful HTTP response are insufficient. For an NGO-operated service use its own current publication and label the operator accurately. Publish only contacts explicitly designated for public assistance. Preserve leading zeroes, area codes and short codes as strings. Keep extensions or IVR steps separate from the number. Never prepend +91 to short codes. Add SMS, WhatsApp or web reporting only when the operator explicitly supports that channel.
+
+If sources conflict, investigate the current operator's notice, quarantine unresolved records and record the reason. Keep unverified leads outside the public data. Show an honest coverage page listing what has been checked in each jurisdiction and where local information is still missing. If a search returns nothing local, show an applicable national service or an official agency directory. Reserve 112 for immediate danger. Never imply that 112 can process a routine grievance or reverse a payment.
+
+4. Help people find the right service under stress
+
+Support browsing by need as well as instant search by situation, number, agency, state and common misspellings. Include English, Hindi and common transliterations for frequent searches, such as "aag", "ambulance chahiye", "lost child" and "UPI fraud". Rank by incident match, geographic applicability and urgency. A result should answer three questions immediately: What can they do? Does this cover my location? Which number do I call? Show scope and the service type beside the call action, then the operator, source link and date checked in accessible details.
+
+Ship complete English and Hindi navigation, emergency actions, empty states and core service descriptions. Keep the language switch visible and preserve the current page, filters and number when switching. Prefer official translations for safety-critical wording. Display an English fallback for an untranslated local description. Add regional languages when the wording can be checked. Keep interface language distinct from languages spoken by an operator.
+
+Meet WCAG 2.2 AA. Use text labels with icons, semantic headings, visible keyboard focus, accessible search updates and large touch targets. Test Hindi line wrapping, screen readers, 200% zoom and a 320-pixel viewport. Deliver the emergency action and core directory links as usable HTML even with JavaScript disabled. Keep the first load small. Provide a print-friendly state list with numbers, scope and dates. Cache a compact verified directory after a successful visit. Show its saved date offline and refresh or retire withdrawn records on reconnection. Explain that a phone connection is required for calls.
+
+5. Protect privacy and maintain accuracy
+
+Use manual location selection. No account, location permission, incident narrative, call tracking, advertising or collection of sensitive search text. Do not put incident searches in URLs, analytics or logs. Give each listing a "Report incorrect details" action through a functioning, monitored project contact or issue channel that the owner controls. Request only the listing and supporting source, and make clear this channel cannot send help. If an owner channel is unavailable, link to the service operator's published contact route and disclose the setup gap at handoff.
+
+Provide a repeatable review process with a named owner role, a review interval, change history and a way to retire a listing quickly. Flag time-limited disaster hotlines for expiry. A broken link should trigger review. It must never silently change the listed number or reset a verification date. Document how a maintainer checks a replacement source, updates the record, runs validation, republishes and rolls back.
+
+6. Prove it works and put it online
+
+Use a maintainable, mobile-first implementation that can be hosted inexpensively. Build the actual directory and populate it with verified entries. Before release, validate required fields, duplicate records, allowed link schemes, numbers against dial links, state filters and offline data freshness. Verify routes, source links, language switching and mobile layout. Inspect dial links without placing test calls.
+
+Walk through these scenarios in the built site:
+• A visitor on a narrow phone with scripts disabled can see 112 immediately and open the dialer.
+• A passenger searching "medical help on train" finds railway assistance. A user searching "UPI fraud" finds the verified financial-fraud reporting route.
+• Someone searching for a gas leak in a different state sees only providers that serve the selected area, or an accurate fallback.
+• A Hindi-speaking user can find child protection assistance, see its scope and open the same number shown on screen.
+• An offline returning visitor can read saved numbers and the cache date. An unfamiliar district shows the actual coverage gap.
+• A withdrawn test record disappears from the live directory and from the cache after refresh. Keep test fixtures out of production.
+
+Deploy to the hosting available to you using a public HTTPS address. Use a free host-provided subdomain if needed. Never purchase a domain or activate a paid plan without the owner's approval. Open the deployed URL in a fresh session and check the home page, a direct state-page URL, a search, a dial link and the source details. Fix deployment errors and repeat the checks. Do not call a local preview a deployment.
+
+Return the live URL first, followed by the editable source project, directory data, a short maintenance guide, and a concise launch report. Report actual national and local record counts, jurisdictions with verified local listings, outstanding gaps, checks passed and checks you could not run. If hosting access is unavailable, deliver the complete deploy-ready project, exact hosting steps for one compatible platform and the specific owner action still needed. If source access is unavailable, complete the interface and validation tooling, identify the blocked records and withhold unverified contacts from release. Never invent research, review dates, test results or a deployment URL.

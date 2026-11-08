@@ -1,0 +1,182 @@
+{
+  "siteName": "India Helpline",
+  "siteTagline": "Verified helpline numbers for every situation",
+  "skipLink": "Skip to main content",
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "states": "States & UTs",
+    "coverage": "Coverage",
+    "about": "About",
+    "language": "Language"
+  },
+  "emergency": {
+    "inDanger": "In immediate danger?",
+    "kicker": "Emergency Response Support System — India",
+    "call": "Call 112",
+    "subline": "Police, fire or medical emergency — one number across India",
+    "note": "Police, fire and ambulance services are integrated in 112 in most States and Union Territories. In an emergency, call 112 first.",
+    "powerButton": "Tip: on a smartphone, pressing the power button 3 times quickly can also trigger an SOS call where ERSS is available.",
+    "free": "Calling opens your phone's dialer with the number ready — this site never places a call automatically."
+  },
+  "search": {
+    "label": "What do you need help with?",
+    "placeholder": "e.g. ambulance, aag, UPI fraud, lost child, gas leak…",
+    "submit": "Search",
+    "resultsFor": "Results for",
+    "noResults": "No matching service found. Try another word, or browse all services below.",
+    "noResultsTip": "If it is an emergency, call 112.",
+    "showingCount": "{count} result(s)",
+    "clear": "Clear search",
+    "byNumber": "Search by number, agency, situation or state"
+  },
+  "quick": {
+    "title": "Choose what you need",
+    "ambulance": "Ambulance",
+    "police": "Police",
+    "fire": "Fire",
+    "child": "Child in danger",
+    "fraud": "Financial fraud",
+    "more": "More services"
+  },
+  "categories": {
+    "title": "All services",
+    "emergency": "Immediate danger",
+    "health": "Health & medical",
+    "safety": "Personal safety",
+    "disaster": "Disaster & environment",
+    "travel": "Travel & transport",
+    "utilities": "Utilities & home hazards",
+    "crime": "Crime & financial harm",
+    "other": "Other support"
+  },
+  "categoryIntro": {
+    "emergency": "Numbers for situations where someone's life, safety or property is in immediate danger. Emergency calls are answered by State Emergency Response Centres.",
+    "health": "Medical advice, ambulance transport, mental health support, poison information and blood referral.",
+    "safety": "Protection for children, women, senior citizens and persons with disabilities — helplines that listen and connect you to help.",
+    "disaster": "Floods, cyclones, earthquakes, heat emergencies and environmental hazards — control rooms and rescue forces.",
+    "travel": "Railways, highways, public transport and tourist assistance.",
+    "utilities": "Gas leaks, electrical hazards, downed wires and municipal hazards.",
+    "crime": "Reporting cybercrime, financial fraud and other offences, plus legal aid.",
+    "other": "Shelter, worker assistance and other officially documented support lines."
+  },
+  "states": {
+    "title": "States & Union Territories",
+    "intro": "Choose where the help is needed. Each state page shows locally published services first, then services that apply across India.",
+    "selected": "Region",
+    "choose": "Choose state or union territory",
+    "placeholder": "Select a state or UT…",
+    "go": "Go",
+    "localTitle": "Services in {state}",
+    "localEmpty": "No locally published numbers for {state} yet. We are researching official state sources — see the {coverageLink} page.",
+    "nationalTitle": "Applies across India",
+    "nationalApplies": "These services cover all of India, including {state}.",
+    "onThisPage": "On this page",
+    "printThis": "Print this list",
+    "helpElsewhere": "Helping someone in another state? Choose that state instead — local services differ."
+  },
+  "record": {
+    "callNow": "Call",
+    "callAria": "Call {number}",
+    "copied": "Number copied",
+    "copy": "Copy number",
+    "scopeNational": "All India",
+    "scopeState": "{state} only",
+    "type": {
+      "dispatch": "Emergency dispatch",
+      "reporting": "Reporting",
+      "advice": "Advice & counselling",
+      "complaints": "Complaints"
+    },
+    "hours": "Hours",
+    "hoursUnknown": "Hours not published",
+    "chargesLabel": "Call charges",
+    "charges": { "toll-free": "Toll-free", "charged": "Charged by operator", "not published": "Not published" },
+    "operator": "Operator",
+    "source": "Source",
+    "checked": "Checked {date}",
+    "channels": "Other channels",
+    "sms": "SMS",
+    "whatsapp": "WhatsApp",
+    "web": "Website",
+    "languages": "Languages",
+    "details": "Details",
+    "hide": "Hide details",
+    "verified": "Verified against official source",
+    "report": "Report incorrect details",
+    "reportNote": "This goes to the site owner — it cannot send help. In an emergency, call 112."
+  },
+  "footer": {
+    "independence": "India Helpline is an independent public-service directory. It lists verified phone numbers only — it does not receive emergency requests and never places calls automatically. For any emergency, call 112.",
+    "privacy": "Privacy: no tracking, no location access, no account. Searches stay on your device.",
+    "offlineSaved": "Saved for offline use",
+    "offlineNone": "Not saved offline yet",
+    "offlineDate": "Saved {date}",
+    "links": "About · Coverage · Privacy · Print list · Report a problem"
+  },
+  "coverage": {
+    "title": "What we have verified — and what is missing",
+    "intro": "Every number on this site was checked against an official source on the date shown. Where a state page has no local numbers, that is stated openly — not hidden.",
+    "nationalCount": "National services verified: {count}",
+    "jurisdictionLine": "{code} — {name}",
+    "hasLocal": "{n} local listing(s)",
+    "noneYet": "No distinct local numbers published with verifiable sources yet — national services apply.",
+    "lastChecked": "last checked {date}"
+  },
+  "about": {
+    "title": "About this site",
+    "p1": "India Helpline is an independent directory of verified public helpline numbers. It exists because during an emergency, every second spent searching is too long.",
+    "p2": "Numbers are only published when an official government or operator source documents them. Each listing links to that source and shows the date it was last checked. Where sources conflict or cannot be confirmed, the listing is held back.",
+    "p3": "This site does not receive or forward emergency requests, and never places a call automatically. Calling a number uses your phone's normal dialer.",
+    "verifyTitle": "How we verify",
+    "verify1": "The page of the operating authority is opened and read directly.",
+    "verify2": "The digits, operator, purpose and jurisdiction are matched against that page.",
+    "verify3": "A record without a working official source is not published.",
+    "verify4": "Verified records carry their source link and check date."
+  },
+  "privacy": {
+    "title": "Privacy",
+    "p1": "India Helpline collects nothing. There is no account, no analytics, no advertising, no location permission request.",
+    "p2": "Location is chosen by you, manually, from a list. What you search for stays in your browser — it is never sent to a server, put in a URL, or logged.",
+    "p3": "The site makes no requests to any third-party server. Fonts, icons and data are bundled with the site itself.",
+    "p4": "If you save the directory for offline use, it is stored in your browser's cache on your own device, with its saved date shown on the site.",
+    "p5": "Reporting incorrect details sends only what you type, to the site's contact channel — it is not a way to reach emergency services."
+  },
+  "print": {
+    "title": "Printable directory",
+    "intro": "A plain list of verified numbers, scope and check dates. Print it for your home, workplace or school noticeboard.",
+    "printButton": "Print now",
+    "nationalSection": "National numbers (all India)",
+    "stateSection": "{state} ({n} listings)"
+  },
+  "offline": {
+    "banner": "You are offline — showing the directory saved on {date}. Numbers here are the ones saved on that date.",
+    "ready": "Ready for offline use"
+  },
+  "meta": {
+    "homeTitle": "India Helpline — emergency numbers & verified helplines",
+    "homeDesc": "One tap to call 112 for police, fire or medical emergency. Verified numbers for ambulance, child protection, financial fraud, gas leaks, railways and more — in English and Hindi.",
+    "stateTitle": "{state} helplines — India Helpline",
+    "categoryTitle": "{cat} helplines — India Helpline",
+    "notFound": "Page not found",
+    "notFoundBody": "The page you asked for does not exist. If this is an emergency, call 112 now.",
+    "notFoundHome": "Go to the home page"
+  },
+  "a11y": {
+    "langToggle": "Switch language to Hindi",
+    "activeLang": "Current language",
+    "stickyCall": "Persistent call 112 button",
+    "searchStatus": "Search results"
+  },
+  "faq": {
+    "title": "Common questions",
+    "q1": "Is this an official government website?",
+    "a1": "No. India Helpline is an independent directory that only lists numbers published by official government and operator sources, with links to each source.",
+    "q2": "Does calling 112 cost money?",
+    "a2": "We don't publish claims about call charges unless the operator documents them — check with your operator. India Helpline never places calls automatically; you always dial from your own phone.",
+    "q3": "Why is a number missing for my state?",
+    "a3": "We only publish numbers we could verify against an official source. If a state page shows nothing local, it means no distinct local number had a verifiable official source at the time we checked — the coverage page explains this openly.",
+    "q4": "The details for a listing are wrong. What do I do?",
+    "a4": "Use “Report incorrect details” on that listing. It goes to the site owner's contact channel and cannot send help."
+  }
+}
