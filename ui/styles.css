@@ -480,7 +480,7 @@ html[data-theme="dark"] .btn-call { color: #06231B; }
 /* state selector */
 .stateselect { display: flex; gap: .6rem; align-items: stretch; }
 .stateselect select {
-  font: inherit; color: var(--ink); flex: 1; max-width: 26rem;
+  font: inherit; color: var(--ink); flex: 1 1 0; min-width: 0; max-width: 26rem;
   padding: .8rem 1rem; background: var(--surface);
   border: 1.5px solid var(--line); border-radius: var(--r-md);
   min-height: 48px;
