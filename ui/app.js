@@ -305,6 +305,8 @@
       navigator.serviceWorker.register(BP + '/sw.js').catch(() => {});
       navigator.serviceWorker.ready.then((reg) => {
         if (pill && D.build) pill.textContent = (lang === 'hi' ? 'ऑफ़लाइन के लिए सहेजा गया' : 'Saved for offline use');
+        // ask the SW for the saved directory date
+        if (reg.active) reg.active.postMessage({ type: 'cache-date' });
       });
       navigator.serviceWorker.addEventListener('message', (e) => {
         if (e.data && e.data.type === 'cached-date' && pill) {
