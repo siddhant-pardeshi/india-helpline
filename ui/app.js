@@ -119,15 +119,18 @@
         if (hay.op.includes(f) && f.length >= 3) { s += 100; matched = true; continue; }
         // category
         if (hay.cat === f || hay.cat.includes(f)) { s += 90; matched = true; continue; }
-        // fuzzy on name + alias words
+        // fuzzy on name + alias words (tight: d≤2 for ≥6-char words, d≤1 for ≥4-char)
         if (f.length >= 4) {
-          const pool = hay.name.split(' ').concat(hay.alias ? hay.alias.split(' ') : []);
+          const pool = [...new Set(hay.name.split(' ').concat(hay.alias ? hay.alias.split(' ') : []))];
+          const maxD = f.length >= 6 ? 2 : 1;
+          let best = Infinity;
           for (const pw of pool) {
-            if (Math.abs(pw.length - f.length) <= 2) {
-              const d = editDistance(f, pw, 2);
-              if (d <= 2) { s += 150 - d * 40; matched = true; }
+            if (pw.length >= 4 && Math.abs(pw.length - f.length) <= maxD) {
+              const d = editDistance(f, pw, maxD);
+              if (d <= maxD && d < best) best = d;
             }
           }
+          if (best !== Infinity) { s += 150 - best * 40; matched = true; }
         }
       }
       if (!matched) s -= 40; // every unmatched word hurts
