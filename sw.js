@@ -4,7 +4,7 @@
    Strategy: navigations = network-first with cache fallback (withdrawn
    records disappear after refresh); directory.json = network-first;
    static assets = cache-first with background refresh. */
-const VERSION = 'v2';
+const VERSION = 'v3';
 const SCOPE = new URL(self.registration.scope).pathname; // e.g. '/' or '/india-helpline/'
 const SHELL = [
   'ui/styles.css',
@@ -34,7 +34,7 @@ self.addEventListener('activate', (e) => {
 
 async function staleWhileRevalidate(req, cache) {
   const cached = await cache.match(req);
-  const netFetch = fetch(req).then((res) => {
+  const netFetch = fetch(req.url).then((res) => {
     if (res && res.ok) cache.put(req, res.clone());
     return res;
   }).catch(() => null);
@@ -43,7 +43,9 @@ async function staleWhileRevalidate(req, cache) {
 
 async function networkFirst(req, cache, fallbackUrl) {
   try {
-    const res = await fetch(req);
+    // NOTE: navigation Requests have mode 'navigate' which fetch() rejects —
+    // always fetch by URL string instead of re-fetching the original request.
+    const res = await fetch(req.url);
     if (res && res.ok) cache.put(req, res.clone());
     return res;
   } catch (err) {
