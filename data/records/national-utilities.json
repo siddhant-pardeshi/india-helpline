@@ -1,0 +1,42 @@
+[
+  {
+    "id": "in-lpg-emergency-1906",
+    "name": {
+      "en": "LPG Emergency Helpline 1906",
+      "hi": "एलपीजी आपातकालीन हेल्पलाइन 1906"
+    },
+    "operator": "Ministry of Petroleum & Natural Gas (MoPNG) with Oil Marketing Companies IOCL, BPCL, HPCL",
+    "purpose": {
+      "en": "Pan-India 24x7 multilingual helpline for attending emergency LPG leakage complaints, with mechanic and field support.",
+      "hi": "एलपीजी गैस रिसाव की आपात शिकायतों के लिए राष्ट्रीय 24x7 बहुभाषी हेल्पलाइन, मैकेनिक और फील्ड सहायता के साथ।"
+    },
+    "category": "utilities",
+    "serviceType": "dispatch",
+    "displayNumber": "1906",
+    "dial": "1906",
+    "scope": "national",
+    "sourceUrl": "https://www.mopng.gov.in/en/marketing/emergency-helpline",
+    "hours": "24x7",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "LPG Leakage Helpline",
+      "Gas Leakage Helpline 1906",
+      "OIPL LPG emergency helpline",
+      "gas leak",
+      "gas chahiye",
+      "cylinder",
+      "chulha",
+      "lpg",
+      "gas"
+    ],
+    "languages": [],
+    "evidence": "Emergency Helpline No. 1906 ... This multilingual LPG Emergency Helpline was dedicated to the nation on 1.1.2016 ... This facility is available 24*7 operations with 2 shifts 12 hours each for attending emergency LPG leakage complaints.",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  }
+]

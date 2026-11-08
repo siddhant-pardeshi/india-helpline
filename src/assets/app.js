@@ -118,7 +118,6 @@
       cat: rec.cat,
       scope: rec.scope,
     };
-    const digitsQ = (String(D.__q_digits || ''));
 
     for (const w of words) {
       const forms = expand(w);
@@ -206,12 +205,11 @@
     results.innerHTML = '';
     const words = tokens(q);
     if (!words.length) return;
-    const digits = q.replace(/\D/g, '');
     const stateSel = localStorage.getItem(STATE_KEY) || '';
 
     const scored = [];
     for (const rec of D.index || []) {
-      const s = scoreRec(Object.assign({ __q_digits: digits }, rec), words, stateSel);
+      const s = scoreRec(rec, words, stateSel);
       if (s > 0) scored.push([s, rec]);
     }
     scored.sort((a, b) => b[0] - a[0] || a[1].n.localeCompare(b[1].n));
@@ -302,6 +300,12 @@
   function wireRegion() {
     const sel = $('[data-state-select]');
     if (!sel) return;
+    const go = () => {
+      const v = sel.value;
+      if (!v) return;
+      localStorage.setItem(STATE_KEY, v);
+      location.href = `${base}/states/${v}.html`;
+    };
     // populate
     for (const st of D.states || []) {
       const o = document.createElement('option');
@@ -314,13 +318,11 @@
     const cur = sel.dataset.current;
     if (cur) sel.value = cur;
     else if (saved) sel.value = saved;
-    sel.closest('form').addEventListener('submit', (e) => {
-      e.preventDefault();
-      const v = sel.value;
-      if (!v) return;
-      localStorage.setItem(STATE_KEY, v);
-      location.href = `${base}/states/${v}.html`;
-    });
+    // works both on the home form and on state pages (button, no form)
+    const form = sel.closest('form');
+    if (form) form.addEventListener('submit', (e) => { e.preventDefault(); go(); });
+    const goBtn = document.querySelector('[data-state-go]');
+    if (goBtn) goBtn.addEventListener('click', go);
   }
 
   /* ---------- offline / SW ---------- */

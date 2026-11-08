@@ -6,6 +6,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, copyFileSync } from 'node:fs';
 import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
 import { pageShell, recordCard, recordList, searchBox, regionSelector, esc, fmtDate, t9, loc, telHref, setData, setBasePath } from './lib/render.mjs';
 import { categoryIcon, quickIcon } from './lib/icons.mjs';
 import { icons } from './lib/icons.mjs';
@@ -477,6 +478,9 @@ function pageSearch(lang) {
     <h1>${esc(t.search.label)}</h1>
   </header>
   ${searchBox(t, { base: dirFor(lang) })}
+  <noscript><div class="notice" style="margin-top:1rem">${lang === 'hi'
+    ? 'लाइव खोज के लिए JavaScript चाहिए। बिना JavaScript भी नीचे की श्रेणियाँ और हर पृष्ठ पर 112 काम करते हैं।'
+    : 'Live search needs JavaScript. Without it, the categories below and 112 on every page still work.'}</div></noscript>
   <section style="margin-top:2.5rem">
     <h2 class="section-title">${esc(t.categories.title)}</h2>
     <div class="tilegrid">${catTilesHtml}</div>
@@ -501,6 +505,14 @@ function page404(lang) {
 
 // ---------- assets ----------
 function writeAssets() {
+  // syntax gate: never ship a service worker or client script that doesn't parse
+  for (const f of ['src/assets/sw.js', 'src/assets/app.js']) {
+    try {
+      execFileSync(process.execPath, ['--check', join(ROOT, f)], { stdio: 'pipe' });
+    } catch (e) {
+      throw new Error(`SYNTAX GATE FAILED for ${f}:\n${e.stderr}`);
+    }
+  }
   mkdirSync(join(SITE, 'ui'), { recursive: true });
   copyFileSync(join(ROOT, 'src/assets/styles.css'), join(SITE, 'ui/styles.css'));
   copyFileSync(join(ROOT, 'src/assets/app.js'), join(SITE, 'ui/app.js'));
@@ -508,8 +520,27 @@ function writeAssets() {
   copyFileSync(join(ROOT, 'src/assets/sw.js'), join(SITE, 'sw.js'));
   copyFileSync(join(ROOT, 'src/assets/favicon.svg'), join(SITE, 'ui/favicon.svg'));
   copyFileSync(join(ROOT, 'src/assets/maskable.svg'), join(SITE, 'ui/maskable.svg'));
+  copyFileSync(join(ROOT, 'src/assets/png/apple-touch-icon.png'), join(SITE, 'ui/apple-touch-icon.png'));
+  copyFileSync(join(ROOT, 'src/assets/png/og-image.png'), join(SITE, 'ui/og-image.png'));
   copyFileSync(join(ROOT, 'src/assets/manifest.webmanifest'), join(SITE, 'manifest.webmanifest'));
-  write('robots.txt', 'User-agent: *\nAllow: /\n');
+  write('robots.txt', 'User-agent: *\nAllow: /\n' + (siteUrl ? `Sitemap: ${siteUrl}/sitemap.xml\n` : ''));
+  if (siteUrl) {
+    const urls = [];
+    const push = (p, lang) => urls.push(`${siteUrl}${lang === 'hi' ? '/hi' : ''}${p === 'index.html' ? '/' : '/' + p}`);
+    for (const lang of ['en', 'hi']) {
+      push('index.html', lang);
+      for (const c of CATS) push(`categories/${c}.html`, lang);
+      push('states/index.html', lang);
+      for (const s of STATES) push(`states/${s.code}.html`, lang);
+      for (const p of ['coverage.html', 'print.html', 'about.html', 'privacy.html', 'search.html']) push(p, lang);
+    }
+    const today = BUILD_DATE;
+    write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.map((u) => `  <url><loc>${u}</loc><lastmod>${today}</lastmod></url>`).join('\n')}
+</urlset>
+`);
+  }
   write('directory.json', JSON.stringify({
     build: BUILD_DATE,
     contact: cfg.contactEmail,

@@ -93,12 +93,17 @@ ${siteUrl ? `<link rel="alternate" hreflang="en" href="${esc(siteUrl + '/' + (en
 <link rel="alternate" hreflang="x-default" href="${esc(siteUrl + '/' + (enPath === 'index.html' ? '' : enPath))}">` : ''}
 <link rel="stylesheet" href="${BP}/ui/styles.css">
 <link rel="icon" href="${BP}/ui/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="${BP}/ui/apple-touch-icon.png">
 <link rel="manifest" href="${BP}/manifest.webmanifest">
 <script type="module" src="${BP}/ui/app.js" defer></script>
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc || '')}">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#C41414">
+${siteUrl ? `<meta property="og:url" content="${esc(canonical || siteUrl)}">
+<meta property="og:image" content="${esc(siteUrl + BP + '/ui/og-image.png')}">
+<meta name="twitter:card" content="summary_large_image">` : ''}
+<meta name="theme-color" content="#C41414" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F141B" media="(prefers-color-scheme: dark)">
 </head>
 <body data-page="${esc(pageId || '')}">
 ${dataScripts}

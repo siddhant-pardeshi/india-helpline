@@ -1,0 +1,2216 @@
+[
+  {
+    "id": "dl-police-emergency-112",
+    "name": {
+      "en": "Delhi Police Emergency 112",
+      "hi": "दिल्ली पुलिस आपातकालीन सेवा 112"
+    },
+    "operator": "Delhi Police",
+    "purpose": {
+      "en": "Single integrated emergency response number for police emergencies in Delhi.",
+      "hi": "दिल्ली में पुलिस आपात स्थिति हेतु एकीकृत आपातकालीन प्रतिक्रिया नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "112",
+    "dial": "112",
+    "scope": "state:DL",
+    "sourceUrl": "https://delhipolice.gov.in/",
+    "hours": "24x7",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Emergency Police 112",
+      "ERSS 112",
+      "पुलिस आपाकालीन सेवा"
+    ],
+    "languages": [],
+    "evidence": "आपातकालीन प्रतिक्रिया सहायता प्रणाली 112 ... पुलिस आपाकालीन सेवा ... टोल फ्री : 112 (section listed as 24 घंटे, सातों दिन उपलब्ध)",
+    "checkedDate": "2026-11-09",
+    "status": "quarantined",
+    "statusNote": "Duplicate of the national ERSS 112 record (national-erss-112). Every state page already shows the national 112 under \"Applies across India\"; this state-level card is kept for audit only and is not rendered."
+  },
+  {
+    "id": "dl-police-control-room-100",
+    "name": {
+      "en": "Delhi Police Control Room 100",
+      "hi": "दिल्ली पुलिस नियंत्रण कक्ष 100"
+    },
+    "operator": "Delhi Police",
+    "purpose": {
+      "en": "Legacy Delhi Police control room number for immediate police assistance.",
+      "hi": "तत्काल पुलिस सहायता हेतु दिल्ली पुलिस नियंत्रण कक्ष (लेगेसी) नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "100",
+    "dial": "100",
+    "scope": "state:DL",
+    "sourceUrl": "https://dmnewdelhi.delhi.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Police 100",
+      "Police Control Room"
+    ],
+    "languages": [],
+    "evidence": "Police: 100",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "dl-fire-101",
+    "name": {
+      "en": "Delhi Fire & Rescue 101",
+      "hi": "दिल्ली अग्नि शमन 101"
+    },
+    "operator": "Delhi Fire Service",
+    "purpose": {
+      "en": "Number to call the fire brigade for fires and rescue emergencies in Delhi.",
+      "hi": "दिल्ली में आग लगने या बचाव कार्य हेतु फायर ब्रिगेड को सूचित करने का नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "101",
+    "dial": "101",
+    "scope": "state:DL",
+    "sourceUrl": "https://dmnewdelhi.delhi.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Fire & Rescue 101",
+      "अग्निशमन सेवा"
+    ],
+    "languages": [],
+    "evidence": "Fire & Rescue : 101",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "dl-ambulance-cats-102",
+    "name": {
+      "en": "CATS Ambulance 102",
+      "hi": "सीएटीएस एम्बुलेंस 102"
+    },
+    "operator": "Centralised Accident and Trauma Services (CATS), Government of NCT of Delhi",
+    "purpose": {
+      "en": "Round-the-clock toll-free ambulance service for medical emergencies in Delhi.",
+      "hi": "दिल्ली में चिकित्सा आपात स्थिति हेतु चौबीसों घंटे उपलब्ध टोल-फ्री एम्बुलेंस सेवा।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "102",
+    "dial": "102",
+    "scope": "state:DL",
+    "sourceUrl": "https://cats.delhi.gov.in/",
+    "hours": "24x7",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "CATS ambulance",
+      "Ambulance 102"
+    ],
+    "languages": [],
+    "evidence": "Round the clock Toll Free No.102",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "dl-women-helpline-1091",
+    "name": {
+      "en": "Delhi Police Women in Distress Helpline 1091",
+      "hi": "दिल्ली पुलिस महिला हेल्पलाइन 1091"
+    },
+    "operator": "Delhi Police",
+    "purpose": {
+      "en": "Delhi Police helpline for women in distress situations.",
+      "hi": "संकट में महिलाओं हेतु दिल्ली पुलिस हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "1091",
+    "dial": "1091",
+    "scope": "state:DL",
+    "sourceUrl": "https://delhipolice.gov.in/",
+    "hours": "24x7",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Women Helpline 1091",
+      "संकट में महिलाएँ"
+    ],
+    "languages": [],
+    "evidence": "आपाकालीन सहायता section (24 घंटे, सातों दिन उपलब्ध): 1091 — संकट में महिलाएँ",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "dl-women-helpline-181-dcw",
+    "name": {
+      "en": "Delhi Women Helpline 181 (DCW)",
+      "hi": "दिल्ली महिला हेल्पलाइन 181 (महिला आयोग)"
+    },
+    "operator": "Delhi Commission for Women (DCW)",
+    "purpose": {
+      "en": "24x7 emergency and assistance helpline for women in Delhi run by the Delhi Commission for Women.",
+      "hi": "दिल्ली महिला आयोग द्वारा संचालित महिलाओं हेतु 24x7 आपात एवं सहायता हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "181",
+    "dial": "181",
+    "scope": "state:DL",
+    "sourceUrl": "https://dcw.delhi.gov.in/dcw/contact-us",
+    "hours": "24x7",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Women Helpline 181",
+      "DCW helpline",
+      "महिला हेल्पलाइन"
+    ],
+    "languages": [],
+    "evidence": "For Any Emergency/Assistance/Help, Please Dial -181 (24 Hours, 7 Days a Week)",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "dl-child-helpline-1098",
+    "name": {
+      "en": "Delhi Child Helpline 1098",
+      "hi": "दिल्ली बाल हेल्पलाइन 1098"
+    },
+    "operator": "Childline (listed on Delhi district administration portal)",
+    "purpose": {
+      "en": "Helpline for children in need of care and protection in Delhi.",
+      "hi": "दिल्ली में देखभाल और सुरक्षा की जरूरत वाले बच्चों हेतु हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "1098",
+    "dial": "1098",
+    "scope": "state:DL",
+    "sourceUrl": "https://dmnewdelhi.delhi.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Childline 1098",
+      "बाल हेल्पलाइन"
+    ],
+    "languages": [],
+    "evidence": "Child Helpline : 1098",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "dl-crime-stopper-1090",
+    "name": {
+      "en": "Delhi Crime Stopper 1090",
+      "hi": "दिल्ली क्राइम स्टॉपर 1090"
+    },
+    "operator": "Delhi Police",
+    "purpose": {
+      "en": "Crime Stopper line for passing on information about crime in Delhi.",
+      "hi": "दिल्ली में अपराध की सूचना देने हेतु क्राइम स्टॉपर लाइन।"
+    },
+    "category": "crime",
+    "serviceType": "reporting",
+    "displayNumber": "1090",
+    "dial": "1090",
+    "scope": "state:DL",
+    "sourceUrl": "https://dmnewdelhi.delhi.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Crime Stopper",
+      "Crime reporting 1090"
+    ],
+    "languages": [],
+    "evidence": "Crime Stopper 1090",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "dl-disaster-helpline-1077",
+    "name": {
+      "en": "Delhi Disaster Helpline 1077",
+      "hi": "दिल्ली आपदा हेल्पलाइन 1077"
+    },
+    "operator": "Revenue & Disaster Management / District Disaster Management Authority, Govt of NCT of Delhi",
+    "purpose": {
+      "en": "State disaster control room helpline for disaster assistance in Delhi.",
+      "hi": "दिल्ली में आपदा सहायता एवं सूचना हेतु राज्य आपदा नियंत्रण कक्ष हेल्पलाइन।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1077",
+    "dial": "1077",
+    "scope": "state:DL",
+    "sourceUrl": "https://dmnewdelhi.delhi.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Disaster Helpline",
+      "DDMA helpline"
+    ],
+    "languages": [],
+    "evidence": "Disaster Helpline : 1077",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "dl-png-emergency-igl-155216",
+    "name": {
+      "en": "IGL Piped Gas Emergency 155216",
+      "hi": "आईजीएल पाइप गैस आपात हेल्पलाइन 155216"
+    },
+    "operator": "Indraprastha Gas Limited (IGL)",
+    "purpose": {
+      "en": "Centralized emergency number for PNG (piped natural gas) leakage in Delhi and NCR served by IGL.",
+      "hi": "IGL द्वारा सेवित दिल्ली-NCR में पाइप नेचुरल गैस रिसाव हेतु केंद्रीकृत आपात नंबर।"
+    },
+    "category": "utilities",
+    "serviceType": "dispatch",
+    "displayNumber": "155216",
+    "dial": "155216",
+    "scope": "state:DL",
+    "sourceUrl": "https://www.iglonline.net/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://www.iglonline.net/"
+    },
+    "aliases": [
+      "1800-1025-109 (Delhi & NCR)",
+      "IGL emergency leakage number",
+      "Centralized Emergency leakage No"
+    ],
+    "languages": [],
+    "evidence": "Emergency Number 155216 (Centralized Emergency leakage No) ... 1800-1025-109 (Delhi & NCR)",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "dl-water-djb-1916",
+    "name": {
+      "en": "Delhi Jal Board Helpline 1916",
+      "hi": "दिल्ली जल बोर्ड हेल्पलाइन 1916"
+    },
+    "operator": "Delhi Jal Board",
+    "purpose": {
+      "en": "Delhi Jal Board assistance line for water supply and sewerage related problems.",
+      "hi": "जल आपूर्ति एवं सीवरेज संबंधी समस्याओं हेतु दिल्ली जल बोर्ड सहायता लाइन।"
+    },
+    "category": "utilities",
+    "serviceType": "complaints",
+    "displayNumber": "1916",
+    "dial": "1916",
+    "scope": "state:DL",
+    "sourceUrl": "https://djb.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://djb.gov.in/"
+    },
+    "aliases": [
+      "DJB helpline",
+      "Water helpline Delhi"
+    ],
+    "languages": [],
+    "evidence": "Dial 1916 for Any Assistance",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hr-police-control-room-100",
+    "name": {
+      "en": "Haryana Police Control Room 100",
+      "hi": "हरियाणा पुलिस नियंत्रण कक्ष 100"
+    },
+    "operator": "Haryana Police",
+    "purpose": {
+      "en": "Police control room number for immediate police assistance in Haryana.",
+      "hi": "हरियाणा में तत्काल पुलिस सहायता हेतु पुलिस नियंत्रण कक्ष नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "100",
+    "dial": "100",
+    "scope": "state:HR",
+    "sourceUrl": "https://haryana.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Police Control Room",
+      "Haryana Police"
+    ],
+    "languages": [],
+    "evidence": "Police Control Room - 100",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hr-fire-101",
+    "name": {
+      "en": "Haryana Fire and Rescue 101",
+      "hi": "हरियाणा अग्नि शमन 101"
+    },
+    "operator": "Haryana Fire and Rescue Services",
+    "purpose": {
+      "en": "Fire and rescue emergency number for Haryana.",
+      "hi": "हरियाणा में आग एवं बचाव आपात स्थिति हेतु नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "101",
+    "dial": "101",
+    "scope": "state:HR",
+    "sourceUrl": "https://haryana.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Fire and Rescue 101"
+    ],
+    "languages": [],
+    "evidence": "Fire and Rescue - 101",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hr-ambulance-108",
+    "name": {
+      "en": "Haryana Ambulance 108",
+      "hi": "हरियाणा एम्बुलेंस 108"
+    },
+    "operator": "National Health Mission Haryana (ambulance service listed on state portal)",
+    "purpose": {
+      "en": "Ambulance helpline for medical emergencies in Haryana.",
+      "hi": "हरियाणा में चिकित्सा आपात स्थिति हेतु एम्बुलेंस हेल्पलाइन।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "108",
+    "dial": "108",
+    "scope": "state:HR",
+    "sourceUrl": "https://haryana.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Ambulance Help Line 108"
+    ],
+    "languages": [],
+    "evidence": "Ambulance Help Line- 108",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hr-women-helpline-1091",
+    "name": {
+      "en": "Haryana Women Helpline 1091",
+      "hi": "हरियाणा महिला हेल्पलाइन 1091"
+    },
+    "operator": "Haryana Police (listed on Haryana state portal)",
+    "purpose": {
+      "en": "Police helpline for women in distress in Haryana.",
+      "hi": "हरियाणा में संकट में महिलाओं हेतु पुलिस हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "1091",
+    "dial": "1091",
+    "scope": "state:HR",
+    "sourceUrl": "https://haryana.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Women Helpline 1091",
+      "महिला हेल्पलाइन"
+    ],
+    "languages": [],
+    "evidence": "Women Helpline - 1091",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hr-child-helpline-1098",
+    "name": {
+      "en": "Haryana Child Helpline 1098",
+      "hi": "हरियाणा बाल हेल्पलाइन 1098"
+    },
+    "operator": "Childline (listed on Haryana state portal)",
+    "purpose": {
+      "en": "Helpline for children in need of care and protection in Haryana.",
+      "hi": "हरियाणा में देखभाल व सुरक्षा की जरूरत वाले बच्चों हेतु हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "1098",
+    "dial": "1098",
+    "scope": "state:HR",
+    "sourceUrl": "https://haryana.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Childline 1098",
+      "बाल हेल्पलाइन"
+    ],
+    "languages": [],
+    "evidence": "Child Helpline - 1098",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hr-women-helpline-181",
+    "name": {
+      "en": "Haryana Women Helpline 181",
+      "hi": "हरियाणा महिला हेल्पलाइन 181"
+    },
+    "operator": "Women and Child Development Department, Haryana (set up at Mahila Police Station, Panchkula)",
+    "purpose": {
+      "en": "24-hour toll-free emergency and non-emergency response for women affected by violence in Haryana.",
+      "hi": "हरियाणा में हिंसा से प्रभावित महिलाओं को 24 घंटे टोल-फ्री आपात एवं गैर-आपात सहायता।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "181",
+    "dial": "181",
+    "scope": "state:HR",
+    "sourceUrl": "https://wcdhry.gov.in/women-helpline-number-181",
+    "hours": "24x7",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Women Helpline 181",
+      "Mahila Helpline Haryana"
+    ],
+    "languages": [],
+    "evidence": "Provide 24-hour toll-free emergency and non-emergency response through telephonic short-code 181 ... intended to provide 24 hours assistance and emergency response to women affected by violence",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hr-health-helpline-104",
+    "name": {
+      "en": "Haryana 104 Grievance Redressal & Health Helpline",
+      "hi": "104 शिकायत निवारण एवं स्वास्थ्य हेल्पलाइन"
+    },
+    "operator": "National Health Mission, Haryana",
+    "purpose": {
+      "en": "Health helpline and grievance redressal service run by NHM Haryana.",
+      "hi": "NHM हरियाणा द्वारा संचालित स्वास्थ्य हेल्पलाइन एवं शिकायत निवारण सेवा।"
+    },
+    "category": "health",
+    "serviceType": "advice",
+    "displayNumber": "104",
+    "dial": "104",
+    "scope": "state:HR",
+    "sourceUrl": "https://104grhh.nhmharyana.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://104grhh.nhmharyana.gov.in/"
+    },
+    "aliases": [
+      "104 GRHH",
+      "1800 111 00 (toll-free shown alongside)"
+    ],
+    "languages": [],
+    "evidence": "104 Grievance Redressal & Health Helpline 1800 111 00",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hr-electricity-dhbvn-1912",
+    "name": {
+      "en": "DHBVN Electricity Helpline 1912",
+      "hi": "DHBVN बिजली हेल्पलाइन 1912"
+    },
+    "operator": "Dakshin Haryana Bijli Vitran Nigam (DHBVN)",
+    "purpose": {
+      "en": "Toll-free enquiry and customer support line for electricity consumers of DHBVN in southern Haryana.",
+      "hi": "दक्षिण हरियाणा के DHBVN उपभोक्ताओं हेतु टोल-फ्री जानकारी एवं ग्राहक सहायता लाइन।"
+    },
+    "category": "utilities",
+    "serviceType": "complaints",
+    "displayNumber": "1912",
+    "dial": "1912",
+    "scope": "state:HR",
+    "sourceUrl": "https://www.dhbvn.org.in/web/portal/home",
+    "hours": "Hours not published",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "http://www.dhbvn.org.in/"
+    },
+    "aliases": [
+      "Dial Toll Free 1912",
+      "1800-180-4334"
+    ],
+    "languages": [],
+    "evidence": "For Enquiry & Customer Support: Dial Toll Free 1912 ... 1800-180-4334",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "pb-police-emergency-112",
+    "name": {
+      "en": "Punjab Police Emergency 112",
+      "hi": "पंजाब पुलिस आपातकालीन 112"
+    },
+    "operator": "Punjab Police",
+    "purpose": {
+      "en": "Punjab Police emergency response number.",
+      "hi": "पंजाब पुलिस का आपातकालीन सहायता नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "112",
+    "dial": "112",
+    "scope": "state:PB",
+    "sourceUrl": "https://punjabpolice.gov.in/en/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Emergency 112",
+      "Punjab ERSS"
+    ],
+    "languages": [],
+    "evidence": "Ready To Help Emergency : 112",
+    "checkedDate": "2026-11-09",
+    "status": "quarantined",
+    "statusNote": "Duplicate of the national ERSS 112 record (national-erss-112). Every state page already shows the national 112 under \"Applies across India\"; this state-level card is kept for audit only and is not rendered."
+  },
+  {
+    "id": "pb-women-helpline-1091",
+    "name": {
+      "en": "Punjab Police Women Helpline 1091",
+      "hi": "पंजाब पुलिस महिला हेल्पलाइन 1091"
+    },
+    "operator": "Punjab Police",
+    "purpose": {
+      "en": "Punjab Police helpline for women in distress.",
+      "hi": "पंजाब में संकट में महिलाओं हेतु पुलिस हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "1091",
+    "dial": "1091",
+    "scope": "state:PB",
+    "sourceUrl": "https://punjabpolice.gov.in/en/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Women Helpline 1091"
+    ],
+    "languages": [],
+    "evidence": "Women Helpline : 1091",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "pb-health-helpline-104",
+    "name": {
+      "en": "Punjab Health Helpline 104",
+      "hi": "पंजाब स्वास्थ्य हेल्पलाइन 104"
+    },
+    "operator": "Government of Punjab (health department helpline)",
+    "purpose": {
+      "en": "Round-the-clock helpline to register complaints and get information on health problems in Punjab.",
+      "hi": "पंजाब में स्वास्थ्य समस्याओं की जानकारी लेने व शिकायतें दर्ज कराने हेतु चौबीसों घंटे चलने वाली टोल-फ्री हेल्पलाइन।"
+    },
+    "category": "health",
+    "serviceType": "advice",
+    "displayNumber": "104",
+    "dial": "104",
+    "scope": "state:PB",
+    "sourceUrl": "https://amritsar.nic.in/health/",
+    "hours": "24x7",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "104 Helpline",
+      "Punjab medical helpline"
+    ],
+    "languages": [],
+    "evidence": "104 Helpline 24*7 Toll free The Punjab government has started a round-the-clock helpline number '104' to assist people, in registering complaints and getting information on health problems",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "pb-ambulance-108",
+    "name": {
+      "en": "Punjab Ambulance 108",
+      "hi": "पंजाब एम्बुलेंस 108"
+    },
+    "operator": "Punjab Government 108 emergency ambulance service",
+    "purpose": {
+      "en": "Free medical emergency ambulance service linked with 108 emergency call centres in Punjab.",
+      "hi": "पंजाब में 108 आपात कॉल सेंटर से जुड़ी निःशुल्क चिकित्सा आपात एम्बुलेंस सेवा।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "108",
+    "dial": "108",
+    "scope": "state:PB",
+    "sourceUrl": "https://amritsar.nic.in/health/",
+    "hours": "24x7",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "108 Emergency Ambulance",
+      "Free Medical Emergency Helpline 108"
+    ],
+    "languages": [],
+    "evidence": "108 Free Medical Emergency Helpline 24*7 Ambulance Service has been linked with 108 Emergency Call Centres.",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "pb-disaster-flood-control-psdma",
+    "name": {
+      "en": "Punjab SDMA Flood Control Helpline",
+      "hi": "पंजाब बाढ़ नियंत्रण हेल्पलाइन (PSDMA)"
+    },
+    "operator": "Punjab State Disaster Management Authority (PSDMA), Revenue Department Punjab",
+    "purpose": {
+      "en": "Flood control room of Punjab SDMA for disaster/flood assistance, with an official WhatsApp flood helpline.",
+      "hi": "बाढ़/आपदा सहायता हेतु पंजाब राज्य आपदा प्रबंधन प्राधिकरण का बाढ़ नियंत्रण कक्ष, साथ में आधिकारिक व्हाट्सएप बाढ़ हेल्पलाइन।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "0172-2741803",
+    "dial": "+91-172-2741803",
+    "scope": "state:PB",
+    "sourceUrl": "https://psdma.punjab.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": "+91-7347346839",
+      "web": "https://psdma.punjab.gov.in/"
+    },
+    "aliases": [
+      "WhatsApp Flood Helpline 7347346839",
+      "Flood Control Landline 0172-2749901",
+      "also published: 0172-2741803, 0172-2749901"
+    ],
+    "languages": [],
+    "evidence": "Flood Control Helpline No.0172- : 2741803,2749901 WhatsApp Flood Helpline No. : 7347346839 ... Flood Control Landline Numbers 0172-2741803, 0172-2749901",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "pb-electricity-pspcl-1912",
+    "name": {
+      "en": "PSPCL Electricity Customer Care 1912",
+      "hi": "PSPCL बिजली ग्राहक सेवा 1912"
+    },
+    "operator": "Punjab State Power Corporation Ltd (PSPCL)",
+    "purpose": {
+      "en": "Customer care number for electricity supply complaints and queries in Punjab.",
+      "hi": "पंजाब में बिजली आपूर्ति संबंधी शिकायतों व प्रश्नों हेतु ग्राहक सेवा नंबर।"
+    },
+    "category": "utilities",
+    "serviceType": "complaints",
+    "displayNumber": "1912",
+    "dial": "1912",
+    "scope": "state:PB",
+    "sourceUrl": "https://pspcl.in/Customer-Care.aspx",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://pspcl.in/"
+    },
+    "aliases": [
+      "PSPCL 1912",
+      "1912@pspcl.in"
+    ],
+    "languages": [],
+    "evidence": "Customer Care Number: 1912 Customer Care E-mail: 1912@pspcl.in",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hp-emergency-112",
+    "name": {
+      "en": "Himachal Pradesh Single Emergency Number 112",
+      "hi": "हिमाचल प्रदेश एकीकृत आपातकालीन नंबर 112"
+    },
+    "operator": "Himachal Pradesh Police (ERSS)",
+    "purpose": {
+      "en": "Single emergency number for police, fire and medical emergencies in Himachal Pradesh.",
+      "hi": "हिमाचल प्रदेश में पुलिस, अग्नि एवं चिकित्सा आपात स्थितियों हेतु एकीकृत आपातकालीन नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "112",
+    "dial": "112",
+    "scope": "state:HP",
+    "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF%2BAuYkB7rMRolWuVbNg%3D%3D",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "ERSS 112",
+      "Single Emergency Number"
+    ],
+    "languages": [],
+    "evidence": "Single Emergency Number: 112",
+    "checkedDate": "2026-11-09",
+    "status": "quarantined",
+    "statusNote": "Duplicate of the national ERSS 112 record (national-erss-112). Every state page already shows the national 112 under \"Applies across India\"; this state-level card is kept for audit only and is not rendered."
+  },
+  {
+    "id": "hp-police-100",
+    "name": {
+      "en": "Himachal Pradesh Police 100",
+      "hi": "हिमाचल प्रदेश पुलिस 100"
+    },
+    "operator": "Himachal Pradesh Police",
+    "purpose": {
+      "en": "Police control room number for immediate police assistance in Himachal Pradesh.",
+      "hi": "हिमाचल प्रदेश में तत्काल पुलिस सहायता हेतु पुलिस नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "100",
+    "dial": "100",
+    "scope": "state:HP",
+    "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF%2BAuYkB7rMRolWuVbNg%3D%3D",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Police 100"
+    ],
+    "languages": [],
+    "evidence": "Police 100",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hp-fire-101",
+    "name": {
+      "en": "Himachal Pradesh Fire 101",
+      "hi": "हिमाचल प्रदेश अग्नि शमन 101"
+    },
+    "operator": "Himachal Pradesh Fire Services",
+    "purpose": {
+      "en": "Fire brigade emergency number for Himachal Pradesh.",
+      "hi": "हिमाचल प्रदेश में आग लगने हेतु फायर ब्रिगेड नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "101",
+    "dial": "101",
+    "scope": "state:HP",
+    "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF%2BAuYkB7rMRolWuVbNg%3D%3D",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Fire 101"
+    ],
+    "languages": [],
+    "evidence": "Fire 101",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hp-ambulance-102-108",
+    "name": {
+      "en": "Himachal Pradesh Ambulance 102 / 108 (medical 102 also listed)",
+      "hi": "हिमाचल प्रदेश एम्बुलेंस 102 / 108"
+    },
+    "operator": "Health Department, Himachal Pradesh (as listed on state helpline page)",
+    "purpose": {
+      "en": "Ambulance and medical emergency numbers for Himachal Pradesh.",
+      "hi": "हिमाचल प्रदेश में एम्बुलेंस एवं चिकित्सा आपात स्थिति हेतु नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "108",
+    "dial": "108",
+    "scope": "state:HP",
+    "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF%2BAuYkB7rMRolWuVbNg%3D%3D",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Ambulance/Medical 108",
+      "108 ambulance HP",
+      "also published: 102, 108"
+    ],
+    "languages": [],
+    "evidence": "Ambulance/Medical 102, 108",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hp-women-helpline-1091",
+    "name": {
+      "en": "Himachal Pradesh Women Helpline 1091",
+      "hi": "हिमाचल प्रदेश महिला हेल्पलाइन 1091"
+    },
+    "operator": "Himachal Pradesh Police",
+    "purpose": {
+      "en": "Women helpline for distress situations in Himachal Pradesh.",
+      "hi": "हिमाचल प्रदेश में संकट में महिलाओं हेतु हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "1091",
+    "dial": "1091",
+    "scope": "state:HP",
+    "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF%2BAuYkB7rMRolWuVbNg%3D%3D",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Women Helpline 1091"
+    ],
+    "languages": [],
+    "evidence": "Women Helpline 1091",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hp-child-helpline-1098",
+    "name": {
+      "en": "Himachal Pradesh Child Helpline 1098",
+      "hi": "हिमाचल प्रदेश बाल हेल्पलाइन 1098"
+    },
+    "operator": "Childline (listed on HP state portal)",
+    "purpose": {
+      "en": "Child helpline for children in distress in Himachal Pradesh.",
+      "hi": "हिमाचल प्रदेश में संकट में बच्चों हेतु बाल हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "1098",
+    "dial": "1098",
+    "scope": "state:HP",
+    "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF%2BAuYkB7rMRolWuVbNg%3D%3D",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Child Helpline 1098",
+      "Gudiya 1098 (child)"
+    ],
+    "languages": [],
+    "evidence": "Child Helpline 1098",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hp-gudiya-helpline-1515",
+    "name": {
+      "en": "Himachal Gudiya Helpline 1515",
+      "hi": "गुड़िया हेल्पलाइन 1515"
+    },
+    "operator": "Himachal Pradesh Police",
+    "purpose": {
+      "en": "State helpline for women and children in distress in Himachal Pradesh.",
+      "hi": "हिमाचल प्रदेश में महिलाओं व बच्चों की सहायता हेतु राज्य हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "1515",
+    "dial": "1515",
+    "scope": "state:HP",
+    "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF%2BAuYkB7rMRolWuVbNg%3D%3D",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Gudiya Helpline"
+    ],
+    "languages": [],
+    "evidence": "Gudiya Helpline 1515",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hp-crime-stopper-1090",
+    "name": {
+      "en": "Himachal Hoshiyar Singh Helpline 1090 (Crime Stopper)",
+      "hi": "होशियार सिंह हेल्पलाइन 1090 (क्राइम स्टॉपर)"
+    },
+    "operator": "Himachal Pradesh Police",
+    "purpose": {
+      "en": "Crime Stopper line for reporting crime information in Himachal Pradesh.",
+      "hi": "हिमाचल प्रदेश में अपराध की सूचना देने हेतु क्राइम स्टॉपर लाइन।"
+    },
+    "category": "crime",
+    "serviceType": "reporting",
+    "displayNumber": "1090",
+    "dial": "1090",
+    "scope": "state:HP",
+    "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF%2BAuYkB7rMRolWuVbNg%3D%3D",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Crime Stopper 1090",
+      "Hoshiyar Singh Helpline"
+    ],
+    "languages": [],
+    "evidence": "Crime Stopper 1090 ... Hoshiyar Singh Helpline 1090",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hp-anti-corruption-0177-2629893",
+    "name": {
+      "en": "Himachal Report Against Corruption 0177-2629893",
+      "hi": "भ्रष्टाचार विरुद्ध शिकायत 0177-2629893"
+    },
+    "operator": "Vigilance / Anti-Corruption Bureau, Himachal Pradesh",
+    "purpose": {
+      "en": "Number to report corruption in Himachal Pradesh.",
+      "hi": "हिमाचल प्रदेश में भ्रष्टाचार की शिकायत दर्ज कराने का नंबर।"
+    },
+    "category": "crime",
+    "serviceType": "reporting",
+    "displayNumber": "0177-2629893",
+    "dial": "+91-177-2629893",
+    "scope": "state:HP",
+    "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF%2BAuYkB7rMRolWuVbNg%3D%3D",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Report Against Corruption 0177-2629893"
+    ],
+    "languages": [],
+    "evidence": "Report Against Corruption 0177-2629893",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hp-cm-helpline-1100",
+    "name": {
+      "en": "Himachal Mukhya Mantri Seva Sankalp Helpline 1100",
+      "hi": "मुख्यमंत्री सेवा संकल्प हेल्पलाइन 1100"
+    },
+    "operator": "Government of Himachal Pradesh",
+    "purpose": {
+      "en": "Chief Minister's public grievance and citizen service helpline for Himachal Pradesh.",
+      "hi": "हिमाचल प्रदेश की जन शिकायत एवं नागरिक सेवा हेतु मुख्यमंत्री हेल्पलाइन।"
+    },
+    "category": "other",
+    "serviceType": "complaints",
+    "displayNumber": "1100",
+    "dial": "1100",
+    "scope": "state:HP",
+    "sourceUrl": "https://himachal.nic.in/Content/HtmlPage?qs=LdEF%2BAuYkB7rMRolWuVbNg%3D%3D",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "CM Helpline 1100",
+      "Seva Sankalp"
+    ],
+    "languages": [],
+    "evidence": "Mukhyamantri Seva Sankalp Helpline 1100",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hp-disaster-seoc-1070",
+    "name": {
+      "en": "Himachal State Emergency Operation Centre 1070",
+      "hi": "हिमाचल राज्य आपातकालीन परिचालन केंद्र 1070"
+    },
+    "operator": "HP State Disaster Management Authority (HPSDMA)",
+    "purpose": {
+      "en": "State Emergency Operation Centre for disaster assistance in Himachal Pradesh.",
+      "hi": "हिमाचल प्रदेश में आपदा सहायता हेतु राज्य आपातकालीन परिचालन केंद्र।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1070",
+    "dial": "1070",
+    "scope": "state:HP",
+    "sourceUrl": "https://hpsdma.hp.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://hpsdma.hp.gov.in/"
+    },
+    "aliases": [
+      "SEOC 1070",
+      "Disaster Management Control Room 0177-2929688, 2629439, 2629939, 2628940"
+    ],
+    "languages": [],
+    "evidence": "Emergency Numbers State Emergency Operation Centre 1070 ... Disaster Management Control Room 0177-2929688, 2629439, 2629939, 2628940 ... Disaster Management 1070, 1077",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hp-disaster-deoc-1077",
+    "name": {
+      "en": "Himachal District Emergency Operation Centres 1077",
+      "hi": "हिमाचल जिला आपातकालीन परिचालन केंद्र 1077"
+    },
+    "operator": "District Administrations / HPSDMA, Himachal Pradesh",
+    "purpose": {
+      "en": "District Emergency Operation Centre helplines for disaster assistance across Himachal Pradesh districts.",
+      "hi": "हिमाचल प्रदेश के जिलों में आपदा सहायता हेतु जिला आपातकालीन परिचालन केंद्र हेल्पलाइन।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1077",
+    "dial": "1077",
+    "scope": "state:HP",
+    "sourceUrl": "https://hpsdma.hp.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://hpsdma.hp.gov.in/"
+    },
+    "aliases": [
+      "Districts Emergency Operation Centres 1077",
+      "DEOC"
+    ],
+    "languages": [],
+    "evidence": "Districts Emergency Operation Centres 1077",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "hp-electricity-hpsebl-1912",
+    "name": {
+      "en": "HPSEBL Electricity Helpline 1912",
+      "hi": "एचपीएसईबीएल बिजली हेल्पलाइन 1912"
+    },
+    "operator": "Himachal Pradesh State Electricity Board Ltd (HPSEBL)",
+    "purpose": {
+      "en": "Electricity complaint and assistance helpline for HPSEBL consumers in Himachal Pradesh.",
+      "hi": "हिमाचल प्रदेश के HPSEBL उपभोक्ताओं हेतु बिजली शिकायत एवं सहायता हेल्पलाइन।"
+    },
+    "category": "utilities",
+    "serviceType": "complaints",
+    "displayNumber": "1912",
+    "dial": "1912",
+    "scope": "state:HP",
+    "sourceUrl": "https://www.hpseb.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://www.hpseb.in/"
+    },
+    "aliases": [
+      "Helpline 1912",
+      "HPSEB helpline",
+      "also published: 1800-180-8060 / 1912"
+    ],
+    "languages": [],
+    "evidence": "Helpline: 1800-180-8060 / 1912 Email: info@hpseb.in",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ut-disaster-seoc-1070",
+    "name": {
+      "en": "Uttarakhand State Emergency Operation Centre 1070",
+      "hi": "उत्तराखंड राज्य आपातकालीन परिचालन केंद्र 1070"
+    },
+    "operator": "Uttarakhand State Disaster Management Authority (USDMA)",
+    "purpose": {
+      "en": "State Emergency Operation Centre for disaster assistance in Uttarakhand, with SEOC landline and mobile backups.",
+      "hi": "उत्तराखंड में आपदा सहायता हेतु राज्य आपातकालीन परिचालन केंद्र (SEOC), लैंडलाइन/मोबाइल बैकअप सहित।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1070",
+    "dial": "1070",
+    "scope": "state:UT",
+    "sourceUrl": "https://usdma.uk.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://usdma.uk.gov.in/"
+    },
+    "aliases": [
+      "SEOC",
+      "0135-2710334, 2710335, 2664314, 2664315, 2664316",
+      "SEOC mobile 821867005, 9058441404",
+      "आपदा हेल्पलाइन 1070"
+    ],
+    "languages": [],
+    "evidence": "State Emergency Operation Centre (SEOC) : 1070 ... SEOC Landline Numbers : 0135-2710334, 2710335, 2664314, 2664315, 2664316 ... SEOC Mobile Numbers : 821867005, 9058441404",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ut-disaster-deoc-1077",
+    "name": {
+      "en": "Uttarakhand District Emergency Operation Centres 1077",
+      "hi": "उत्तराखंड जिला आपातकालीन परिचालन केंद्र 1077"
+    },
+    "operator": "District Administrations / USDMA, Uttarakhand",
+    "purpose": {
+      "en": "District Emergency Operation Centre helplines for disaster assistance in Uttarakhand districts.",
+      "hi": "उत्तराखंड के जिलों में आपदा सहायता हेतु जिला आपातकालीन परिचालन केंद्र हेल्पलाइन।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1077",
+    "dial": "1077",
+    "scope": "state:UT",
+    "sourceUrl": "https://usdma.uk.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://usdma.uk.gov.in/"
+    },
+    "aliases": [
+      "DEOC 1077"
+    ],
+    "languages": [],
+    "evidence": "District Emergency Operation Centres (DEOC) : 1077",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ut-police-emergency-112",
+    "name": {
+      "en": "Uttarakhand Police Emergency 112",
+      "hi": "उत्तराखंड पुलिस आपातकालीन 112"
+    },
+    "operator": "Uttarakhand Police",
+    "purpose": {
+      "en": "Police control room / emergency number for Uttarakhand.",
+      "hi": "उत्तराखंड में पुलिस नियंत्रण कक्ष / आपातकालीन नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "112",
+    "dial": "112",
+    "scope": "state:UT",
+    "sourceUrl": "https://uttarakhandpolice.uk.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Emergency Number 112",
+      "Dial 112"
+    ],
+    "languages": [],
+    "evidence": "Police Control Room/ Emergency Number 112 ... किसी भी आपात स्थिति में 112 टोल फ्री नंबर का उपयोग",
+    "checkedDate": "2026-11-09",
+    "status": "quarantined",
+    "statusNote": "Duplicate of the national ERSS 112 record (national-erss-112). Every state page already shows the national 112 under \"Applies across India\"; this state-level card is kept for audit only and is not rendered."
+  },
+  {
+    "id": "ut-women-complaint-9411112780",
+    "name": {
+      "en": "Uttarakhand Police Women Related Complaint Helpline 9411112780",
+      "hi": "उत्तराखंड पुलिस महिला संबंधी शिकायत हेल्पलाइन 9411112780"
+    },
+    "operator": "Uttarakhand Police",
+    "purpose": {
+      "en": "Police helpline for women related complaints in Uttarakhand.",
+      "hi": "उत्तराखंड में महिला संबंधी शिकायतों हेतु पुलिस हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "9411112780",
+    "dial": "+91-9411112780",
+    "scope": "state:UT",
+    "sourceUrl": "https://uttarakhandpolice.uk.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Women's Helpline 9411112780"
+    ],
+    "languages": [],
+    "evidence": "Women Related Complaint 9411112780 ... Women's Helpline 9411112780",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ut-anti-corruption-1064",
+    "name": {
+      "en": "Uttarakhand Anti-Corruption Helpline 1064",
+      "hi": "उत्तराखंड भ्रष्टाचार निरोध हेल्पलाइन 1064"
+    },
+    "operator": "Uttarakhand Police (Vigilance)",
+    "purpose": {
+      "en": "Helpline to report corruption in Uttarakhand.",
+      "hi": "उत्तराखंड में भ्रष्टाचार की शिकायत हेतु हेल्पलाइन।"
+    },
+    "category": "crime",
+    "serviceType": "reporting",
+    "displayNumber": "1064",
+    "dial": "1064",
+    "scope": "state:UT",
+    "sourceUrl": "https://uttarakhandpolice.uk.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Anti corruption 1064"
+    ],
+    "languages": [],
+    "evidence": "Anti corruption 1064",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ut-traffic-helpline-7300702033",
+    "name": {
+      "en": "Uttarakhand Traffic Helpline 7300702033",
+      "hi": "उत्तराखंड यातायात हेल्पलाइन 7300702033"
+    },
+    "operator": "Uttarakhand Police (Traffic)",
+    "purpose": {
+      "en": "Traffic police helpline for road and traffic related assistance in Uttarakhand.",
+      "hi": "उत्तराखंड में सड़क व यातायात संबंधी सहायता हेतु ट्रैफिक पुलिस हेल्पलाइन।"
+    },
+    "category": "travel",
+    "serviceType": "reporting",
+    "displayNumber": "7300702033",
+    "dial": "+91-7300702033",
+    "scope": "state:UT",
+    "sourceUrl": "https://uttarakhandpolice.uk.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Traffic Helpline"
+    ],
+    "languages": [],
+    "evidence": "Traffic Helpline 7300702033",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ut-drugs-complaint-9412029536",
+    "name": {
+      "en": "Uttarakhand Drugs Complaint Helpline 9412029536",
+      "hi": "उत्तराखंड नशा शिकायत हेल्पलाइन 9412029536"
+    },
+    "operator": "Uttarakhand Police (SST/anti-narcotics)",
+    "purpose": {
+      "en": "Police helpline to give information regarding drugs in Uttarakhand.",
+      "hi": "उत्तराखंड में नशे की सूचना देने हेतु पुलिस हेल्पलाइन।"
+    },
+    "category": "crime",
+    "serviceType": "reporting",
+    "displayNumber": "9412029536",
+    "dial": "+91-9412029536",
+    "scope": "state:UT",
+    "sourceUrl": "https://uttarakhandpolice.uk.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Information regarding drugs 0135-2656202"
+    ],
+    "languages": [],
+    "evidence": "Information regarding drugs 9412029536 0135-2656202 ... Drugs Complaint 9412029536",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ut-cm-helpline-1905",
+    "name": {
+      "en": "Uttarakhand CM Helpline 1905",
+      "hi": "उत्तराखंड सीएम हेल्पलाइन 1905"
+    },
+    "operator": "Government of Uttarakhand",
+    "purpose": {
+      "en": "Chief Minister's public complaint helpline of Uttarakhand; complaints can also be registered online at cmhelpline.uk.gov.in.",
+      "hi": "उत्तराखंड की मुख्यमंत्री जन शिकायत हेल्पलाइन; शिकायत cmhelpline.uk.gov.in पर ऑनलाइन भी दर्ज हो सकती है।"
+    },
+    "category": "other",
+    "serviceType": "complaints",
+    "displayNumber": "1905",
+    "dial": "1905",
+    "scope": "state:UT",
+    "sourceUrl": "https://uk.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "http://cmhelpline.uk.gov.in"
+    },
+    "aliases": [
+      "CM Helpline",
+      "cmhelpline.uk.gov.in"
+    ],
+    "languages": [],
+    "evidence": "1905 You may call on this number or register your complaint online at http://cmhelpline.uk.gov.in",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ut-health-helpline-104",
+    "name": {
+      "en": "Uttarakhand 104 Health Helpline",
+      "hi": "उत्तराखंड स्वास्थ्य हेल्पलाइन 104"
+    },
+    "operator": "National Health Mission, Uttarakhand",
+    "purpose": {
+      "en": "Toll-free health helpline providing medical advice and assistance round the clock in Uttarakhand.",
+      "hi": "उत्तराखंड में चौबीसों घंटे चिकित्सकीय सलाह व सहायता देने वाली टोल-फ्री स्वास्थ्य हेल्पलाइन।"
+    },
+    "category": "health",
+    "serviceType": "advice",
+    "displayNumber": "104",
+    "dial": "104",
+    "scope": "state:UT",
+    "sourceUrl": "https://nhm.uk.gov.in/service/104-health-helpline-uttarakhand",
+    "hours": "24x7",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://nhm.uk.gov.in/"
+    },
+    "aliases": [
+      "104 Health Helpline Uttarakhand"
+    ],
+    "languages": [],
+    "evidence": "The 104 Health Helpline is a toll-free number that provides medical advice and assistance 24 hours a day, 7 days a week.",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ut-electricity-upcl-1912",
+    "name": {
+      "en": "UPCL Electricity Helpline 1912",
+      "hi": "यूपीसीएल बिजली हेल्पलाइन 1912"
+    },
+    "operator": "Uttarakhand Power Corporation Limited (UPCL)",
+    "purpose": {
+      "en": "Toll-free customer care number for electricity complaints and queries of UPCL consumers in Uttarakhand.",
+      "hi": "उत्तराखंड के UPCL उपभोक्ताओं हेतु बिजली शिकायत/प्रश्नों का टोल-फ्री नंबर।"
+    },
+    "category": "utilities",
+    "serviceType": "complaints",
+    "displayNumber": "1912",
+    "dial": "1912",
+    "scope": "state:UT",
+    "sourceUrl": "https://upcl.uk.gov.in/contact-us",
+    "hours": "Hours not published",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://upcl.uk.gov.in/"
+    },
+    "aliases": [
+      "UPCL Customer Care",
+      "customercare@upcl.org"
+    ],
+    "languages": [],
+    "evidence": "please contact UPCL Customer Care at customercare[at]upcl[dot]org or Toll Free Number 1912",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "up-police-emergency-112",
+    "name": {
+      "en": "UP Police Emergency 112",
+      "hi": "यूपी पुलिस आपातकालीन 112"
+    },
+    "operator": "Uttar Pradesh Police (UP-112)",
+    "purpose": {
+      "en": "Emergency helpline of Uttar Pradesh Police for immediate police assistance.",
+      "hi": "तत्काल पुलिस सहायता हेतु उत्तर प्रदेश पुलिस की आपातकालीन हेल्पलाइन।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "112",
+    "dial": "112",
+    "scope": "state:UP",
+    "sourceUrl": "https://uppolice.gov.in/pages/en/topmenu/en-contact-us/en-contact-us",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "UP-112",
+      "Emergency Help Line"
+    ],
+    "languages": [],
+    "evidence": "Emergency Help Line- Make a Call - 112",
+    "checkedDate": "2026-11-09",
+    "status": "quarantined",
+    "statusNote": "Duplicate of the national ERSS 112 record (national-erss-112). Every state page already shows the national 112 under \"Applies across India\"; this state-level card is kept for audit only and is not rendered."
+  },
+  {
+    "id": "up-fire-101",
+    "name": {
+      "en": "UP Fire Brigade 101",
+      "hi": "यूपी अग्नि शमन 101"
+    },
+    "operator": "UP Fire Services (listed on UP Police contact page)",
+    "purpose": {
+      "en": "Fire brigade emergency number for Uttar Pradesh.",
+      "hi": "उत्तर प्रदेश में आग लगने हेतु फायर ब्रिगेड नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "101",
+    "dial": "101",
+    "scope": "state:UP",
+    "sourceUrl": "https://uppolice.gov.in/pages/en/topmenu/en-contact-us/en-contact-us",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Fire Brigade 101"
+    ],
+    "languages": [],
+    "evidence": "Fire Brigade - 101",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "up-ambulance-108",
+    "name": {
+      "en": "UP Ambulance 108 / 102 (EMTS)",
+      "hi": "यूपी एम्बुलेंस 108 / 102"
+    },
+    "operator": "National Health Mission, Uttar Pradesh (Emergency Medical Transport Services)",
+    "purpose": {
+      "en": "Emergency ambulance services 108 and 102 operated under NHM Uttar Pradesh.",
+      "hi": "NHM उत्तर प्रदेश के अंतर्गत संचालित 108 व 102 आपातकालीन एम्बुलेंस सेवाएं।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "108",
+    "dial": "108",
+    "scope": "state:UP",
+    "sourceUrl": "https://upnrhm.gov.in/Home/EMTSCell108",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "102",
+      "EMTS Cell 108 & 102 Service"
+    ],
+    "languages": [],
+    "evidence": "EMTS Cell- 108 & 102 Service",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "up-child-helpline-1098",
+    "name": {
+      "en": "UP Child Helpline 1098",
+      "hi": "यूपी बाल हेल्पलाइन 1098"
+    },
+    "operator": "Childline (listed on UP Police contact page)",
+    "purpose": {
+      "en": "Child helpline for children in distress in Uttar Pradesh.",
+      "hi": "उत्तर प्रदेश में संकट में बच्चों हेतु बाल हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "1098",
+    "dial": "1098",
+    "scope": "state:UP",
+    "sourceUrl": "https://uppolice.gov.in/pages/en/topmenu/en-contact-us/en-contact-us",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Child Helpline 1098"
+    ],
+    "languages": [],
+    "evidence": "Child Helpline - 1098",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "up-women-power-line-1090",
+    "name": {
+      "en": "UP Women Power Line 1090",
+      "hi": "महिला पावर लाइन 1090"
+    },
+    "operator": "Uttar Pradesh Police - Mahila Samman Prakoshtha (Women & Child Security Organization)",
+    "purpose": {
+      "en": "UP Police helpline where women residing in Uttar Pradesh can lodge complaints about mischievous calls or activity (harassment/eve-teasing).",
+      "hi": "उत्तर प्रदेश की महिलाएं परेशान करने वाले कॉल या व्यवहार (छेड़छाड़) की शिकायत दर्ज कराने हेतु यूपी पुलिस हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "reporting",
+    "displayNumber": "1090",
+    "dial": "1090",
+    "scope": "state:UP",
+    "sourceUrl": "https://uppolice.gov.in/article/en/other-helpful-options",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Women Power Line-1090",
+      "Mahila Samman Prakoshtha (1090)",
+      "महिला सम्मान प्रकोष्ठ"
+    ],
+    "languages": [],
+    "evidence": "Women Power Line-1090 (Phone Call) ... Dial 1090 ... Women residing in Uttar Pradesh can make Call on above number to lodge complain regarding mischievous call or activity by anyone",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "up-electricity-uppcl-1912",
+    "name": {
+      "en": "UPPCL Electricity Toll Free 1912",
+      "hi": "यूपीपीसीएल बिजली टोल फ्री 1912"
+    },
+    "operator": "Uttar Pradesh Power Corporation Ltd (UPPCL)",
+    "purpose": {
+      "en": "Toll-free number for any electricity related query or complaint of UP power consumers.",
+      "hi": "यूपी के बिजली उपभोक्ताओं के किसी भी प्रश्न/शिकायत हेतु टोल-फ्री नंबर।"
+    },
+    "category": "utilities",
+    "serviceType": "complaints",
+    "displayNumber": "1912",
+    "dial": "1912",
+    "scope": "state:UP",
+    "sourceUrl": "https://uppcl.org/uppcl/hi/",
+    "hours": "Hours not published",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://uppcl.org/"
+    },
+    "aliases": [
+      "1800-410-1912 (PVVNL/MVVNL/DVVNL/KESCO)",
+      "1912 शिकायत पंजीकरण"
+    ],
+    "languages": [],
+    "evidence": "टोल फ्री नंबर विद्युत से संबंधी सवाल या जानकारी हेतु संपर्क करें 1912 ... किसी भी प्रश्न/शिकायत के लिए कृपया 1912 पर संपर्क करें। यूपी पावर कॉर्पोरेशन लिमिटेड",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "jk-police-control-room-100",
+    "name": {
+      "en": "J&K Police Control Room 100",
+      "hi": "जे&के पुलिस नियंत्रण कक्ष 100"
+    },
+    "operator": "Jammu and Kashmir Police",
+    "purpose": {
+      "en": "Toll-free police control room number for Jammu & Kashmir, with district PCR landlines.",
+      "hi": "जम्मू-कश्मीर में तत्काल पुलिस सहायता हेतु टोल-फ्री पुलिस नियंत्रण कक्ष नंबर (जिला PCR लैंडलाइन सहित)।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "100",
+    "dial": "100",
+    "scope": "state:JK",
+    "sourceUrl": "https://jkpolice.gov.in/Contact-Info",
+    "hours": "Hours not published",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Police Control Room (Kashmir) 0194-2452092, 2481628-32",
+      "Police Control Room (Jammu) 0191-2560402, 2566460-62",
+      "PCR Kashmir 0194-2455883"
+    ],
+    "languages": [],
+    "evidence": "TOLL FREE 1090, 100 ... Police Control Room (Kashmir):01912481628-32 Police Control Room (Jammu):01912566460-62",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "jk-fire-101",
+    "name": {
+      "en": "J&K Fire and Emergency Services 101",
+      "hi": "जे&के अग्नि एवं आपात सेवा 101"
+    },
+    "operator": "Fire & Emergency Services, J&K",
+    "purpose": {
+      "en": "Fire brigade emergency number for Jammu & Kashmir.",
+      "hi": "जम्मू-कश्मीर में आग लगने हेतु फायर ब्रिगेड नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "101",
+    "dial": "101",
+    "scope": "state:JK",
+    "sourceUrl": "https://srinagar.nic.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Fire 101"
+    ],
+    "languages": [],
+    "evidence": "Fire 101",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "jk-ambulance-102",
+    "name": {
+      "en": "J&K Ambulance 102",
+      "hi": "जे&के एम्बुलेंस 102"
+    },
+    "operator": "Health Department, J&K (as listed on district portal)",
+    "purpose": {
+      "en": "Ambulance emergency number for Jammu & Kashmir.",
+      "hi": "जम्मू-कश्मीर में एम्बुलेंस आपात नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "102",
+    "dial": "102",
+    "scope": "state:JK",
+    "sourceUrl": "https://srinagar.nic.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Ambulance 102"
+    ],
+    "languages": [],
+    "evidence": "Ambulance 102",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "jk-women-helpline-181",
+    "name": {
+      "en": "J&K Women Helpline 181",
+      "hi": "जे&के महिला हेल्पलाइन 181"
+    },
+    "operator": "Government of Jammu & Kashmir (Mission Shakti women helpline, listed on Srinagar district portal)",
+    "purpose": {
+      "en": "Women helpline for women in distress in Jammu & Kashmir.",
+      "hi": "जम्मू-कश्मीर में संकट में महिलाओं हेतु महिला हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "181",
+    "dial": "181",
+    "scope": "state:JK",
+    "sourceUrl": "https://srinagar.nic.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Women Helpline 181",
+      "Social Support - Women Helpline"
+    ],
+    "languages": [],
+    "evidence": "Women Helpline 181",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "jk-women-helpline-1091",
+    "name": {
+      "en": "J&K Women Helpline 1091",
+      "hi": "जे&के महिला हेल्पलाइन 1091"
+    },
+    "operator": "Jammu and Kashmir Police (listed on Jammu district portal)",
+    "purpose": {
+      "en": "Police women helpline for distress situations in Jammu & Kashmir.",
+      "hi": "जम्मू-कश्मीर में संकट में महिलाओं हेतु पुलिस हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "1091",
+    "dial": "1091",
+    "scope": "state:JK",
+    "sourceUrl": "https://jammu.nic.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Women Helpline 1091"
+    ],
+    "languages": [],
+    "evidence": "Women Helpline : 1091",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "jk-child-helpline-1098",
+    "name": {
+      "en": "J&K Child Helpline 1098",
+      "hi": "जे&के बाल हेल्पलाइन 1098"
+    },
+    "operator": "Childline (listed on J&K district portals)",
+    "purpose": {
+      "en": "Child helpline for children in distress in Jammu & Kashmir.",
+      "hi": "जम्मू-कश्मीर में संकट में बच्चों हेतु बाल हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "dispatch",
+    "displayNumber": "1098",
+    "dial": "1098",
+    "scope": "state:JK",
+    "sourceUrl": "https://jammu.nic.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Child Helpline 1098"
+    ],
+    "languages": [],
+    "evidence": "Child Helpline : 1098",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "jk-crime-stopper-1090",
+    "name": {
+      "en": "J&K Crime Stopper 1090",
+      "hi": "जे&के क्राइम स्टॉपर 1090"
+    },
+    "operator": "Jammu and Kashmir Police",
+    "purpose": {
+      "en": "Toll-free line to pass on crime information in Jammu & Kashmir.",
+      "hi": "जम्मू-कश्मीर में अपराध की सूचना देने हेतु टोल-फ्री लाइन।"
+    },
+    "category": "crime",
+    "serviceType": "reporting",
+    "displayNumber": "1090",
+    "dial": "1090",
+    "scope": "state:JK",
+    "sourceUrl": "https://jammu.nic.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Crime Stopper 1090",
+      "TOLL FREE 1090"
+    ],
+    "languages": [],
+    "evidence": "Crime Stopper : 1090 ... TOLL FREE 1090, 100",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "jk-senior-citizens-14567",
+    "name": {
+      "en": "J&K Senior Citizens Helpline 14567",
+      "hi": "जे&के वरिष्ठ नागरिक हेल्पलाइन 14567"
+    },
+    "operator": "Elderline (listed on Srinagar district portal)",
+    "purpose": {
+      "en": "Helpline for senior citizens in Jammu & Kashmir.",
+      "hi": "जम्मू-कश्मीर में वरिष्ठ नागरिकों हेतु हेल्पलाइन।"
+    },
+    "category": "other",
+    "serviceType": "advice",
+    "displayNumber": "14567",
+    "dial": "14567",
+    "scope": "state:JK",
+    "sourceUrl": "https://srinagar.nic.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Senior Citizens 14567",
+      "Elderline"
+    ],
+    "languages": [],
+    "evidence": "Senior Citizens 14567",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "jk-tele-manas-14416",
+    "name": {
+      "en": "J&K Tele-MANAS 14416",
+      "hi": "टेली-मानस 14416"
+    },
+    "operator": "Tele-MANAS mental health programme (listed on Srinagar district portal)",
+    "purpose": {
+      "en": "Tele-mental-health support helpline listed for Jammu & Kashmir residents.",
+      "hi": "जम्मू-कश्मीर के निवासियों हेतु टेली-मानसिक-स्वास्थ्य सहायता हेल्पलाइन।"
+    },
+    "category": "health",
+    "serviceType": "advice",
+    "displayNumber": "14416",
+    "dial": "14416",
+    "scope": "state:JK",
+    "sourceUrl": "https://srinagar.nic.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Tele-MANAS 14416"
+    ],
+    "languages": [],
+    "evidence": "Tele-MANAS 14416",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "jk-drug-deaddiction-14446",
+    "name": {
+      "en": "J&K Drug De-addiction Helpline 14446",
+      "hi": "जे&के नशा मुक्ति हेल्पलाइन 14446"
+    },
+    "operator": "J&K drug de-addiction programme (listed on Srinagar district portal)",
+    "purpose": {
+      "en": "Drug de-addiction assistance helpline listed for Jammu & Kashmir.",
+      "hi": "जम्मू-कश्मीर में नशा मुक्ति सहायता हेल्पलाइन।"
+    },
+    "category": "health",
+    "serviceType": "advice",
+    "displayNumber": "14446",
+    "dial": "14446",
+    "scope": "state:JK",
+    "sourceUrl": "https://srinagar.nic.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Drug De-addiction 14446",
+      "District Nasha Mukt Helpline 0191-2571616 (Jammu)"
+    ],
+    "languages": [],
+    "evidence": "Drug De-addiction 14446",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "jk-police-traffic-control-rooms",
+    "name": {
+      "en": "J&K Traffic Police Control Rooms (Srinagar / Jammu / Highway)",
+      "hi": "जे&के ट्रैफिक पुलिस नियंत्रण कक्ष (श्रीनगर/जम्मू/राष्ट्रीय राजमार्ग)"
+    },
+    "operator": "Jammu and Kashmir Traffic Police",
+    "purpose": {
+      "en": "Traffic control room numbers for road status and traffic assistance, including National Highway (Ramban) updates.",
+      "hi": "सड़क की स्थिति व यातायात सहायता हेतु ट्रैफिक नियंत्रण कक्ष नंबर (राष्ट्रीय राजमार्ग रामबन सूचना सहित)।"
+    },
+    "category": "travel",
+    "serviceType": "advice",
+    "displayNumber": "0194-2455164",
+    "dial": "+91-194-2455164",
+    "scope": "state:JK",
+    "sourceUrl": "https://jkpolice.gov.in/Useful-Links",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "Traffic Control Room (Srinagar) 9469807526",
+      "TCU Srinagar 01942450022, 2485396",
+      "TCU Jammu 01912459048",
+      "TCU Ramban 9419993745",
+      "National Highway (Ramban) 019-98266686",
+      "also published: 0194-2455164 (Srinagar) / 0194-2451192 (Jammu, as published)"
+    ],
+    "languages": [],
+    "evidence": "Traffic Control Room (Srinagar):0194-2455164 Traffic Control Room (Srinagar):9469807526 Traffic Control Room (Jammu):0194-2451192 ... National Highway (Ramban):019-98266686 ... 9419993745",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "jk-disaster-district-control-room-srinagar",
+    "name": {
+      "en": "Srinagar District Control Room (Disaster Management)",
+      "hi": "जिला नियंत्रण कक्ष श्रीनगर (आपदा प्रबंधन)"
+    },
+    "operator": "District Administration Srinagar / J&K Disaster Management Authority",
+    "purpose": {
+      "en": "District control room numbers for disaster management assistance in Srinagar district.",
+      "hi": "श्रीनगर जिले में आपदा प्रबंधन सहायता हेतु जिला नियंत्रण कक्ष नंबर।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "2483651",
+    "dial": "2483651",
+    "scope": "state:JK",
+    "sourceUrl": "https://srinagar.nic.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "District Control Room Srinagar",
+      "STD code not printed on source page (Srinagar landline)"
+    ],
+    "languages": [],
+    "evidence": "District Control Room 2483651 / 2457543 / 2457552",
+    "checkedDate": "2026-11-09",
+    "status": "quarantined",
+    "statusNote": "Quarantined: the official source page prints the Srinagar district control-room landlines without an STD code, so the dial string is incomplete outside Srinagar. Re-publish with a source that includes the STD code."
+  },
+  {
+    "id": "jk-electricity-kpdcl-1912",
+    "name": {
+      "en": "KPDCL Electricity Emergency Helpline 1912",
+      "hi": "केपीडीसीएल बिजली आपात हेल्पलाइन 1912"
+    },
+    "operator": "Kashmir Power Distribution Corporation Limited (KPDCL)",
+    "purpose": {
+      "en": "24x7 emergency and helpline numbers for electricity consumers of KPDCL in the Kashmir valley.",
+      "hi": "कश्मीर घाटी में KPDCL बिजली उपभोक्ताओं हेतु 24x7 आपात व हेल्पलाइन नंबर।"
+    },
+    "category": "utilities",
+    "serviceType": "dispatch",
+    "displayNumber": "1912",
+    "dial": "1912",
+    "scope": "state:JK",
+    "sourceUrl": "https://kpdcl.jk.gov.in/page/KzcvaTFJMHpFSEgrbU9YTUNnMytEUT09",
+    "hours": "24x7",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://kpdcl.jk.gov.in/"
+    },
+    "aliases": [
+      "Emergency / Helpline Numbers",
+      "6006613057",
+      "6006613058",
+      "6006613059",
+      "6006613060",
+      "also published: 18001807666, 1912, 0191-42492492"
+    ],
+    "languages": [],
+    "evidence": "Emergency / Helpline Numbers 18001807666, 1912, 6006613057, 6006613058, 6006613059, 6006613060, 0191-42492492 Available 24/7",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  }
+]
