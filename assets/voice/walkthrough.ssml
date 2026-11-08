@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+  <prosody pitch="+12%" rate="+5%">
+    <p>
+      <s>Hii everyone! I'm going to walk you through India Helpline in just one minute — I promise it's worth it!</s>
+      <s>Here's the big idea: when something goes really wrong, you don't want a website… you want a number.</s>
+      <s>So the very first thing you see is a huge, friendly — Call 1 1 2 — police, fire, or medical emergency, anywhere in India. One tap, and your phone dials it. The site never calls by itself — you're always in control.</s>
+    </p>
+    <p>
+      <s>And here's my favourite part: every single number here is verified.</s>
+      <s>A real person opened the official government page, matched the digits, and linked the source right on the card — with the date it was checked. If something can't be verified, it simply isn't published. Honest gaps are better than wrong numbers!</s>
+    </p>
+    <p>
+      <s>Now, the search — this is the fun part!</s>
+      <s>Type "U P I fraud" — or even "U P I frad" with a typo — and boom: 1930, the cyber crime helpline that can freeze your money before it disappears.</s>
+      <s>Type bachcha — that's Hindi for child — and Childline 1098 appears, twenty-four seven.</s>
+      <s>Aag? Gaadi? Samudra? It understands how people actually talk.</s>
+    </p>
+    <p>
+      <s>Privacy? There is nothing to collect. No tracking, no ads, no location permission — your searches never leave your phone.</s>
+      <s>And once you visit, the whole directory saves itself for offline use — perfect for a mountain trek with zero signal bars.</s>
+      <s>Found a wrong number? There's a Report Incorrect Details button on every single card.</s>
+    </p>
+    <p>
+      <s>That's it! Stay safe out there — and remember: in an emergency, it's always 1 1 2 first.</s>
+      <s>Byeee!</s>
+    </p>
+  </prosody>
+</speak>

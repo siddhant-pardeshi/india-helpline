@@ -10,6 +10,38 @@
 
 ---
 
+## 🔊 Listen to the walkthrough — a cute voice tour of the whole project
+
+<div align="center">
+
+**[▶ PRESS PLAY — meet India Helpline in 1 minute 50](assets/voice/walkthrough.mp3)**
+
+*A friendly voice walks you through the big idea: why 112 comes first, how every number gets verified,*
+*the search that forgives typos and speaks Hindi, and why your searches never leave your phone.*
+
+*(click → GitHub opens its built-in audio player)*
+
+<details>
+<summary>📖 Prefer reading? Full transcript</summary>
+
+> Hii everyone! I'm going to walk you through India Helpline in just one minute — I promise it's worth it!
+>
+> Here's the big idea: when something goes really wrong, you don't want a website… you want a number. So the very first thing you see is a huge, friendly — **Call 112** — police, fire, or medical emergency, anywhere in India. One tap, and your phone dials it. The site never calls by itself — you're always in control.
+>
+> And here's my favourite part: **every single number here is verified.** A real person opened the official government page, matched the digits, and linked the source right on the card — with the date it was checked. If something can't be verified, it simply isn't published. Honest gaps are better than wrong numbers!
+>
+> Now, the search — this is the fun part! Type "UPI fraud" — or even "UPI frad" with a typo — and boom: **1930**, the cyber crime helpline that can freeze your money before it disappears. Type *bachcha* — that's Hindi for child — and **Childline 1098** appears, twenty-four seven. *Aag? Gaadi? Samudra?* It understands how people actually talk.
+>
+> Privacy? There is nothing to collect. No tracking, no ads, no location permission — your searches never leave your phone. And once you visit, the whole directory saves itself for offline use — perfect for a mountain trek with zero signal bars. Found a wrong number? There's a **Report Incorrect Details** button on every single card.
+>
+> That's it! Stay safe out there — and remember: in an emergency, it's always **112** first. Byeee!
+
+</details>
+
+</div>
+
+---
+
 ## Someone on a railway platform, at 2 AM, doesn't want a website. They want a phone number.
 
 **India Helpline** is an independent public-service directory built for that moment. The first screen is one giant question — *"In immediate danger?"* — and one giant answer: **112**. Everything else — 27 national services, all 36 States & UTs, English and हिंदी — exists to get a person to the *right* number in seconds, and to get out of the way.
