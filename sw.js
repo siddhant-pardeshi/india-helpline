@@ -35,7 +35,7 @@ self.addEventListener('activate', (e) => {
 async function staleWhileRevalidate(req, cache) {
   const cached = await cache.match(req);
   const netFetch = fetch(req.url).then((res) => {
-    if (res && res.ok) cache.put(req, res.clone());
+    if (res && res.ok) await cache.put(req, res.clone());
     return res;
   }).catch(() => null);
   return cached || netFetch || offlineResponse(req);
@@ -78,17 +78,17 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(req.url);
   if (url.origin !== location.origin) return;
   if (!url.pathname.startsWith(SCOPE)) return; // don't capture paths outside our scope
-  const cache = caches.open(VERSION);
+  const cacheP = caches.open(VERSION);
 
   if (req.mode === 'navigate') {
-    e.respondWith(networkFirst(req, cache, SCOPE + 'index.html'));
+    e.respondWith(cacheP.then((c) => networkFirst(req, c, SCOPE + 'index.html')).catch(() => offlineResponse(req)));
     return;
   }
   if (url.pathname.endsWith('/directory.json')) {
-    e.respondWith(networkFirst(req, cache));
+    e.respondWith(cacheP.then((c) => networkFirst(req, c)).catch(() => offlineResponse(req)));
     return;
   }
-  e.respondWith(staleWhileRevalidate(req, cache));
+  e.respondWith(cacheP.then((c) => staleWhileRevalidate(req, c)).catch(() => offlineResponse(req)));
 });
 
 // tell open clients the cached build date when asked
