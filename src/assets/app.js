@@ -15,8 +15,24 @@
   /* ---------- normalize + search ---------- */
   const STOP = new Set(['chahiye','chaahiye','mujhe','mera','meri','hai','help','madad','sahayata','sahayta','need','want','please','karo','kare','in','on','for','a','the','my','me','is','of','and','to']);
 
-  const norm = (s) => String(s || '')
-    .toLowerCase()
+  // Devanagari -> loose romanization (consonants emit bare consonant, matras emit the vowel).
+  // बच्चा -> "bachcha", एम्बुलेंस -> "embulens" (fuzzy still bridges to "ambulance").
+  const DEV_CONS = { 'क':'k','ख':'kh','ग':'g','घ':'gh','ङ':'n','च':'ch','छ':'chh','ज':'j','झ':'jh','ञ':'n','ट':'t','ठ':'th','ड':'d','ढ':'dh','ण':'n','त':'t','थ':'th','द':'d','ध':'dh','न':'n','प':'p','फ':'ph','ब':'b','भ':'bh','म':'m','य':'y','र':'r','ल':'l','व':'v','श':'sh','ष':'sh','स':'s','ह':'h','ळ':'l','क़':'q','ख़':'kh','ग़':'g','ज़':'z','ड़':'d','ढ़':'dh','फ़':'f','ऱ':'r','त़':'t' };
+  const DEV_VOWEL = { 'अ':'a','आ':'a','इ':'i','ई':'i','उ':'u','ऊ':'u','ऋ':'ri','ए':'e','ऐ':'ai','ओ':'o','औ':'au' };
+  const DEV_MATRA = { 'ा':'a','ि':'i','ी':'i','ु':'u','ू':'u','ृ':'ri','े':'e','ै':'ai','ो':'o','ौ':'au','ं':'n','ँ':'n','ः':'h','ृ':'ri' };
+  const DEV_ALL = { ...DEV_CONS, ...DEV_VOWEL, ...DEV_MATRA, '्':'','़':'','ॐ':'om','०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9' };
+
+  function devToRoman(str) {
+    let out = '';
+    for (const ch of str) {
+      if (DEV_ALL[ch] !== undefined) out += DEV_ALL[ch];
+      else out += ch;
+    }
+    return out;
+  }
+
+  const norm = (s) => devToRoman(String(s || '')
+    .toLowerCase())
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/[^\p{L}\p{N}\s]/gu, ' ')
@@ -91,7 +107,17 @@
 
   function scoreRec(rec, words, stateSel) {
     let s = 0;
-    const hay = { name: norm(rec.n), purpose: norm(rec.p), alias: (rec.a || []).map(norm).join(' '), op: norm(rec.o), num: rec.num.replace(/\D/g, ''), cat: rec.cat, scope: rec.scope };
+    const hay = {
+      name: norm(rec.n),
+      nameHi: norm(rec.nh || ''),
+      purpose: norm(rec.p),
+      purposeHi: norm(rec.ph || ''),
+      alias: (rec.a || []).map(norm).join(' '),
+      op: norm(rec.o),
+      num: rec.num.replace(/\D/g, ''),
+      cat: rec.cat,
+      scope: rec.scope,
+    };
     const digitsQ = (String(D.__q_digits || ''));
 
     for (const w of words) {
@@ -113,21 +139,27 @@
           if (aliasWords.some((aw) => aw.startsWith(f) && f.length >= 3)) { s += 260; matched = true; continue; }
           if (hay.alias.includes(f)) { s += 180; matched = true; continue; }
         }
-        // purpose
+        // purpose (EN + HI)
         if (hay.purpose.includes(f) && f.length >= 3) { s += 120; matched = true; continue; }
+        if (hay.purposeHi.includes(f) && f.length >= 3) { s += 110; matched = true; continue; }
+        // hindi name
+        if (hay.nameHi.includes(f) && f.length >= 3) { s += 200; matched = true; continue; }
         // operator
         if (hay.op.includes(f) && f.length >= 3) { s += 100; matched = true; continue; }
         // category
         if (hay.cat === f || hay.cat.includes(f)) { s += 90; matched = true; continue; }
-        // fuzzy on name + alias words
+        // fuzzy on name + alias words (tight: d≤2 for ≥6-char words, d≤1 for ≥4-char)
         if (f.length >= 4) {
-          const pool = hay.name.split(' ').concat(hay.alias ? hay.alias.split(' ') : []);
+          const pool = [...new Set(hay.name.split(' ').concat(hay.alias ? hay.alias.split(' ') : []))];
+          const maxD = f.length >= 6 ? 2 : 1;
+          let best = Infinity;
           for (const pw of pool) {
-            if (Math.abs(pw.length - f.length) <= 2) {
-              const d = editDistance(f, pw, 2);
-              if (d <= 2) { s += 150 - d * 40; matched = true; }
+            if (pw.length >= 4 && Math.abs(pw.length - f.length) <= maxD) {
+              const d = editDistance(f, pw, maxD);
+              if (d <= maxD && d < best) best = d;
             }
           }
+          if (best !== Infinity) { s += 150 - best * 40; matched = true; }
         }
       }
       if (!matched) s -= 40; // every unmatched word hurts
@@ -305,6 +337,8 @@
       navigator.serviceWorker.register(BP + '/sw.js').catch(() => {});
       navigator.serviceWorker.ready.then((reg) => {
         if (pill && D.build) pill.textContent = (lang === 'hi' ? 'ऑफ़लाइन के लिए सहेजा गया' : 'Saved for offline use');
+        // ask the SW for the saved directory date
+        if (reg.active) reg.active.postMessage({ type: 'cache-date' });
       });
       navigator.serviceWorker.addEventListener('message', (e) => {
         if (e.data && e.data.type === 'cached-date' && pill) {

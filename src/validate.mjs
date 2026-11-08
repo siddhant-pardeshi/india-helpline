@@ -86,8 +86,12 @@ for (const r of RECORDS) {
     if (!dNum) err(id, 'displayNumber has no digits');
     if (r.dial === r.displayNumber && r.dial === dDial) {
       // fine — pure digits
-    } else if (dDial !== dNum && dDial !== '91' + dNum && !dDial.endsWith(dNum)) {
-      err(id, `dial digits (${dDial}) do not match displayNumber digits (${dNum})`);
+    } else {
+      // acceptable equivalences: exact digits, +91 prefix, STD '0' -> +91 substitution
+      const variants = new Set([dNum, '91' + dNum, '91' + dNum.replace(/^0/, '')]);
+      if (!variants.has(dDial) && !dDial.endsWith(dNum)) {
+        err(id, `dial digits (${dDial}) do not match displayNumber digits (${dNum})`);
+      }
     }
     if (isShortCode(dNum) && String(r.dial).startsWith('+91')) err(id, 'never prepend +91 to short codes');
     if (String(r.dial).startsWith('0091')) err(id, 'dial uses 0091 prefix');
