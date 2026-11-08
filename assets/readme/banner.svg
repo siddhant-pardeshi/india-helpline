@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" role="img" aria-label="India Helpline — verified helpline numbers for India">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101820"/>
+      <stop offset="0.55" stop-color="#14202C"/>
+      <stop offset="1" stop-color="#0C141C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.22" cy="0.52" r="0.65">
+      <stop offset="0" stop-color="#C41414" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#C41414" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#C41414" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D21B1B"/>
+      <stop offset="1" stop-color="#8E0D0D"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C41414" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#E8871E"/>
+      <stop offset="1" stop-color="#3DD3A5" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0v28" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="22" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="640" fill="url(#bg)"/>
+  <rect width="1600" height="640" fill="url(#grid)"/>
+  <rect width="1600" height="640" fill="url(#glow)"/>
+
+  <!-- giant 112 badge -->
+  <g filter="url(#soft)">
+    <rect x="86" y="150" width="330" height="330" rx="74" fill="url(#badge)"/>
+    <rect x="86" y="150" width="330" height="330" rx="74" fill="none" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="2"/>
+  </g>
+  <text x="251" y="352" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="168" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="6">112</text>
+  <rect x="146" y="404" width="210" height="10" rx="5" fill="#FFD9D9"/>
+  <text x="251" y="452" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#FFD9D9" text-anchor="middle" letter-spacing="4">POLICE · FIRE · MEDICAL</text>
+
+  <!-- wordmark block -->
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <text x="500" y="208" font-size="74" font-weight="800" fill="#F2F1EC" letter-spacing="-1">India Helpline</text>
+    <text x="502" y="266" font-size="30" font-weight="500" fill="#A9B2BD">Every verified helpline number in India — one tap away.</text>
+    <text x="502" y="312" font-size="30" font-weight="600" fill="#D8D5CC">हर आपात स्थिति के लिए प्रमाणित नंबर — एक टैप में।</text>
+  </g>
+
+  <!-- chips -->
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="700">
+    <g transform="translate(502,352)">
+      <rect width="396" height="58" rx="29" fill="#FFFFFF" fill-opacity="0.05" stroke="#3DD3A5" stroke-opacity="0.65" stroke-width="1.6"/>
+      <path d="M34 18l8 6v7c0 6-3.4 10.4-8 12-4.6-1.6-8-6-8-12v-7l8-6Z" fill="none" stroke="#3DD3A5" stroke-width="2.2" stroke-linejoin="round"/>
+      <path d="M30.5 27.5l2.8 2.8 5-5.6" fill="none" stroke="#3DD3A5" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="56" y="36" fill="#3DD3A5">Verified against official sources</text>
+    </g>
+    <g transform="translate(918,352)">
+      <rect width="252" height="58" rx="29" fill="#FFFFFF" fill-opacity="0.05" stroke="#7FA6FF" stroke-opacity="0.65" stroke-width="1.6"/>
+      <circle cx="33" cy="29" r="11" fill="none" stroke="#7FA6FF" stroke-width="2.2"/>
+      <path d="M33 22v7l4.5 3.5" fill="none" stroke="#7FA6FF" stroke-width="2.2" stroke-linecap="round"/>
+      <text x="54" y="36" fill="#7FA6FF">Works offline</text>
+    </g>
+    <g transform="translate(1190,352)">
+      <rect width="236" height="58" rx="29" fill="#FFFFFF" fill-opacity="0.05" stroke="#F5A94E" stroke-opacity="0.65" stroke-width="1.6"/>
+      <path d="M24 24h10l4-5h8v14" fill="none" stroke="#F5A94E" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M24 38h10M46 33l-4-4M46 25l-4 4" fill="none" stroke="#F5A94E" stroke-width="2.2" stroke-linecap="round"/>
+      <text x="58" y="36" fill="#F5A94E">Zero tracking</text>
+    </g>
+  </g>
+
+  <!-- footer strip -->
+  <rect x="0" y="470" width="1600" height="2" fill="url(#hair)"/>
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#6E7A87">
+    <text x="504" y="530">27 national services · 36 States &amp; UTs · English + हिंदी · WCAG 2.2 AA</text>
+    <text x="504" y="566" font-size="20" fill="#4C5A6B">independent, public-service directory — never places a call automatically</text>
+  </g>
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#8593A4">
+    <text x="1560" y="46" text-anchor="end" fill="#6E7A87">siddhant-pardeshi.github.io/india-helpline</text>
+  </g>
+</svg>

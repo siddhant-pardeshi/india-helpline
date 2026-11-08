@@ -1,60 +1,94 @@
-# India Helpline
+<div align="center">
 
-An independent, public-service directory of **verified** emergency and
-helpline numbers for India. Built mobile-first, bilingual (English / हिंदी),
-offline-capable, and with zero tracking.
+<img src="assets/readme/banner.svg" alt="India Helpline — verified helpline numbers for India" width="100%">
 
-## Principles
+**[🌐 Open the live site](https://siddhant-pardeshi.github.io/india-helpline/) · [हिंदी में खोलें](https://siddhant-pardeshi.github.io/india-helpline/hi/) · [Coverage & honesty report](https://siddhant-pardeshi.github.io/india-helpline/coverage.html) · [Printable list](https://siddhant-pardeshi.github.io/india-helpline/print.html)**
 
-1. **The emergency comes first.** `112` is the first thing on the page, on
-   every page, rendered as selectable text beside a native `tel:` link.
-2. **Every dial button is defensible.** Numbers are published only when an
-   official operator page confirms them; each listing shows its source URL and
-   check date.
-3. **Privacy by architecture.** No accounts, no analytics, no geolocation, no
-   third-party requests. Searches never leave the device.
-4. **Honest gaps.** Where a state has no verifiable local number, the state
-   page says so instead of showing something approximate.
+![records](https://img.shields.io/badge/verified_records-27_national-blue) ![languages](https://img.shields.io/badge/languages-English_·_हिंदी-orange) ![offline](https://img.shields.io/badge/works-offline_(PWA)-success) ![tracking](https://img.shields.io/badge/tracking-zero-success) ![accessibility](https://img.shields.io/badge/target-WCAG_2.2_AA-informational) ![deps](https://img.shields.io/badge/runtime_dependencies-0-success)
 
-## Quick start
+</div>
 
-```bash
-node src/build.mjs          # generate site/ (English at root, Hindi at /hi/)
-node src/validate.mjs       # validate the directory data (must PASS before publish)
-node src/build.mjs --site-url https://example.org   # with canonical URLs
+---
+
+## Someone on a railway platform, at 2 AM, doesn't want a website. They want a phone number.
+
+**India Helpline** is an independent public-service directory built for that moment. The first screen is one giant question — *"In immediate danger?"* — and one giant answer: **112**. Everything else — 27 national services, all 36 States & UTs, English and हिंदी — exists to get a person to the *right* number in seconds, and to get out of the way.
+
+<div align="center">
+<img src="assets/readme/screens.svg" alt="Home, search and state screens" width="100%">
+</div>
+
+## The rule that shaped everything: no evidence, no listing
+
+Every number is published **only** after its digits, operator, purpose and jurisdiction are matched against the operator's own official page — and every card shows its [source link](https://i4c.mha.gov.in/ncrp.aspx) and the date it was checked. When sources conflict, the record is held back and the gap is stated openly on the [coverage page](https://siddhant-pardeshi.github.io/india-helpline/coverage.html) — because a wrong "help" number is worse than an honest blank.
+
+<img src="assets/readme/architecture.svg" alt="Verify → record → validate → build → serve" width="100%">
+
+## What you can search for
+
+The search understands how people actually look for help — including **Devanagari script**, romanised Hindi, and misspellings:
+
+| You type | You get |
+|---|---|
+| `upi frad` *(misspelled)* | **1930** — Cyber Crime Helpline, banks can freeze the fraud |
+| `medical help on train` | **139** — RailMadad security & medical assistance |
+| `बच्चा` *(Devanagari)* | **1098** — Child Helpline, 24x7 |
+| `aag` / `आग` | **112** first, then fire-related lines |
+| `gaadi` / `train` | **139 · 182** — railway assistance & RPF security |
+| `samudra` / `boat` | **1554** — Coast Guard maritime rescue |
+| `gas leak` *(in a state with no local listing)* | an honest "nothing local verified" + 112 — never another state's number |
+
+## Engineering notes
+
+- **Zero runtime dependencies** — a dependency-free Node build script generates 112 static pages ×2 language trees. `node src/build.mjs` is the whole stack.
+- **Offline by design** — a service worker caches the directory; the offline banner shows the saved date; withdrawn records vanish from the cache on the visitor's next refresh. Navigations are network-first so retracted numbers can't linger.
+- **Defensible data layer** — `validate.mjs` gates publishing: required fields, duplicate detection, `tel:` digit ↔ display-number equivalence (including STD `0` → `+91`), short codes never prefixed with `+91`, HTTPS sources only, staleness warnings.
+- **WCAG 2.2 AA targets** — semantic headings, visible focus, 44px+ targets, `aria-live` search status, 320px-safe, reduced-motion support, light **and** dark theme.
+- **Privacy as architecture** — no account, no analytics, no geolocation, no third-party requests of any kind. Search terms never leave the device.
+
+## Repo layout
+
+```
+├── data/
+│   ├── states.json              # official 36 jurisdictions (ISO 3166-2)
+│   └── records/                 # verified records — the heart of the repo
+│       ├── national.json        # 112, 139, 181, 1098…
+│       ├── national-health.json # 108/102, Tele-MANAS 14416, poison centres…
+│       ├── national-travel.json # 182, 1033, 1363, 1078, 1554, NDRF…
+│       └── states/              # state/UT-level records (research in progress)
+├── i18n/en.json · hi.json       # every UI string, both languages
+├── src/
+│   ├── build.mjs                # the site generator
+│   ├── validate.mjs             # the publish gate
+│   ├── lib/                     # templates + SVG icon system
+│   └── assets/                  # design system, client search, service worker
+├── assets/readme/               # hand-drawn SVG banner, screens, architecture
+├── MAINTENANCE.md               # review cycle, retirement workflow, rollback
+└── CHANGELOG.md                 # what changed, when, why
 ```
 
-Serve `site/` with any static file server, e.g.:
+## Run it
 
 ```bash
-cd site && npx serve .      # or python3 -m http.server, or nginx
+node src/build.mjs      # → site/  (English at /, Hindi at /hi/)
+node src/validate.mjs   # must print RESULT: PASS
+# then serve site/ statically — any web server works
 ```
 
-## Adding or fixing a listing
+## Tested, not assumed
 
-See [MAINTENANCE.md](MAINTENANCE.md) — the short version: verify on the
-operator's own page, add the record with `evidence` + `checkedDate`, run the
-validator, rebuild, deploy.
+Every release walks the acceptance scenarios: narrow phone with JS disabled → **112 still visible and dialable**; `medical help on train` → railway assistance; `UPI fraud` → the verified reporting route; cross-state search → never shows another state's control room as local; Hindi user → same number on screen as in the dialer; offline visitor → saved numbers + cache date; quarantined record → absent from site *and* cache.
 
-## Features
+## Found a wrong number?
 
-- One-tap `tel:` calling with copyable numbers; calls never fire automatically
-- Instant fuzzy search: numbers, agencies, situations, Hindi, transliterations
-  (`aag`, `gaadi`, `UPI thagi`…), common misspellings; ranked by urgency and
-  scope
-- Full Hindi site tree with per-page language switching (no-JS friendly)
-- Manual state/UT selection with scope-aware filtering — a result never shows
-  another state's control room as local
-- Offline: service worker caches the directory; offline banner shows the
-  saved date; withdrawn records disappear after reconnection
-- Print-friendly directory (`/print.html`)
-- Coverage page stating exactly what is verified and what is missing
-- WCAG 2.2 AA targets: semantic headings, visible focus, 44px+ targets,
-  `aria-live` search status, 320px-safe, reduced-motion support
-- "Report incorrect details" on every listing (mailto to the owner channel in
-  `config.json`)
+Every listing has **"Report incorrect details"** — it opens a pre-filled mail to the owner channel and cannot send help. For any emergency, call **112**; this site never places calls automatically.
 
-## Stack
+---
 
-Vanilla HTML/CSS/JS generated by a dependency-free Node build script.
-`site/` is fully static — host it anywhere.
+<div align="center">
+
+*Built as an independent public service — not a government website. Numbers belong to their operators; the operators' own pages, linked on every card, are the source of truth.*
+
+**If this repo helps you, a ⭐ helps it reach someone who might need it at 2 AM.**
+
+</div>

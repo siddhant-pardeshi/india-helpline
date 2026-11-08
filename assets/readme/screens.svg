@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 760" role="img" aria-label="India Helpline screens — home, search, state page">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBFAF6"/>
+      <stop offset="1" stop-color="#F3F1EA"/>
+    </linearGradient>
+    <linearGradient id="emg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C41414"/>
+      <stop offset="1" stop-color="#8E0D0D"/>
+    </linearGradient>
+    <linearGradient id="callbtn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F8A6C"/>
+      <stop offset="1" stop-color="#0B7A5E"/>
+    </linearGradient>
+    <filter id="pshadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#16202C" flood-opacity="0.22"/>
+    </filter>
+    <filter id="cshadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#16202C" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- caption row -->
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <text x="215" y="46" font-size="24" font-weight="800" fill="#16202C" text-anchor="middle">The first screen answers first</text>
+    <text x="620" y="46" font-size="24" font-weight="800" fill="#16202C" text-anchor="middle">Search that understands you</text>
+    <text x="1025" y="46" font-size="24" font-weight="800" fill="#16202C" text-anchor="middle">Honest state coverage</text>
+    <text x="215" y="74" font-size="17" font-weight="500" fill="#4C5A6B" text-anchor="middle">112 before anything else, on every page</text>
+    <text x="620" y="74" font-size="17" font-weight="500" fill="#4C5A6B" text-anchor="middle">Hindi, transliterations &amp; misspellings included</text>
+    <text x="1025" y="74" font-size="17" font-weight="500" fill="#4C5A6B" text-anchor="middle">gaps are stated openly, never hidden</text>
+  </g>
+
+  <!-- ===================== PHONE 1 — HOME ===================== -->
+  <g transform="translate(45,100)" filter="url(#pshadow)">
+    <rect width="340" height="640" rx="42" fill="#0F141B"/>
+    <rect x="8" y="8" width="324" height="624" rx="36" fill="url(#pbg)"/>
+    <rect x="128" y="16" width="84" height="22" rx="11" fill="#0F141B"/>
+    <!-- topbar -->
+    <rect x="8" y="40" width="324" height="44" fill="#FFFFFF" fill-opacity="0.85"/>
+    <rect x="22" y="50" width="26" height="24" rx="7" fill="url(#emg)"/>
+    <text x="35" y="67" font-family="Segoe UI" font-size="10" font-weight="800" fill="#FFF" text-anchor="middle">112</text>
+    <text x="56" y="67" font-family="Segoe UI" font-size="14" font-weight="800" fill="#16202C">India Helpline</text>
+    <rect x="196" y="52" width="52" height="20" rx="10" fill="#F3F1EA"/>
+    <text x="222" y="66" font-family="Segoe UI" font-size="11" font-weight="700" fill="#4C5A6B" text-anchor="middle">हिंदी</text>
+    <rect x="256" y="50" width="60" height="24" rx="12" fill="#C41414"/>
+    <text x="286" y="66" font-family="Segoe UI" font-size="12" font-weight="800" fill="#FFF" text-anchor="middle">112</text>
+    <!-- emergency banner -->
+    <rect x="8" y="84" width="324" height="178" fill="url(#emg)"/>
+    <text x="26" y="122" font-family="Segoe UI" font-size="12" font-weight="700" fill="#FFD9D9" letter-spacing="2">IN IMMEDIATE DANGER?</text>
+    <text x="26" y="152" font-family="Segoe UI" font-size="26" font-weight="800" fill="#FFFFFF">In immediate danger?</text>
+    <text x="26" y="176" font-family="Segoe UI" font-size="12.5" fill="#FFD9D9">Police, fire or medical emergency —</text>
+    <text x="26" y="192" font-family="Segoe UI" font-size="12.5" fill="#FFD9D9">one number across India</text>
+    <rect x="26" y="206" width="150" height="40" rx="12" fill="#FFFFFF"/>
+    <text x="101" y="232" font-family="Segoe UI" font-size="20" font-weight="800" fill="#C41414" text-anchor="middle">📞 112</text>
+    <!-- search -->
+    <text x="26" y="292" font-family="Segoe UI" font-size="15" font-weight="800" fill="#16202C">What do you need help with?</text>
+    <rect x="24" y="302" width="252" height="40" rx="10" fill="#FFFFFF" stroke="#E4E0D5" stroke-width="1.5"/>
+    <text x="38" y="327" font-family="Segoe UI" font-size="12.5" fill="#8593A4">e.g. ambulance, aag, UPI fraud…</text>
+    <rect x="284" y="302" width="48" height="40" rx="10" fill="#16202C"/>
+    <circle cx="303" cy="318" r="7" fill="none" stroke="#FBFAF6" stroke-width="2"/>
+    <path d="M308 323l6 6" stroke="#FBFAF6" stroke-width="2" stroke-linecap="round"/>
+    <!-- quick cards -->
+    <g font-family="Segoe UI" font-size="11.5" font-weight="700" fill="#16202C">
+      <rect x="24" y="356" width="92" height="64" rx="10" fill="#FFFFFF" stroke="#E4E0D5"/>
+      <rect x="34" y="364" width="22" height="22" rx="6" fill="#FBEFEF"/>
+      <text x="45" y="380" font-size="11" text-anchor="middle" fill="#C41414">📞</text>
+      <text x="34" y="404">Ambulance</text>
+      <rect x="122" y="356" width="92" height="64" rx="10" fill="#FFFFFF" stroke="#E4E0D5"/>
+      <rect x="132" y="364" width="22" height="22" rx="6" fill="#FBEFEF"/>
+      <text x="143" y="380" font-size="11" text-anchor="middle" fill="#C41414">🚨</text>
+      <text x="132" y="404">Police</text>
+      <rect x="220" y="356" width="92" height="64" rx="10" fill="#FFFFFF" stroke="#E4E0D5"/>
+      <rect x="230" y="364" width="22" height="22" rx="6" fill="#FBEFEF"/>
+      <text x="241" y="380" font-size="11" text-anchor="middle" fill="#C41414">🔥</text>
+      <text x="230" y="404">Fire</text>
+      <rect x="24" y="428" width="92" height="64" rx="10" fill="#FFFFFF" stroke="#E4E0D5"/>
+      <rect x="34" y="436" width="22" height="22" rx="6" fill="#EDF2FE"/>
+      <text x="45" y="452" font-size="11" text-anchor="middle" fill="#1D4ED8">🧒</text>
+      <text x="34" y="476">Child safety</text>
+      <rect x="122" y="428" width="92" height="64" rx="10" fill="#FFFFFF" stroke="#E4E0D5"/>
+      <rect x="132" y="436" width="22" height="22" rx="6" fill="#FDF3E3"/>
+      <text x="143" y="452" font-size="11" text-anchor="middle" fill="#E8871E">💸</text>
+      <text x="132" y="476">Fraud</text>
+      <rect x="220" y="428" width="92" height="64" rx="10" fill="#FFFFFF" stroke="#E4E0D5"/>
+      <rect x="230" y="436" width="22" height="22" rx="6" fill="#EAF5F1"/>
+      <text x="241" y="452" font-size="11" text-anchor="middle" fill="#0B7A5E">＋</text>
+      <text x="230" y="476">More</text>
+    </g>
+    <!-- footer note -->
+    <text x="26" y="540" font-family="Segoe UI" font-size="10.5" fill="#8593A4">27 verified national services · 36 States &amp; UTs</text>
+    <text x="26" y="556" font-family="Segoe UI" font-size="10.5" fill="#8593A4">No tracking · Works offline · English + हिंदी</text>
+  </g>
+
+  <!-- ===================== PHONE 2 — SEARCH ===================== -->
+  <g transform="translate(450,100)" filter="url(#pshadow)">
+    <rect width="340" height="640" rx="42" fill="#0F141B"/>
+    <rect x="8" y="8" width="324" height="624" rx="36" fill="url(#pbg)"/>
+    <rect x="128" y="16" width="84" height="22" rx="11" fill="#0F141B"/>
+    <rect x="8" y="40" width="324" height="44" fill="#FFFFFF" fill-opacity="0.85"/>
+    <text x="26" y="67" font-family="Segoe UI" font-size="14" font-weight="800" fill="#16202C">What do you need help with?</text>
+    <rect x="22" y="96" width="272" height="42" rx="10" fill="#FFFFFF" stroke="#16202C" stroke-width="1.8"/>
+    <text x="36" y="122" font-family="Segoe UI" font-size="13" font-weight="600" fill="#16202C">upi fr<tspan fill="#E8871E">a</tspan>d</text>
+    <rect x="300" y="96" width="32" height="42" rx="10" fill="#16202C"/>
+    <!-- result status -->
+    <text x="26" y="164" font-family="Segoe UI" font-size="11.5" fill="#8593A4">1 result — upi frad</text>
+    <!-- result card -->
+    <g filter="url(#cshadow)">
+      <rect x="22" y="176" width="296" height="168" rx="14" fill="#FFFFFF"/>
+    </g>
+    <text x="38" y="204" font-family="Segoe UI" font-size="14.5" font-weight="800" fill="#16202C">Cyber Crime Helpline 1930</text>
+    <text x="38" y="224" font-family="Segoe UI" font-size="11.5" fill="#4C5A6B">Report online and financial frauds</text>
+    <text x="38" y="240" font-family="Segoe UI" font-size="11.5" fill="#4C5A6B">(UPI, net-banking). Prompt calls</text>
+    <text x="38" y="256" font-family="Segoe UI" font-size="11.5" fill="#4C5A6B">feed a system linked with banks…</text>
+    <rect x="38" y="270" width="66" height="20" rx="10" fill="#EDF2FE"/>
+    <text x="71" y="284" font-family="Segoe UI" font-size="10" font-weight="700" fill="#1D4ED8" text-anchor="middle">All India</text>
+    <rect x="110" y="270" width="76" height="20" rx="10" fill="#EDF2FE"/>
+    <text x="148" y="284" font-family="Segoe UI" font-size="10" font-weight="700" fill="#1D4ED8" text-anchor="middle">Reporting</text>
+    <rect x="192" y="270" width="118" height="20" rx="10" fill="#EAF5F1"/>
+    <text x="251" y="284" font-family="Segoe UI" font-size="10" font-weight="700" fill="#0B7A5E" text-anchor="middle">✓ Verified source</text>
+    <rect x="38" y="300" width="128" height="34" rx="10" fill="url(#callbtn)"/>
+    <text x="102" y="322" font-family="Segoe UI" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle">Call 1930</text>
+    <rect x="174" y="300" width="86" height="34" rx="10" fill="none" stroke="#C8C4B8" stroke-dasharray="4 3"/>
+    <text x="217" y="322" font-family="Segoe UI" font-size="11" font-weight="700" fill="#4C5A6B" text-anchor="middle">Copy</text>
+    <text x="270" y="323" font-family="Segoe UI" font-size="14" font-weight="800" fill="#16202C">1930</text>
+    <!-- details hint -->
+    <text x="38" y="358" font-family="Segoe UI" font-size="11" font-weight="700" fill="#1D4ED8">› Details — operator, hours, source link, checked date</text>
+    <!-- second result stub -->
+    <g filter="url(#cshadow)">
+      <rect x="22" y="378" width="296" height="64" rx="12" fill="#FFFFFF"/>
+    </g>
+    <text x="38" y="404" font-family="Segoe UI" font-size="13" font-weight="800" fill="#16202C">Women Helpline 181</text>
+    <text x="38" y="422" font-family="Segoe UI" font-size="11" fill="#4C5A6B">For any woman in distress or facing violence</text>
+    <text x="278" y="410" font-family="Segoe UI" font-size="15" font-weight="800" fill="#16202C">181</text>
+    <!-- synonyms hint -->
+    <rect x="22" y="470" width="296" height="58" rx="12" fill="#EDF2FE"/>
+    <text x="38" y="494" font-family="Segoe UI" font-size="11.5" font-weight="700" fill="#1D4ED8">Understands how people actually search:</text>
+    <text x="38" y="514" font-family="Segoe UI" font-size="11.5" fill="#1D4ED8">aag · bachcha · thagi · gaadi · zeher · mausam</text>
+    <text x="26" y="560" font-family="Segoe UI" font-size="10.5" fill="#8593A4">Numbers searchable too — try "1930"</text>
+  </g>
+
+  <!-- ===================== PHONE 3 — STATE ===================== -->
+  <g transform="translate(855,100)" filter="url(#pshadow)">
+    <rect width="340" height="640" rx="42" fill="#0F141B"/>
+    <rect x="8" y="8" width="324" height="624" rx="36" fill="url(#pbg)"/>
+    <rect x="128" y="16" width="84" height="22" rx="11" fill="#0F141B"/>
+    <rect x="8" y="40" width="324" height="44" fill="#FFFFFF" fill-opacity="0.85"/>
+    <text x="22" y="56" font-family="Segoe UI" font-size="11" fill="#8593A4">Home › States &amp; UTs</text>
+    <text x="22" y="76" font-family="Segoe UI" font-size="18" font-weight="800" fill="#16202C">Delhi</text>
+    <!-- selector -->
+    <rect x="22" y="92" width="228" height="38" rx="10" fill="#FFFFFF" stroke="#E4E0D5" stroke-width="1.5"/>
+    <text x="36" y="116" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#16202C">Delhi</text>
+    <path d="M232 110l6 6 6-6" fill="none" stroke="#4C5A6B" stroke-width="2" stroke-linecap="round"/>
+    <rect x="256" y="92" width="76" height="38" rx="10" fill="#16202C"/>
+    <text x="294" y="116" font-family="Segoe UI" font-size="12.5" font-weight="700" fill="#FBFAF6" text-anchor="middle">Go</text>
+    <!-- local section -->
+    <text x="22" y="162" font-family="Segoe UI" font-size="15" font-weight="800" fill="#16202C">Services in Delhi</text>
+    <g filter="url(#cshadow)">
+      <rect x="22" y="176" width="296" height="92" rx="14" fill="#FFFFFF" stroke="#C8C4B8" stroke-dasharray="5 4"/>
+    </g>
+    <text x="38" y="204" font-family="Segoe UI" font-size="11.5" fill="#4C5A6B">No locally published numbers for Delhi yet.</text>
+    <text x="38" y="222" font-family="Segoe UI" font-size="11.5" fill="#4C5A6B">We are researching official state sources —</text>
+    <text x="38" y="240" font-family="Segoe UI" font-size="11.5" fill="#4C5A6B">see the <tspan fill="#1D4ED8" font-weight="700">coverage</tspan> page. Gaps stay visible.</text>
+    <!-- national section -->
+    <text x="22" y="302" font-family="Segoe UI" font-size="15" font-weight="800" fill="#16202C">Applies across India</text>
+    <text x="22" y="322" font-family="Segoe UI" font-size="11" fill="#8593A4">These services cover all of India, including Delhi.</text>
+    <g filter="url(#cshadow)">
+      <rect x="22" y="336" width="296" height="88" rx="14" fill="#FFFFFF"/>
+    </g>
+    <text x="38" y="362" font-family="Segoe UI" font-size="13" font-weight="800" fill="#16202C">Emergency 112</text>
+    <text x="38" y="380" font-family="Segoe UI" font-size="11" fill="#4C5A6B">Police, fire &amp; medical — answered by</text>
+    <text x="38" y="396" font-family="Segoe UI" font-size="11" fill="#4C5A6B">your State/UT Emergency Response Centre</text>
+    <rect x="238" y="352" width="66" height="32" rx="10" fill="url(#callbtn)"/>
+    <text x="271" y="373" font-family="Segoe UI" font-size="12.5" font-weight="800" fill="#FFF" text-anchor="middle">112</text>
+    <g filter="url(#cshadow)">
+      <rect x="22" y="436" width="296" height="88" rx="14" fill="#FFFFFF"/>
+    </g>
+    <text x="38" y="462" font-family="Segoe UI" font-size="13" font-weight="800" fill="#16202C">RailMadad 139</text>
+    <text x="38" y="480" font-family="Segoe UI" font-size="11" fill="#4C5A6B">Railway security &amp; medical assistance,</text>
+    <text x="38" y="496" font-family="Segoe UI" font-size="11" fill="#4C5A6B">grievances and enquiries</text>
+    <rect x="238" y="452" width="66" height="32" rx="10" fill="url(#callbtn)"/>
+    <text x="271" y="473" font-family="Segoe UI" font-size="12.5" font-weight="800" fill="#FFF" text-anchor="middle">139</text>
+    <text x="22" y="560" font-family="Segoe UI" font-size="10.5" fill="#8593A4">Print this list · 27 national services listed</text>
+  </g>
+
+  <!-- bottom rule -->
+  <rect x="45" y="746" width="1150" height="2" fill="#E4E0D5"/>
+</svg>
