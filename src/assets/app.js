@@ -166,11 +166,12 @@
 
     if (s <= 0) return -1;
 
-    // scope: chosen state first, national next, other states excluded from "local" but flagged
+    // scope: chosen state first, national next — another state's local numbers
+    // are NEVER shown (a Delhi piped-gas line is useless and misleading in Kerala)
     if (stateSel) {
       if (rec.scope === 'state:' + stateSel) s += 300;
       else if (rec.scope === 'national') s += 120;
-      else if (rec.scope.startsWith('state:')) s -= 200; // another state's local number
+      else if (rec.scope.startsWith('state:')) return -1;
     }
     // urgency multiplier
     s *= 1 + (URGENCY[rec.cat] || 1) * 0.06;
@@ -318,6 +319,10 @@
     const cur = sel.dataset.current;
     if (cur) sel.value = cur;
     else if (saved) sel.value = saved;
+    // region awareness applies immediately — search honors it before Go is pressed
+    sel.addEventListener('change', () => {
+      if (sel.value) localStorage.setItem(STATE_KEY, sel.value);
+    });
     // works both on the home form and on state pages (button, no form)
     const form = sel.closest('form');
     if (form) form.addEventListener('submit', (e) => { e.preventDefault(); go(); });
