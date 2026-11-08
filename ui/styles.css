@@ -436,6 +436,13 @@ html[data-theme="dark"] .btn-call { color: #FFFFFF; }
 }
 .facts .row { display: flex; gap: .5rem; flex-wrap: wrap; align-items: baseline; }
 .facts .k { font-weight: 700; color: var(--ink); flex: none; min-width: 7.5rem; }
+.report-line {
+  margin: .6rem 0 0; padding-top: .6rem;
+  border-top: 1px dashed var(--line);
+  font-size: .86rem;
+}
+.report-line a { display: inline-flex; align-items: center; gap: .4rem; font-weight: 700; }
+.report-line small { color: var(--ink-faint); }
 .facts .v { flex: 1; min-width: 12rem; word-break: break-word; }
 .facts a { word-break: break-all; }
 

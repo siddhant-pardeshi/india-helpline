@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://siddhant-pardeshi.github.io/india-helpline/sitemap.xml
