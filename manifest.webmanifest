@@ -13,8 +13,8 @@
     { "src": "ui/maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
   ],
   "shortcuts": [
-    { "name": "Call 112", "url": "/?call=112" },
-    { "name": "All services", "url": "/categories/emergency.html" },
-    { "name": "States & UTs", "url": "/states/" }
+    { "name": "Call 112", "url": "./?call=112" },
+    { "name": "All services", "url": "./categories/emergency.html" },
+    { "name": "States & UTs", "url": "./states/" }
   ]
 }
