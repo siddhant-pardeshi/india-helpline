@@ -89,7 +89,7 @@
   <!-- headline -->
   <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
     <text x="392" y="196" font-size="52" font-weight="800" fill="#F2F1EC" letter-spacing="-0.5">Every number verified. Every second counts.</text>
-    <text x="394" y="244" font-size="26" font-weight="500" fill="#A9B2BD">27+ national services · 36 States &amp; UTs · English + हिंदी · offline-first · zero tracking</text>
+    <text x="394" y="244" font-size="26" font-weight="500" fill="#A9B2BD">28 national services · 36 States &amp; UTs · English + हिंदी · offline-first · zero tracking</text>
 
     <!-- verify → publish → repeat ticker -->
     <g font-size="24" font-weight="800" letter-spacing="1">

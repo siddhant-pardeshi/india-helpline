@@ -3,9 +3,9 @@
 All notable changes to the directory data and the site. Dates are the local
 date the change was verified/built.
 
-## 2026-11-09 — later the same day: north batch + hardening
+## 2026-11-09 — later the same day: north + south/west batches + hardening
 
-- **+61 verified state/UT records** across 7 jurisdictions — Delhi (10),
+- **+61 verified state/UT records** across 7 jurisdictions (north batch), later +39 across RJ/GJ/MH/GA/KA/KL/TN/AP/TS (south/west batch) — 16/36 jurisdictions live — Delhi (10),
   Haryana (8), Punjab (5), Himachal Pradesh (12), Uttarakhand (9),
   Uttar Pradesh (5), Jammu & Kashmir (12) — each with its own official state
   source page and evidence quote.

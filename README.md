@@ -4,7 +4,7 @@
 
 **[🌐 Open the live site](https://siddhant-pardeshi.github.io/india-helpline/) · [हिंदी में खोलें](https://siddhant-pardeshi.github.io/india-helpline/hi/) · [Coverage & honesty report](https://siddhant-pardeshi.github.io/india-helpline/coverage.html) · [Printable list](https://siddhant-pardeshi.github.io/india-helpline/print.html)**
 
-![records](https://img.shields.io/badge/verified_records-27_national-blue) ![languages](https://img.shields.io/badge/languages-English_·_हिंदी-orange) ![offline](https://img.shields.io/badge/works-offline_(PWA)-success) ![tracking](https://img.shields.io/badge/tracking-zero-success) ![accessibility](https://img.shields.io/badge/target-WCAG_2.2_AA-informational) ![deps](https://img.shields.io/badge/runtime_dependencies-0-success)
+![records](https://img.shields.io/badge/verified_records-28_national-blue) ![languages](https://img.shields.io/badge/languages-English_·_हिंदी-orange) ![offline](https://img.shields.io/badge/works-offline_(PWA)-success) ![tracking](https://img.shields.io/badge/tracking-zero-success) ![accessibility](https://img.shields.io/badge/target-WCAG_2.2_AA-informational) ![deps](https://img.shields.io/badge/runtime_dependencies-0-success)
 
 </div>
 
