@@ -27,6 +27,9 @@ directory data. **None of these appear anywhere on the website.**
 | Delhi DDMA EOC landlines | Exist only inside PDFs on ddma.delhi.gov.in, not published as live page numbers | lead only |
 | Srinagar District Control Room 2483651/2457543/2457552 | Source omits the STD code — dial string incomplete outside Srinagar; record quarantined pending a source that prints it | quarantined (in data, not rendered) |
 
+| MP Police WhatsApp emergency channel +91-7587600100 | Documented on the MP Dial-112 page; channels live on the quarantined state-112 card (see its statusNote) | verified but unrendered (see quarantine note) |
+| WB Paschim Medinipur Traffic Control Room 03222-267983/275125/275126 | District-level traffic number; kept out as district-scope | verified on official district page |
+
 ## How to promote a lead into the directory
 
 1. Find and open an **official** page that prints the number (see
