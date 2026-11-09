@@ -1,0 +1,1405 @@
+[
+  {
+    "id": "rj-sampark-181",
+    "name": {
+      "en": "Rajasthan Sampark 181 (State Grievance Helpline)",
+      "hi": "राजस्थान सम्पर्क 181"
+    },
+    "operator": "Government of Rajasthan (Rajasthan Sampark)",
+    "purpose": {
+      "en": "Statewide centralized helpline and portal where any citizen of the state can lodge grievances with the respective departments.",
+      "hi": "राजस्थान सम्पर्क 181 राज्यभर के नागरिकों को विभागों के समक्ष शिकायतें दर्ज करने के लिए केंद्रीकृत मंच और हेल्पलाइन है।"
+    },
+    "category": "other",
+    "serviceType": "complaints",
+    "displayNumber": "181",
+    "dial": "181",
+    "scope": "state:RJ",
+    "sourceUrl": "https://sampark.rajasthan.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://sampark.rajasthan.gov.in/"
+    },
+    "aliases": [
+      "rajasthan sampark",
+      "rajasthan 181",
+      "rajasthan cm helpline"
+    ],
+    "languages": [],
+    "evidence": "Page title: \"Rajasthan Sampark | 181\"; meta description: \"Rajasthan Sampark aims towards providing citizens with a centralized platform where any citizen of the state can lodge his/ her grievances to the respective departments.\"",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "rj-dmr-control-room",
+    "name": {
+      "en": "Rajasthan Disaster Management, Relief and Civil Defence Department Control Room",
+      "hi": "राजस्थान आपदा प्रबंधन, राहत एवं नागरिक सुरक्षा विभाग नियंत्रण कक्ष"
+    },
+    "operator": "Disaster Management, Relief and Civil Defence Department, Government of Rajasthan",
+    "purpose": {
+      "en": "Department control room contact at the Secretariat, Jaipur for disaster management and relief coordination across Rajasthan.",
+      "hi": "राजस्थान में आपदा प्रबंधन और राहत समन्वय के लिए सचिवालय, जयपुर स्थित विभागीय नियंत्रण कक्ष का संपर्क।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "0141-2227084",
+    "dial": "+91-141-2227084",
+    "scope": "state:RJ",
+    "sourceUrl": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/civil-defence/contact-details-of-department.html",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "rajasthan disaster management relief department",
+      "rajasthan relief control room"
+    ],
+    "languages": [],
+    "evidence": "Disaster Management, Relief and Civil Defence Department Food Building Secretariat, Jaipur (Rajasthan) 0141-2227084",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "gj-gsdma-state-control-room-1070",
+    "name": {
+      "en": "Gujarat State Emergency Control Room (GSDMA) 1070",
+      "hi": "गुजरात राज्य आपातकालीन नियंत्रण कक्ष 1070"
+    },
+    "operator": "Gujarat State Disaster Management Authority (GSDMA)",
+    "purpose": {
+      "en": "State-level emergency toll-free control room number for disaster reporting and coordination in Gujarat.",
+      "hi": "गुजरात में आपदा की सूचना और समन्वय के लिए राज्य-स्तरीय आपातकालीन टोल-फ्री नियंत्रण कक्ष संख्या।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1070",
+    "dial": "1070",
+    "scope": "state:GJ",
+    "sourceUrl": "https://gsdma.org/",
+    "hours": "Hours not published",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "gsdma control room",
+      "gujarat 1070"
+    ],
+    "languages": [
+      "gu"
+    ],
+    "evidence": "Emergency Toll free number State Control Room - 1070",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "gj-district-eoc-1077",
+    "name": {
+      "en": "Gujarat District Emergency Operations Centres (EOC) 1077",
+      "hi": "गुजरात जिला आपातकालीन परिचालन केंद्र 1077"
+    },
+    "operator": "GSDMA / District administration, Gujarat",
+    "purpose": {
+      "en": "Toll-free district emergency operations centre number reachable from any Gujarat district by dialling the district STD code followed by 1077.",
+      "hi": "गुजरात के किसी भी जिले से जिला STD कोड के बाद 1077 डायल करके पहुँचा जा सकने वाला टोल-फ्री जिला आपातकालीन परिचालन केंद्र नंबर।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "<STD CODE> + 1077",
+    "dial": "1077",
+    "scope": "state:GJ",
+    "sourceUrl": "https://gsdma.org/",
+    "hours": "Hours not published",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "gujarat 1077",
+      "district eoc gujarat"
+    ],
+    "languages": [
+      "gu"
+    ],
+    "evidence": "District EOC' s - <STD CODE> + 1077",
+    "checkedDate": "2026-11-09",
+    "status": "published",
+    "notes": {
+      "en": "The official source publishes this as a pattern: dial your district's STD code followed by 1077. The number shown here (1077) is the dialable part; prepend your district STD code when calling from a landline.",
+      "hi": "आधिकारिक स्रोत इसे पैटर्न के रूप में देता है: अपने जिले का STD कोड कोड + 1077 डायल करें। यहाँ दिखाया गया नंबर (1077) डायल करने योग्य भाग है; लैंडलाइन से कॉल करते समय जिले का STD कोड पहले लगाएँ।"
+    }
+  },
+  {
+    "id": "gj-abhayam-181",
+    "name": {
+      "en": "Abhayam 181 Women Helpline Gujarat",
+      "hi": "अभयम 181 महिला हेल्पलाइन"
+    },
+    "operator": "Women and Child Development Department, Government of Gujarat",
+    "purpose": {
+      "en": "State women helpline scheme providing needed information, guidance and support to adolescent girls, young women and women in difficulty in Gujarat.",
+      "hi": "गुजरात में ज़रूरतमंद किशोरियों, युवतियों और महिलाओं को जानकारी, मार्गदर्शन और सहायता देने वाली राज्य महिला हेल्पलाइन योजना।"
+    },
+    "category": "safety",
+    "serviceType": "advice",
+    "displayNumber": "181",
+    "dial": "181",
+    "scope": "state:GJ",
+    "sourceUrl": "https://wcd.gujarat.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "abhayam 181",
+      "gujarat women helpline",
+      "અભયમ્ ૧૮૧"
+    ],
+    "languages": [
+      "gu"
+    ],
+    "evidence": "અભયમ્ ૧૮૧ મહિલા હેલ્પલાઈન યોજનાનો ઉદ્દેશ / હેતુઃ જરૂરિયાતમંદ કિશોરી, યુવતી કે મહિલાને જરૂરી માહિતી, માર્ગદર્શન (Abhayam 181 Women Helpline — purpose: needed information, guidance for needy adolescent girl, young woman or woman)",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "mh-sdma-disaster-1070",
+    "name": {
+      "en": "Maharashtra Disaster Response and Help Helpline 1070",
+      "hi": "महाराष्ट्र आपदा प्रतिसाद एवं सहायता हेल्पलाइन 1070"
+    },
+    "operator": "Maharashtra State Disaster Management Authority (sdma.maharashtra.gov.in)",
+    "purpose": {
+      "en": "State disaster response and assistance helpline number published on the Maharashtra SDMA emergency contact block.",
+      "hi": "महाराष्ट्र SDMA की आपातकालीन संपर्क सूची में प्रकाशित राज्य आपदा प्रतिसाद एवं सहायता हेल्पलाइन नंबर।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1070",
+    "dial": "1070",
+    "scope": "state:MH",
+    "sourceUrl": "https://sdma.maharashtra.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "maharashtra 1070",
+      "maharashtra disaster helpline"
+    ],
+    "languages": [
+      "mr"
+    ],
+    "evidence": "आपत्ती प्रतिसाद आणि मदत: 1070 (Disaster response and help: 1070)",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "mh-state-eoc-9321587143",
+    "name": {
+      "en": "Maharashtra State Emergency Operations Centre (SEOC)",
+      "hi": "महाराष्ट्र राज्य आपातकालीन परिचालन केंद्र"
+    },
+    "operator": "Maharashtra State Disaster Management Authority",
+    "purpose": {
+      "en": "State Emergency Operations Centre control room number for disaster coordination in Maharashtra.",
+      "hi": "महाराष्ट्र में आपदा समन्वय के लिए राज्य आपातकालीन परिचालन केंद्र का नियंत्रण कक्ष नंबर।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "+91-9321587143",
+    "dial": "+91-9321587143",
+    "scope": "state:MH",
+    "sourceUrl": "https://sdma.maharashtra.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "maharashtra seoc",
+      "state emergency operation centre maharashtra"
+    ],
+    "languages": [
+      "mr"
+    ],
+    "evidence": "राज्य आपत्कालीन कार्य केंद्र: +91-9321587143 (State Emergency Operations Centre: +91-9321587143)",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "mh-ambulance-108",
+    "name": {
+      "en": "Maharashtra Emergency Ambulance 108",
+      "hi": "महाराष्ट्र आपातकालीन एम्बुलेंस 108"
+    },
+    "operator": "Government of Maharashtra (listed by Maharashtra SDMA)",
+    "purpose": {
+      "en": "Emergency ambulance service for medical emergencies in Maharashtra, listed on the state SDMA emergency contact block.",
+      "hi": "महाराष्ट्र में चिकित्सा आपात स्थितियों के लिए एम्बुलेंस सेवा, जो राज्य SDMA की आपातकालीन संपर्क सूची में दर्ज है।"
+    },
+    "category": "health",
+    "serviceType": "dispatch",
+    "displayNumber": "108",
+    "dial": "108",
+    "scope": "state:MH",
+    "sourceUrl": "https://sdma.maharashtra.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "maharashtra 108",
+      "महाराष्ट्र रुग्णवाहिका"
+    ],
+    "languages": [
+      "mr"
+    ],
+    "evidence": "रुग्णवाहिका: 108 (Ambulance: 108)",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ga-police-112",
+    "name": {
+      "en": "Goa Police Emergency 112 (State Police Control Room)",
+      "hi": "गोवा पुलिस आपातकालीन 112"
+    },
+    "operator": "Goa Police",
+    "purpose": {
+      "en": "Single police emergency number for Goa, answered by the Goa State Police Control Room.",
+      "hi": "गोवा के लिए एकीकृत पुलिस आपातकालीन नंबर, जिसे गोवा राज्य पुलिस नियंत्रण कक्ष संभालता है।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "112",
+    "dial": "112",
+    "scope": "state:GA",
+    "sourceUrl": "https://citizen.goapolice.gov.in/web/guest/state-police-control-room",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://citizen.goapolice.gov.in/"
+    },
+    "aliases": [
+      "goa police",
+      "goa 112",
+      "goa state police control room"
+    ],
+    "languages": [],
+    "evidence": "Dial -112",
+    "checkedDate": "2026-11-09",
+    "status": "quarantined",
+    "statusNote": "Duplicate of the national ERSS 112 record (national-erss-112). Every state page already shows the national 112 under \"Applies across India\"; this state-level card is kept for audit only and is not rendered."
+  },
+  {
+    "id": "ga-police-control-room-lines",
+    "name": {
+      "en": "Goa State Police Control Room (Direct Lines)",
+      "hi": "गोवा राज्य पुलिस नियंत्रण कक्ष (प्रत्यक्ष लाइनें)"
+    },
+    "operator": "Goa Police",
+    "purpose": {
+      "en": "Direct office landlines and Control Room Officer mobile for the Goa State Police Control Room, beyond the 112 short code.",
+      "hi": "112 के अतिरिक्त गोवा राज्य पुलिस नियंत्रण कक्ष के सीधे कार्यालय लैंडलाइन और नियंत्रण कक्ष अधिकारी का मोबाइल नंबर।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "0832-2428400",
+    "dial": "+91-832-2428400",
+    "scope": "state:GA",
+    "sourceUrl": "https://citizen.goapolice.gov.in/web/guest/state-police-control-room",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "goa police control room",
+      "goa police panaji",
+      "also published: 0832-2428400/ 2428967"
+    ],
+    "languages": [],
+    "evidence": "Office tel. No.0832-2428400/ 2428967 | Control Room Officer Mb. No. 7875756000",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ga-coastal-security-1093",
+    "name": {
+      "en": "Goa Coastal Security Helpline 1093",
+      "hi": "गोवा तटीय सुरक्षा हेल्पलाइन 1093"
+    },
+    "operator": "Goa Police",
+    "purpose": {
+      "en": "Police helpline to report coastal terror and security threats along Goa's coastline.",
+      "hi": "गोवा के तट पर तटीय आतंक और सुरक्षा खतरों की सूचना देने के लिए पुलिस हेल्पलाइन।"
+    },
+    "category": "crime",
+    "serviceType": "reporting",
+    "displayNumber": "1093",
+    "dial": "1093",
+    "scope": "state:GA",
+    "sourceUrl": "https://citizen.goapolice.gov.in/web/guest/state-police-control-room",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "goa coastal terror helpline",
+      "goa 1093"
+    ],
+    "languages": [],
+    "evidence": "Coastal Terror Helpline-1093",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ga-women-1091",
+    "name": {
+      "en": "Goa Police Women's Helpline 1091",
+      "hi": "गोवा पुलिस महिला हेल्पलाइन 1091"
+    },
+    "operator": "Goa Police",
+    "purpose": {
+      "en": "Police helpline for women facing harassment or violence in Goa.",
+      "hi": "गोवा में उत्पीड़न या हिंसा का सामना कर रही महिलाओं के लिए पुलिस हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "reporting",
+    "displayNumber": "1091",
+    "dial": "1091",
+    "scope": "state:GA",
+    "sourceUrl": "https://citizen.goapolice.gov.in/web/guest/state-police-control-room",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "goa women helpline",
+      "goa 1091"
+    ],
+    "languages": [],
+    "evidence": "Women's Helpline -1091",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ga-senior-citizens-1090",
+    "name": {
+      "en": "Goa Police Senior Citizen's Helpline 1090",
+      "hi": "गोवा पुलिस वरिष्ठ नागरिक हेल्पलाइन 1090"
+    },
+    "operator": "Goa Police",
+    "purpose": {
+      "en": "Police helpline for senior citizens needing assistance or to report issues in Goa.",
+      "hi": "गोवा में वरिष्ठ नागरिकों की सहायता या शिकायतों के लिए पुलिस हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "reporting",
+    "displayNumber": "1090",
+    "dial": "1090",
+    "scope": "state:GA",
+    "sourceUrl": "https://citizen.goapolice.gov.in/web/guest/state-police-control-room",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "goa senior citizen helpline",
+      "goa 1090"
+    ],
+    "languages": [],
+    "evidence": "Senior Citizen's Helpline -1090",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ga-vigilance-7030100000",
+    "name": {
+      "en": "Goa Police Vigilance Helpline (WhatsApp)",
+      "hi": "गोवा पुलिस सतर्कता हेल्पलाइन (व्हाट्सएप)"
+    },
+    "operator": "Goa Police",
+    "purpose": {
+      "en": "WhatsApp-based line to report acts of corruption by police personnel in Goa.",
+      "hi": "गोवा में पुलिस कर्मियों के भ्रष्टाचार की सूचना देने के लिए व्हाट्सएप आधारित लाइन।"
+    },
+    "category": "crime",
+    "serviceType": "reporting",
+    "displayNumber": "7030100000",
+    "dial": "+91-7030100000",
+    "scope": "state:GA",
+    "sourceUrl": "https://citizen.goapolice.gov.in/web/guest/state-police-control-room",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": "7030100000",
+      "web": null
+    },
+    "aliases": [
+      "goa vigilance helpline"
+    ],
+    "languages": [],
+    "evidence": "Vigilance Helpline – 7030100000",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ga-ambulance-108",
+    "name": {
+      "en": "Goa Emergency Ambulance 108 (EMRI)",
+      "hi": "गोवा आपातकालीन एम्बुलेंस 108"
+    },
+    "operator": "EMRI (documented by Goa Police)",
+    "purpose": {
+      "en": "Emergency ambulance service for Goa, listed on the Goa Police State Police Control Room page.",
+      "hi": "गोवा के लिए आपातकालीन एम्बुलेंस सेवा, जो गोवा पुलिस राज्य नियंत्रण कक्ष पृष्ठ पर दर्ज है।"
+    },
+    "category": "health",
+    "serviceType": "dispatch",
+    "displayNumber": "108",
+    "dial": "108",
+    "scope": "state:GA",
+    "sourceUrl": "https://citizen.goapolice.gov.in/web/guest/state-police-control-room",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "goa 108",
+      "goa emri ambulance"
+    ],
+    "languages": [],
+    "evidence": "Ambulance service EMRI-108",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ga-sdma-control-room-0832",
+    "name": {
+      "en": "Goa SDMA Heat Wave Advisory Control Room",
+      "hi": "गोवा SDMA लू सलाहकार नियंत्रण कक्ष"
+    },
+    "operator": "Goa State Disaster Management Authority",
+    "purpose": {
+      "en": "Goa SDMA control room phone lines for heat wave advisory and disaster coordination in the state.",
+      "hi": "गोवा में लू की सलाह और आपदा समन्वय के लिए गोवा SDMA नियंत्रण कक्ष की टेलीफोन लाइनें।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "0832-2419550",
+    "dial": "+91-832-2419550",
+    "scope": "state:GA",
+    "sourceUrl": "https://sdma.goa.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "goa sdma",
+      "goa state disaster management authority",
+      "also published: 0832-2419550/2419446"
+    ],
+    "languages": [],
+    "evidence": "Heat Wave Advisory Control Room Phone Numbers 0832-2419550/2419446",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ga-electricity-1912",
+    "name": {
+      "en": "Goa Electricity Department Complaint Helpline 1912",
+      "hi": "गोवा विद्युत विभाग शिकायत हेल्पलाइन 1912"
+    },
+    "operator": "Electricity Department, Government of Goa",
+    "purpose": {
+      "en": "Toll-free contact centre and complaint number for electricity consumers in Goa.",
+      "hi": "गोवा के बिजली उपभोक्ताओं के लिए टोल-फ्री संपर्क केंद्र और शिकायत नंबर।"
+    },
+    "category": "utilities",
+    "serviceType": "complaints",
+    "displayNumber": "1912",
+    "dial": "1912",
+    "scope": "state:GA",
+    "sourceUrl": "https://goaelectricity.gov.in/",
+    "hours": "Hours not published",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": "https://goaelectricity.gov.in/"
+    },
+    "aliases": [
+      "goa electricity 1912",
+      "ged complaint number",
+      "also published: 1912 (Toll-Free)"
+    ],
+    "languages": [],
+    "evidence": "Electricity Department Government of Goa Complaint No: 1912 (Toll-Free) 91-832-2485500",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ka-ksndmc-disaster-1070",
+    "name": {
+      "en": "Karnataka Disaster Toll-free Helpline 1070 (KSNDMC/SDMA)",
+      "hi": "कर्नाटक आपदा टोल-फ्री हेल्पलाइन 1070"
+    },
+    "operator": "Karnataka State Disaster Management Authority / Karnataka State Natural Disaster Monitoring Centre",
+    "purpose": {
+      "en": "Toll-free disaster helpline published in the contact section of the Karnataka SDMA website.",
+      "hi": "कर्नाटक SDMA वेबसाइट के संपर्क खंड में प्रकाशित टोल-फ्री आपदा हेल्पलाइन।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1070",
+    "dial": "1070",
+    "scope": "state:KA",
+    "sourceUrl": "https://ksdma.karnataka.gov.in/",
+    "hours": "Hours not published",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "karnataka 1070",
+      "ksndmc helpline"
+    ],
+    "languages": [
+      "kn"
+    ],
+    "evidence": "ಸಂಪರ್ಕಿಸಿ ಉಚಿತ ಸಹಾಯವಾಣಿ-1070 (Contact — toll-free helpline 1070)",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ka-108-arogya-kavacha",
+    "name": {
+      "en": "Arogya Kavacha 108 (Emergency Medical Services)",
+      "hi": "आरोग्य कवच 108 (आपातकालीन चिकित्सा सेवा)"
+    },
+    "operator": "National Health Mission, Karnataka",
+    "purpose": {
+      "en": "Karnataka's 108 emergency medical and ambulance service under NHM Karnataka.",
+      "hi": "एनएचएम कर्नाटक के अंतर्गत कर्नाटक की 108 आपातकालीन चिकित्सा और एम्बुलेंस सेवा।"
+    },
+    "category": "health",
+    "serviceType": "dispatch",
+    "displayNumber": "108",
+    "dial": "108",
+    "scope": "state:KA",
+    "sourceUrl": "https://nhm.karnataka.gov.in/44/arogya-kavacha-108-%28emergency-medical-services%29/en",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "arogya kavacha",
+      "karnataka 108"
+    ],
+    "languages": [],
+    "evidence": "Arogya Kavacha-108 (Emergency Medical Services)",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ka-104-arogya-sahayavani",
+    "name": {
+      "en": "Arogya Sahayavani 104 (Karnataka Health Helpline)",
+      "hi": "आरोग्य सहायवाणी 104 (कर्नाटक स्वास्थ्य हेल्पलाइन)"
+    },
+    "operator": "National Health Mission, Karnataka",
+    "purpose": {
+      "en": "State health helpline for medical advice and health information in Karnataka, listed on the NHM Karnataka site.",
+      "hi": "एनएचएम कर्नाटक साइट पर दर्ज, कर्नाटक में चिकित्सा सलाह और स्वास्थ्य जानकारी के लिए राज्य स्वास्थ्य हेल्पलाइन।"
+    },
+    "category": "health",
+    "serviceType": "advice",
+    "displayNumber": "104",
+    "dial": "104",
+    "scope": "state:KA",
+    "sourceUrl": "https://nhm.karnataka.gov.in/44/arogya-kavacha-108-%28emergency-medical-services%29/en",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "arogya sahayavani",
+      "karnataka 104"
+    ],
+    "languages": [],
+    "evidence": "Arogya Sahayavani (104)",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "kl-kseoc-1070-1079",
+    "name": {
+      "en": "Kerala State Emergency Operations Centre (KSEOC)",
+      "hi": "केरल राज्य आपातकालीन परिचालन केंद्र"
+    },
+    "operator": "Kerala State Disaster Management Authority (KSDMA)",
+    "purpose": {
+      "en": "State Emergency Operations Centre control room for disaster reporting and coordination in Kerala.",
+      "hi": "केरल में आपदा की सूचना और समन्वय के लिए राज्य आपातकालीन परिचालन केंद्र नियंत्रण कक्ष।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1070",
+    "dial": "1070",
+    "scope": "state:KL",
+    "sourceUrl": "https://sdma.kerala.gov.in/contact/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "kseoc",
+      "kerala eoc",
+      "kerala disaster control room",
+      "also published: 1070/1079/0471-2778800"
+    ],
+    "languages": [
+      "ml",
+      "en"
+    ],
+    "evidence": "KERALA STATE EMERGENCY OPERATIONS CENTRE (KSEOC) Observatory Hills, Vikas Bhavan P.O Thiruvananthapuram, Keralam – 695033 Phone: 1070/1079/0471-2778800",
+    "checkedDate": "2026-11-09",
+    "status": "published",
+    "notes": {
+      "en": "The source lists three numbers for the Kerala SEOC: 1070, 1079 and 0471-2778800. The primary shown here is 1070; the others are recorded in the research notes.",
+      "hi": "स्रोत केरल SEOC के लिए तीन नंबर देता है: 1070, 1079 और 0471-2778800। यहाँ प्राथमिक 1070 है; शेष शोध टिप्पणियों में दर्ज हैं।"
+    }
+  },
+  {
+    "id": "kl-112-erss",
+    "name": {
+      "en": "Kerala ERSS 112",
+      "hi": "केरल ERSS 112"
+    },
+    "operator": "Kerala Police / Government of Kerala (KSDMA ERSS page)",
+    "purpose": {
+      "en": "Integrated emergency response system with a single emergency number 112 to address different emergencies of citizens in Kerala.",
+      "hi": "केरल में नागरिकों की विभिन्न आपात स्थितियों के लिए एकल आपातकालीन नंबर 112 वाली एकीकृत आपातकालीन प्रतिक्रिया प्रणाली।"
+    },
+    "category": "emergency",
+    "serviceType": "dispatch",
+    "displayNumber": "112",
+    "dial": "112",
+    "scope": "state:KL",
+    "sourceUrl": "https://sdma.kerala.gov.in/erss-112/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "kerala 112",
+      "kerala police",
+      "erss kerala"
+    ],
+    "languages": [
+      "ml",
+      "en"
+    ],
+    "evidence": "Emergency Response Support System (ERSS) is the vision of Govt. of India to launch an integrated emergency response system with a single emergency number 112, to address different emergencies of citizens.",
+    "checkedDate": "2026-11-09",
+    "status": "quarantined",
+    "statusNote": "Duplicate of the national ERSS 112 record (national-erss-112). Every state page already shows the national 112 under \"Applies across India\"; this state-level card is kept for audit only and is not rendered."
+  },
+  {
+    "id": "kl-ksdma-office",
+    "name": {
+      "en": "Kerala State Disaster Management Authority (KSDMA) Office",
+      "hi": "केरल राज्य आपदा प्रबंधन प्राधिकरण कार्यालय"
+    },
+    "operator": "Kerala State Disaster Management Authority",
+    "purpose": {
+      "en": "KSDMA head office contact at Observatory Hills, Vikas Bhavan, Thiruvananthapuram for disaster management matters in Kerala.",
+      "hi": "केरल में आपदा प्रबंधन संबंधी कार्यों के लिए तिरुवनंतपुरम स्थित KSDMA मुख्यालय का संपर्क।"
+    },
+    "category": "disaster",
+    "serviceType": "advice",
+    "displayNumber": "+91-471-2778855",
+    "dial": "+91-471-2778855",
+    "scope": "state:KL",
+    "sourceUrl": "https://sdma.kerala.gov.in/contact/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "ksdma",
+      "kerala disaster management authority"
+    ],
+    "languages": [
+      "ml",
+      "en"
+    ],
+    "evidence": "THE KERALA STATE DISASTER MANAGEMENT AUTHORITY Observatory Hills, Vikas Bhavan P.O Thiruvananthapuram, Keralam – 695033 Phone: +91-471-2778855",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "kl-kseb-1912",
+    "name": {
+      "en": "KSEB Electricity Customer Care 1912",
+      "hi": "केएसईबी बिजली ग्राहक सेवा 1912"
+    },
+    "operator": "Kerala State Electricity Board Limited (KSEBL)",
+    "purpose": {
+      "en": "Toll-free customer care and complaint number for electricity consumers in Kerala.",
+      "hi": "केरल के बिजली उपभोक्ताओं के लिए टोल-फ्री ग्राहक सेवा और शिकायत नंबर।"
+    },
+    "category": "utilities",
+    "serviceType": "complaints",
+    "displayNumber": "1912",
+    "dial": "1912",
+    "scope": "state:KL",
+    "sourceUrl": "https://kseb.in/",
+    "hours": "Hours not published",
+    "charges": "toll-free",
+    "channels": {
+      "sms": "9496010101",
+      "whatsapp": null,
+      "web": "https://kseb.in/"
+    },
+    "aliases": [
+      "kseb 1912",
+      "kerala electricity board"
+    ],
+    "languages": [
+      "ml",
+      "en"
+    ],
+    "evidence": "Kerala State Electricity Board Limited-KSEB 1912 0471 2555544 ... 1912 Toll free number ... 9496001912 IVR | SMS 9496010101",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "kl-kseb-emergency-accidents",
+    "name": {
+      "en": "KSEB Emergency / Electrical Accident Line",
+      "hi": "केएसईबी आपात / बिजली दुर्घटना लाइन"
+    },
+    "operator": "Kerala State Electricity Board Limited (KSEBL)",
+    "purpose": {
+      "en": "Landline contact for reporting electricity-related emergencies and accidents to KSEB in Kerala.",
+      "hi": "केरल में बिजली संबंधी आपात स्थितियों और दुर्घटनाओं की सूचना देने के लिए KSEB का लैंडलाइन संपर्क।"
+    },
+    "category": "utilities",
+    "serviceType": "dispatch",
+    "displayNumber": "0471-2555544",
+    "dial": "+91-471-2555544",
+    "scope": "state:KL",
+    "sourceUrl": "https://kseb.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "kseb emergency",
+      "kseb accident line"
+    ],
+    "languages": [
+      "ml",
+      "en"
+    ],
+    "evidence": "Emergency/Accidents 0471-2555544 Landline",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "tn-state-eoc-1070",
+    "name": {
+      "en": "Tamil Nadu State Emergency Operations Centre Helpline 1070",
+      "hi": "तमिलनाडु राज्य आपातकालीन परिचालन केंद्र हेल्पलाइन 1070"
+    },
+    "operator": "Tamil Nadu State Disaster Management Authority (TNSDMA)",
+    "purpose": {
+      "en": "State-level disaster helpline number published by TNSDMA for emergencies in Tamil Nadu.",
+      "hi": "तमिलनाडु में आपात स्थितियों के लिए TNSDMA द्वारा प्रकाशित राज्य-स्तरीय आपदा हेल्पलाइन नंबर।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1070",
+    "dial": "1070",
+    "scope": "state:TN",
+    "sourceUrl": "https://tnsdma.tn.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "tnsdma 1070",
+      "tamil nadu state helpline"
+    ],
+    "languages": [
+      "ta"
+    ],
+    "evidence": "மாநில உதவி எண் 1070 மாவட்ட உதவி எண் 1077 (State helpline number 1070, District helpline number 1077)",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "tn-district-eoc-1077",
+    "name": {
+      "en": "Tamil Nadu District Emergency Operations Centre Helpline 1077",
+      "hi": "तमिलनाडु जिला आपातकालीन परिचालन केंद्र हेल्पलाइन 1077"
+    },
+    "operator": "Tamil Nadu State Disaster Management Authority (TNSDMA)",
+    "purpose": {
+      "en": "District-level disaster helpline number published by TNSDMA, reachable from districts across Tamil Nadu.",
+      "hi": "TNSDMA द्वारा प्रकाशित जिला-स्तरीय आपदा हेल्पलाइन नंबर, जो तमिलनाडु के जिलों से पहुँचा जा सकता है।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1077",
+    "dial": "1077",
+    "scope": "state:TN",
+    "sourceUrl": "https://tnsdma.tn.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "tamil nadu 1077",
+      "tn deoc"
+    ],
+    "languages": [
+      "ta"
+    ],
+    "evidence": "மாநில உதவி எண் 1070 மாவட்ட உதவி எண் 1077 (State helpline number 1070, District helpline number 1077)",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ap-state-helpline-1070",
+    "name": {
+      "en": "Andhra Pradesh State Emergency Help Line 1070",
+      "hi": "आंध्र प्रदेश राज्य हेल्पलाइन 1070"
+    },
+    "operator": "Andhra Pradesh State Disaster Management Authority (APSDMA)",
+    "purpose": {
+      "en": "State-level disaster help line published on the APSDMA website for emergencies in Andhra Pradesh.",
+      "hi": "आंध्र प्रदेश में आपात स्थितियों के लिए APSDMA वेबसाइट पर प्रकाशित राज्य-स्तरीय आपदा हेल्पलाइन।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1070",
+    "dial": "1070",
+    "scope": "state:AP",
+    "sourceUrl": "https://apsdma.ap.gov.in/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "apsdma",
+      "andhra 1070"
+    ],
+    "languages": [],
+    "evidence": "State Help line 1070,112",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ap-apsdma-tollfree-18004250101",
+    "name": {
+      "en": "APSDMA Toll Free Disaster Helpline 18004250101",
+      "hi": "APSDMA टोल-फ्री आपदा हेल्पलाइन 18004250101"
+    },
+    "operator": "Andhra Pradesh State Disaster Management Authority (APSDMA)",
+    "purpose": {
+      "en": "Toll-free disaster assistance number published on the APSDMA website.",
+      "hi": "APSDMA वेबसाइट पर प्रकाशित टोल-फ्री आपदा सहायता नंबर।"
+    },
+    "category": "disaster",
+    "serviceType": "reporting",
+    "displayNumber": "18004250101",
+    "dial": "18004250101",
+    "scope": "state:AP",
+    "sourceUrl": "https://apsdma.ap.gov.in/",
+    "hours": "Hours not published",
+    "charges": "toll-free",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "apsdma toll free"
+    ],
+    "languages": [],
+    "evidence": "Toll Free No: 18004250101",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ap-108-ambulance",
+    "name": {
+      "en": "Andhra Pradesh Emergency Ambulance 108",
+      "hi": "आंध्र प्रदेश आपातकालीन एम्बुलेंस 108"
+    },
+    "operator": "Health and Medical Emergency service (documented on Prakasam district page, ap.gov.in)",
+    "purpose": {
+      "en": "Emergency ambulance and medical response for Andhra Pradesh, listed under Health and Medical Emergency on the official district helpline page.",
+      "hi": "आंध्र प्रदेश में आपातकालीन एम्बुलेंस और चिकित्सा प्रतिक्रिया, जो सरकारी जिला हेल्पलाइन पृष्ठ पर स्वास्थ्य एवं चिकित्सा आपात के अंतर्गत दर्ज है।"
+    },
+    "category": "health",
+    "serviceType": "dispatch",
+    "displayNumber": "108",
+    "dial": "108",
+    "scope": "state:AP",
+    "sourceUrl": "https://prakasam.ap.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "andhra 108",
+      "ap ambulance"
+    ],
+    "languages": [],
+    "evidence": "Health and Medical Emergency : 108 / 104",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ap-104-health-helpline",
+    "name": {
+      "en": "Andhra Pradesh Health Helpline 104",
+      "hi": "आंध्र प्रदेश स्वास्थ्य हेल्पलाइन 104"
+    },
+    "operator": "Health and Medical Emergency service (documented on Prakasam district page, ap.gov.in)",
+    "purpose": {
+      "en": "Health advice and medical emergency support helpline for Andhra Pradesh, listed alongside 108 on the official district helpline page.",
+      "hi": "आंध्र प्रदेश के लिए स्वास्थ्य सलाह और चिकित्सा आपात सहायता हेल्पलाइन, जो सरकारी जिला पृष्ठ पर 108 के साथ दर्ज है।"
+    },
+    "category": "health",
+    "serviceType": "advice",
+    "displayNumber": "104",
+    "dial": "104",
+    "scope": "state:AP",
+    "sourceUrl": "https://prakasam.ap.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "andhra 104",
+      "ap health helpline"
+    ],
+    "languages": [],
+    "evidence": "Health and Medical Emergency : 108 / 104",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ap-electricity-complaints-155333",
+    "name": {
+      "en": "Andhra Pradesh Electricity Complaints 155333",
+      "hi": "आंध्र प्रदेश बिजली शिकायत 155333"
+    },
+    "operator": "AP DISCOMs (documented on Prakasam district page, ap.gov.in)",
+    "purpose": {
+      "en": "Complaint line for electricity supply issues in Andhra Pradesh.",
+      "hi": "आंध्र प्रदेश में बिजली आपूर्ति की समस्याओं की शिकायत के लिए लाइन।"
+    },
+    "category": "utilities",
+    "serviceType": "complaints",
+    "displayNumber": "155333",
+    "dial": "155333",
+    "scope": "state:AP",
+    "sourceUrl": "https://prakasam.ap.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "ap power complaints",
+      "155333"
+    ],
+    "languages": [],
+    "evidence": "Electricity Complaints : 155333",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ap-child-helpline-1098",
+    "name": {
+      "en": "Andhra Pradesh Child Helpline 1098",
+      "hi": "आंध्र प्रदेश चाइल्ड हेल्पलाइन 1098"
+    },
+    "operator": "Childline (documented on Prakasam district page, ap.gov.in)",
+    "purpose": {
+      "en": "Child helpline for children in distress in Andhra Pradesh, listed on the official district helpline page.",
+      "hi": "आंध्र प्रदेश में संकट में फंसे बच्चों के लिए चाइल्ड हेल्पलाइन, जो सरकारी जिला हेल्पलाइन पृष्ठ पर दर्ज है।"
+    },
+    "category": "safety",
+    "serviceType": "reporting",
+    "displayNumber": "1098",
+    "dial": "1098",
+    "scope": "state:AP",
+    "sourceUrl": "https://prakasam.ap.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "childline andhra",
+      "ap 1098"
+    ],
+    "languages": [],
+    "evidence": "Child Helpline : 1098",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ap-women-children-1091",
+    "name": {
+      "en": "Andhra Pradesh Crime Against Women and Children Helpline 1091",
+      "hi": "आंध्र प्रदेश महिला एवं बाल अपराध हेल्पलाइन 1091"
+    },
+    "operator": "Police (documented on Prakasam district page, ap.gov.in)",
+    "purpose": {
+      "en": "Helpline to report crime against women and children in Andhra Pradesh.",
+      "hi": "आंध्र प्रदेश में महिलाओं और बच्चों के खिलाफ अपराध की सूचना देने के लिए हेल्पलाइन।"
+    },
+    "category": "safety",
+    "serviceType": "reporting",
+    "displayNumber": "1091",
+    "dial": "1091",
+    "scope": "state:AP",
+    "sourceUrl": "https://prakasam.ap.gov.in/helpline",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "ap 1091",
+      "andhra women helpline"
+    ],
+    "languages": [],
+    "evidence": "Crime Against Women and Children : 1091 / 112",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ts-state-control-room-1070",
+    "name": {
+      "en": "Telangana State Control Room 1070",
+      "hi": "तेलंगाना राज्य नियंत्रण कक्ष 1070"
+    },
+    "operator": "Government of Telangana (Revenue / Disaster Management)",
+    "purpose": {
+      "en": "State control room number for disaster reporting and coordination in Telangana, published on the official Telangana government helpline page.",
+      "hi": "तेलंगाना में आपदा की सूचना और समन्वय के लिए राज्य नियंत्रण कक्ष नंबर, जो सरकारी हेल्पलाइन पृष्ठ पर प्रकाशित है।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1070",
+    "dial": "1070",
+    "scope": "state:TS",
+    "sourceUrl": "https://hyderabad.telangana.gov.in/helpline/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "telangana 1070",
+      "ts state control room"
+    ],
+    "languages": [],
+    "evidence": "State Control Room : 1070",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ts-disaster-helpline-1077",
+    "name": {
+      "en": "Telangana Disaster Help Line 1077",
+      "hi": "तेलंगाना आपदा हेल्पलाइन 1077"
+    },
+    "operator": "Government of Telangana (Revenue / Disaster Management)",
+    "purpose": {
+      "en": "Disaster help line for Telangana, published on the official Telangana government helpline page.",
+      "hi": "तेलंगाना के लिए आपदा हेल्पलाइन, जो सरकारी हेल्पलाइन पृष्ठ पर प्रकाशित है।"
+    },
+    "category": "disaster",
+    "serviceType": "dispatch",
+    "displayNumber": "1077",
+    "dial": "1077",
+    "scope": "state:TS",
+    "sourceUrl": "https://hyderabad.telangana.gov.in/helpline/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "telangana 1077",
+      "ts disaster helpline"
+    ],
+    "languages": [],
+    "evidence": "Disaster Help Line : 1077",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ts-police-control-room-100",
+    "name": {
+      "en": "Telangana Police Control Room 100",
+      "hi": "तेलंगाना पुलिस नियंत्रण कक्ष 100"
+    },
+    "operator": "Telangana Police",
+    "purpose": {
+      "en": "Police control room number published on the official Telangana government helpline page, beyond the 112 short code.",
+      "hi": "सरकारी हेल्पलाइन पृष्ठ पर प्रकाशित पुलिस नियंत्रण कक्ष नंबर, जो 112 के अतिरिक्त उपलब्ध है।"
+    },
+    "category": "crime",
+    "serviceType": "dispatch",
+    "displayNumber": "100",
+    "dial": "100",
+    "scope": "state:TS",
+    "sourceUrl": "https://hyderabad.telangana.gov.in/helpline/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "telangana police",
+      "police 100"
+    ],
+    "languages": [],
+    "evidence": "Police Control Room : 100",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ts-accident-help-line-108",
+    "name": {
+      "en": "Telangana Accident Help Line 108",
+      "hi": "तेलंगाना दुर्घटना सहायता लाइन 108"
+    },
+    "operator": "Government of Telangana (documented on official district helpline page)",
+    "purpose": {
+      "en": "Ambulance/accident help line for Telangana, published on the official Telangana government helpline page.",
+      "hi": "तेलंगाना के लिए एम्बुलेंस/दुर्घटना सहायता लाइन, जो सरकारी हेल्पलाइन पृष्ठ पर प्रकाशित है।"
+    },
+    "category": "health",
+    "serviceType": "dispatch",
+    "displayNumber": "108",
+    "dial": "108",
+    "scope": "state:TS",
+    "sourceUrl": "https://hyderabad.telangana.gov.in/helpline/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "telangana 108",
+      "ts ambulance"
+    ],
+    "languages": [],
+    "evidence": "Accident Help Line : 108",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ts-health-services-104",
+    "name": {
+      "en": "Telangana Health Services Call Centre 104",
+      "hi": "तेलंगाना स्वास्थ्य सेवा कॉल सेंटर 104"
+    },
+    "operator": "Employees Health Scheme / Aarogyasri services, Government of Telangana",
+    "purpose": {
+      "en": "Call centre for Employee Health Scheme and Aarogyasri services in Telangana; citizens in emergency are redirected to 108.",
+      "hi": "तेलंगाना में कर्मचारी स्वास्थ्य योजना और आरोग्यश्री सेवाओं के लिए कॉल सेंटर; आपात स्थिति में नागरिकों को 108 पर भेजा जाता है।"
+    },
+    "category": "health",
+    "serviceType": "advice",
+    "displayNumber": "104",
+    "dial": "104",
+    "scope": "state:TS",
+    "sourceUrl": "https://ehf.telangana.gov.in/Operations/staticpages/Services104.html",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "telangana 104",
+      "ehs 104"
+    ],
+    "languages": [],
+    "evidence": "Employee Health Scheme Services @ 104 ... Citizens in case of any emergency will be redirected to 108 for quick response and care.",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ts-child-helpline-1098",
+    "name": {
+      "en": "Telangana Child Help Line 1098",
+      "hi": "तेलंगाना चाइल्ड हेल्पलाइन 1098"
+    },
+    "operator": "Childline (documented on official Telangana district helpline page)",
+    "purpose": {
+      "en": "Child helpline for children in distress in Telangana, published on the official Telangana government helpline page.",
+      "hi": "तेलंगाना में संकट में फंसे बच्चों के लिए चाइल्ड हेल्पलाइन, जो सरकारी हेल्पलाइन पृष्ठ पर प्रकाशित है।"
+    },
+    "category": "safety",
+    "serviceType": "reporting",
+    "displayNumber": "1098",
+    "dial": "1098",
+    "scope": "state:TS",
+    "sourceUrl": "https://hyderabad.telangana.gov.in/helpline/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "childline telangana",
+      "ts 1098"
+    ],
+    "languages": [],
+    "evidence": "Child Help line : 1098",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  },
+  {
+    "id": "ts-sexual-harassment-1091",
+    "name": {
+      "en": "Telangana Sexual Harassment Helpline 1091",
+      "hi": "तेलंगाना यौन उत्पीड़न हेल्पलाइन 1091"
+    },
+    "operator": "Telangana Police (documented on official district helpline page)",
+    "purpose": {
+      "en": "Helpline to report sexual harassment in Telangana, published on the official Telangana government helpline page.",
+      "hi": "तेलंगाना में यौन उत्पीड़न की शिकायत के लिए हेल्पलाइन, जो सरकारी हेल्पलाइन पृष्ठ पर प्रकाशित है।"
+    },
+    "category": "safety",
+    "serviceType": "reporting",
+    "displayNumber": "1091",
+    "dial": "1091",
+    "scope": "state:TS",
+    "sourceUrl": "https://hyderabad.telangana.gov.in/helpline/",
+    "hours": "Hours not published",
+    "charges": "not published",
+    "channels": {
+      "sms": null,
+      "whatsapp": null,
+      "web": null
+    },
+    "aliases": [
+      "ts 1091",
+      "telangana women helpline"
+    ],
+    "languages": [],
+    "evidence": "Sexual Harashment : 1091",
+    "checkedDate": "2026-11-09",
+    "status": "published"
+  }
+]
