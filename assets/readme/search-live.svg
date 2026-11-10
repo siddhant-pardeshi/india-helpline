@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-label="India Helpline search demo — type a misspelled query, get the right number">
+  <defs>
+    <linearGradient id="slbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F1620"/>
+      <stop offset="1" stop-color="#101B26"/>
+    </linearGradient>
+    <linearGradient id="slcall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F8A6C"/>
+      <stop offset="1" stop-color="#0B7A5E"/>
+    </linearGradient>
+    <linearGradient id="slhair" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C41414" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#3DD3A5" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#C41414" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="slsh" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      @media (prefers-reduced-motion: reduce) {
+        .ch, .card, .tick, .caret, .shim { animation: none !important; }
+        .ch, .card { opacity: 1 !important; }
+      }
+      .caret { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+      .ch { opacity: 0; animation-duration: 9s; animation-iteration-count: infinite; animation-timing-function: step-end; }
+      .ch0 { animation-name: k0; } .ch1 { animation-name: k1; } .ch2 { animation-name: k2; }
+      .ch3 { animation-name: k3; } .ch4 { animation-name: k4; } .ch5 { animation-name: k5; }
+      .ch6 { animation-name: k6; } .ch7 { animation-name: k7; }
+      @keyframes k0 { 0% {opacity:0} 6% {opacity:1} 92% {opacity:1} 93% {opacity:0} 100% {opacity:0} }
+      @keyframes k1 { 0% {opacity:0} 12% {opacity:1} 92% {opacity:1} 93% {opacity:0} 100% {opacity:0} }
+      @keyframes k2 { 0% {opacity:0} 18% {opacity:1} 92% {opacity:1} 93% {opacity:0} 100% {opacity:0} }
+      @keyframes k3 { 0% {opacity:0} 24% {opacity:1} 92% {opacity:1} 93% {opacity:0} 100% {opacity:0} }
+      @keyframes k4 { 0% {opacity:0} 30% {opacity:1} 92% {opacity:1} 93% {opacity:0} 100% {opacity:0} }
+      @keyframes k5 { 0% {opacity:0} 36% {opacity:1} 92% {opacity:1} 93% {opacity:0} 100% {opacity:0} }
+      @keyframes k6 { 0% {opacity:0} 42% {opacity:1} 92% {opacity:1} 93% {opacity:0} 100% {opacity:0} }
+      @keyframes k7 { 0% {opacity:0} 48% {opacity:1} 92% {opacity:1} 93% {opacity:0} 100% {opacity:0} }
+
+      .card { opacity: 0; animation: cardIn 9s infinite cubic-bezier(.2,.7,.3,1); }
+      @keyframes cardIn {
+        0%, 52% { opacity: 0; transform: translateY(14px); }
+        60% { opacity: 1; transform: translateY(0); }
+        90% { opacity: 1; transform: translateY(0); }
+        96%, 100% { opacity: 0; transform: translateY(6px); }
+      }
+      .tick { opacity: 0.22; animation: tk 6.5s infinite; }
+      .t1 { animation-delay: 0s; } .t2 { animation-delay: .55s; } .t3 { animation-delay: 1.1s; }
+      .t4 { animation-delay: 1.65s; } .t5 { animation-delay: 2.2s; } .t6 { animation-delay: 2.75s; }
+      @keyframes tk { 0%, 20%, 100% { opacity: 0.22; } 8% { opacity: 1; } }
+      .shim { animation: sh 7s linear infinite; }
+      @keyframes sh { 0% { transform: translateX(-180px); opacity: 0; } 12% { opacity: 1; } 55% { opacity: 1; } 75% { transform: translateX(1180px); opacity: 0; } 100% { transform: translateX(1180px); opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="560" fill="url(#slbg)"/>
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <text x="600" y="66" font-size="34" font-weight="800" fill="#F2F1EC" text-anchor="middle">Watch the search understand a real human</text>
+    <text x="600" y="98" font-size="19" font-weight="500" fill="#93A0AD" text-anchor="middle">typo included · Hindi included · works on a ₹4,000 phone on a 2G bar</text>
+
+    <!-- search bar -->
+    <g filter="url(#slsh)">
+      <rect x="200" y="150" width="800" height="66" rx="16" fill="#FFFFFF"/>
+    </g>
+    <circle cx="238" cy="183" r="12" fill="none" stroke="#8593A4" stroke-width="2.4"/>
+    <path d="M247 192l8 8" stroke="#8593A4" stroke-width="2.4" stroke-linecap="round"/>
+    <g font-size="30" font-weight="700" fill="#16202C">
+      <text class="ch ch0" x="280" y="193">u</text>
+      <text class="ch ch1" x="299" y="193">p</text>
+      <text class="ch ch2" x="318" y="193">i</text>
+      <text class="ch ch3" x="332" y="193">&#160;</text>
+      <text class="ch ch4" x="346" y="193">f</text>
+      <text class="ch ch5" x="362" y="193">r</text>
+      <text class="ch ch6" x="378" y="193">a</text>
+      <text class="ch ch7" x="397" y="193" fill="#E8871E">d</text>
+    </g>
+    <rect class="caret" x="420" y="162" width="3" height="40" rx="1.5" fill="#C41414"/>
+    <text x="960" y="192" font-size="15" font-weight="600" fill="#8593A4" text-anchor="end">← the typo stays. the search forgives.</text>
+
+    <!-- result card -->
+    <g class="card">
+      <g filter="url(#slsh)">
+        <rect x="200" y="258" width="800" height="150" rx="18" fill="#FFFFFF"/>
+      </g>
+      <rect x="200" y="258" width="800" height="6" rx="3" fill="#3DD3A5"/>
+      <text x="236" y="304" font-size="24" font-weight="800" fill="#16202C">Cyber Crime Helpline — 1930</text>
+      <text x="236" y="332" font-size="16" fill="#4C5A6B">Report online &amp; financial frauds (UPI, net-banking). Fast calls feed a</text>
+      <text x="236" y="354" font-size="16" fill="#4C5A6B">bank-linked system that can freeze the money mid-flight.</text>
+      <rect x="236" y="368" width="86" height="24" rx="12" fill="#EDF2FE"/>
+      <text x="279" y="385" font-size="13" font-weight="700" fill="#1D4ED8" text-anchor="middle">All India</text>
+      <rect x="330" y="368" width="96" height="24" rx="12" fill="#EDF2FE"/>
+      <text x="378" y="385" font-size="13" font-weight="700" fill="#1D4ED8" text-anchor="middle">Reporting</text>
+      <rect x="434" y="368" width="150" height="24" rx="12" fill="#EAF5F1"/>
+      <text x="509" y="385" font-size="13" font-weight="700" fill="#0B7A5E" text-anchor="middle">✓ Verified — source + date</text>
+      <rect x="836" y="306" width="132" height="56" rx="14" fill="url(#slcall)"/>
+      <text x="902" y="342" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle">📞 1930</text>
+      <text x="836" y="392" font-size="14" font-weight="800" fill="#16202C" text-anchor="end" dx="132">1930</text>
+    </g>
+
+    <!-- also understands ticker -->
+    <text x="200" y="474" font-size="16" font-weight="800" fill="#F5A94E">ALSO UNDERSTANDS:</text>
+    <g font-size="22" font-weight="800">
+      <text class="tick t1" x="200" y="512" fill="#3DD3A5">aag</text>
+      <text class="tick t2" x="300" y="512" fill="#7FA6FF">बच्चा</text>
+      <text class="tick t3" x="420" y="512" fill="#3DD3A5">gaadi</text>
+      <text class="tick t4" x="540" y="512" fill="#7FA6FF">zeher</text>
+      <text class="tick t5" x="650" y="512" fill="#3DD3A5">samudra</text>
+      <text class="tick t6" x="800" y="512" fill="#7FA6FF">mausam</text>
+      <text x="930" y="512" fill="#5E6B7B" font-size="17" font-weight="600">…and the number itself — try “1930”</text>
+    </g>
+  </g>
+  <rect x="0" y="548" width="1200" height="3" fill="#1E2936"/>
+  <rect class="shim" x="0" y="548" width="180" height="3" fill="url(#slhair)"/>
+</svg>

@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="assets/readme/banner.svg" alt="India Helpline — verified helpline numbers for India" width="100%">
+<img src="assets/readme/banner.svg" alt="India Helpline — verified emergency & helpline numbers for India" width="100%">
 
-**[🌐 Open the live site](https://siddhant-pardeshi.github.io/india-helpline/) · [हिंदी में खोलें](https://siddhant-pardeshi.github.io/india-helpline/hi/) · [Coverage & honesty report](https://siddhant-pardeshi.github.io/india-helpline/coverage.html) · [Printable list](https://siddhant-pardeshi.github.io/india-helpline/print.html)**
+**[🌐 Open the live site](https://siddhant-pardeshi.github.io/india-helpline/) · [हिंदी में खोलें](https://siddhant-pardeshi.github.io/india-helpline/hi/) · [📍 Coverage & honesty report](https://siddhant-pardeshi.github.io/india-helpline/coverage.html) · [🖨 Printable directory](https://siddhant-pardeshi.github.io/india-helpline/print.html) · [🔊 1:50 voice walkthrough](assets/voice/walkthrough.mp3)**
 
-![records](https://img.shields.io/badge/verified_records-28_national-blue) ![languages](https://img.shields.io/badge/languages-English_·_हिंदी-orange) ![offline](https://img.shields.io/badge/works-offline_(PWA)-success) ![tracking](https://img.shields.io/badge/tracking-zero-success) ![accessibility](https://img.shields.io/badge/target-WCAG_2.2_AA-informational) ![deps](https://img.shields.io/badge/runtime_dependencies-0-success)
+![records](https://img.shields.io/badge/verified_records-193_in_31_of_36_States_&_UTs-blue) ![national](https://img.shields.io/badge/national_services-28-orange) ![languages](https://img.shields.io/badge/languages-English_·_हिंदी_(Devanagari_search)-orange) ![offline](https://img.shields.io/badge/offline-PWA_with_saved--date_banner-success) ![tracking](https://img.shields.io/badge/tracking-zero-success) ![a11y](https://img.shields.io/badge/accessibility-WCAG_2.2_AA_targets-informational) ![deps](https://img.shields.io/badge/runtime_dependencies-0-success)
 
 </div>
 
@@ -18,8 +18,6 @@
 
 *A friendly voice walks you through the big idea: why 112 comes first, how every number gets verified,*
 *the search that forgives typos and speaks Hindi, and why your searches never leave your phone.*
-
-*(click → GitHub opens its built-in audio player)*
 
 <details>
 <summary>📖 Prefer reading? Full transcript</summary>
@@ -42,89 +40,238 @@
 
 ---
 
-## Someone on a railway platform, at 2 AM, doesn't want a website. They want a phone number.
-
-**India Helpline** is an independent public-service directory built for that moment. The first screen is one giant question — *"In immediate danger?"* — and one giant answer: **112**. Everything else — 27 national services, all 36 States & UTs, English and हिंदी — exists to get a person to the *right* number in seconds, and to get out of the way.
+## 📸 The live product — real screenshots, every tab
 
 <div align="center">
-<img src="assets/readme/screens.svg" alt="Home, search and state screens" width="100%">
+<table>
+<tr>
+<td width="50%" align="center"><b>🚨 The first screen answers first</b><br><sub>112 before anything else — selectable text beside a native <code>tel:</code> link. Works with JavaScript disabled.</sub></td>
+<td width="50%" align="center"><b>🔍 Search that forgives humans</b><br><sub>Typo "upi frad" → the verified 1930 card, one tap to dial, scope + source + check date on every result.</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/readme/screenshots/home-mobile.png" alt="Home screen on a 390px phone — 112 hero, search, quick choices" width="100%"></td>
+<td width="50%"><img src="assets/readme/screenshots/search-mobile.png" alt="Search results for UPI fraud" width="100%"></td>
+</tr>
+<tr>
+<td width="50%" align="center"><b>🇮🇳 Speaks actual Hindi</b><br><sub>Type <b>बच्चा</b> in Devanagari → बाल हेल्पलाइन 1098. A built-in transliterator bridges scripts in both directions.</sub></td>
+<td width="50%" align="center"><b>🏙 State pages with real local data</b><br><sub>Delhi: 10 locally-verified services first, then the 28 national ones. Another state's control room can never appear here.</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/readme/screenshots/search-hindi.png" alt="Hindi-script search for बच्चा returning Childline 1098" width="100%"></td>
+<td width="50%"><img src="assets/readme/screenshots/state-delhi.png" alt="Delhi state page with local services" width="100%"></td>
+</tr>
+<tr>
+<td width="50%" align="center"><b>🪪 Every dial button is defensible</b><br><sub>Native <code>&lt;details&gt;</code> reveals operator, hours, charges, languages, notes, the source link and the exact date checked.</sub></td>
+<td width="50%" align="center"><b>🧾 Honesty as a feature</b><br><sub>The coverage page declares what's verified in each jurisdiction — and exactly where local info is still missing.</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/readme/screenshots/record-card.png" alt="Record card with details expanded" width="100%"></td>
+<td width="50%"><img src="assets/readme/screenshots/coverage.png" alt="Coverage page showing verified jurisdictions and gaps" width="100%"></td>
+</tr>
+</table>
+
+<sub>Desktop, the full Hindi site (<code>/hi/</code>), and the print layout ship too — <a href="assets/readme/screenshots/home-desktop.png">desktop home</a> · <a href="assets/readme/screenshots/home-hindi.png">हिंदी home</a></sub>
 </div>
 
-## The rule that shaped everything: no evidence, no listing
+---
 
-Every number is published **only** after its digits, operator, purpose and jurisdiction are matched against the operator's own official page — and every card shows its [source link](https://i4c.mha.gov.in/ncrp.aspx) and the date it was checked. When sources conflict, the record is held back and the gap is stated openly on the [coverage page](https://siddhant-pardeshi.github.io/india-helpline/coverage.html) — because a wrong "help" number is worse than an honest blank.
+## 🎬 Watch the search understand a real human
 
-<img src="assets/readme/architecture.svg" alt="Verify → record → validate → build → serve" width="100%">
+<div align="center">
+<img src="assets/readme/search-live.svg" alt="Animated demo: typing 'upi frad' with a typo, the 1930 result card appears" width="100%">
+</div>
 
-## What you can search for
+The search engine is hand-built (zero libraries) around one insight: **people in distress don't type clean queries.**
 
-The search understands how people actually look for help — including **Devanagari script**, romanised Hindi, and misspellings:
+- **Typo tolerance** — bounded edit-distance matching (`upi frad` → *fraud*, d=2 gated by word length so "leak" ≠ "legal")
+- **Script bridging** — a Devanagari→Latin transliterator folds बच्चा/आग/गाड़ी into the same haystack as `bachcha`/`aag`/`gaadi`
+- **Hindi + English names, purposes and aliases** all scored in one index
+- **Synonym map** — *aag→fire, zeher→poison, samudra→coast guard, dhokha→fraud…*
+- **Urgency-weighted ranking** — emergency categories outrank advice lines
+- **Scope isolation** — pick your state and another state's local numbers are *hard-excluded*, never merely demoted
+- **Numbers are searchable** — type `1930` and find the service
+- **Keyboard-navigable** results with visible focus, `aria-live` status, debounced 90 ms
 
-| You type | You get |
+---
+
+## 🧭 The problem, and why it's harder than it looks
+
+**The moment:** someone on a railway platform at 2 AM, a father with a convulsing child, a student whose UPI account just drained. They don't want a website. They want *the right number, right now*.
+
+**Why existing answers fail:**
+
+| Failure | Consequence |
 |---|---|
-| `upi frad` *(misspelled)* | **1930** — Cyber Crime Helpline, banks can freeze the fraud |
-| `medical help on train` | **139** — RailMadad security & medical assistance |
-| `बच्चा` *(Devanagari)* | **1098** — Child Helpline, 24x7 |
-| `aag` / `आग` | **112** first, then fire-related lines |
-| `gaadi` / `train` | **139 · 182** — railway assistance & RPF security |
-| `samudra` / `boat` | **1554** — Coast Guard maritime rescue |
-| `gas leak` *(in a state with no local listing)* | an honest "nothing local verified" + 112 — never another state's number |
+| Directory sites copy each other's numbers | Stale/wrong numbers propagate; a wrong "help" number is worse than none |
+| Emergency numbers buried under hero banners and ads | Seconds matter; every scroll costs |
+| English-only search | The person who needs help most often thinks in Hindi or a transliteration |
+| Assumed coverage ("this works everywhere!") | A Delhi piped-gas line is useless in Kerala — and misleading |
+| Auto-diallers and "request help" buttons | False reassurance; nothing is actually dispatched |
+| Heavy SPAs | Dies on a ₹4,000 phone with one bar of 2G — precisely where emergencies happen |
 
-## Engineering notes
+**The deeper problem:** trust. A helpline directory is only as good as its *worst* number. So this project treats verification as the product, not a feature.
 
-- **Zero runtime dependencies** — a dependency-free Node build script generates 112 static pages ×2 language trees. `node src/build.mjs` is the whole stack.
-- **Offline by design** — a service worker caches the directory; the offline banner shows the saved date; withdrawn records vanish from the cache on the visitor's next refresh. Navigations are network-first so retracted numbers can't linger.
-- **Defensible data layer** — `validate.mjs` gates publishing: required fields, duplicate detection, `tel:` digit ↔ display-number equivalence (including STD `0` → `+91`), short codes never prefixed with `+91`, HTTPS sources only, staleness warnings.
-- **WCAG 2.2 AA targets** — semantic headings, visible focus, 44px+ targets, `aria-live` search status, 320px-safe, reduced-motion support, light **and** dark theme.
-- **Privacy as architecture** — no account, no analytics, no geolocation, no third-party requests of any kind. Search terms never leave the device.
+## 💡 The solution — three non-negotiable principles
 
-## Repo layout
+1. **The emergency comes first.** `112` is the first thing on the first screen — a giant red call action that opens the phone's dialer (never auto-dials), rendered as selectable text beside the native `tel:` link, present in the header of every page, functional with JavaScript disabled.
+2. **No evidence, no listing.** A number ships only after its digits, operator, purpose and jurisdiction are matched against the operator's *own* official page — and the card then carries that source link and the check date forever. Conflicts get quarantined with a written reason; unverifiable leads live in `data/leads.md`, never on the site.
+3. **Honest gaps beat confident wrongness.** Four jurisdictions (AR, AS, LA, LD) have no verified local numbers yet. Their pages and the coverage page say exactly that, instead of showing something approximate.
+
+<div align="center">
+<img src="assets/readme/architecture.svg" alt="Verify → Record → Validate → Build → Serve pipeline (animated)" width="100%">
+</div>
+
+---
+
+## ✨ Every feature, explained
+
+### 🚨 Emergency-first interface
+- **112 hero** with a breathing ring (honors `prefers-reduced-motion`), selectable digits, one-tap `tel:112` — and a sticky `112` chip in the header of all 100+ pages.
+- No splash, no carousel, no cookie banner, no sign-in. The home page works before any choice is made.
+- Explicit disclosure: *this site lists contacts; it does not receive emergency requests and never places calls.*
+
+### 🔍 Instant search (the engine above)
+Built for stress: no network round-trips, everything runs locally against a compact JSON index — see the animated demo. Empty states redirect to 112 and to category browsing, never to a dead end.
+
+### 🗺️ Region-aware directory
+- Manual **state/UT selector** (36 jurisdictions, ISO codes) — no location permission, ever.
+- State pages: **locally verified services first**, then national services clearly labelled "Applies across India".
+- **Cross-state help:** in Delhi helping family in Assam? Pick Assam — the selector is about *where help is needed*, not where you are.
+- Search + category filters honor the chosen region instantly (the selector persists on change).
+
+### 🏗️ Defensible data layer
+```json
+{ "id": "national-cybercrime-1930",
+  "operator": "Indian Cyber Crime Coordination Centre (I4C), MHA",
+  "displayNumber": "1930", "dial": "1930",
+  "scope": "national", "hours": "Hours not published",
+  "charges": "toll-free",
+  "sourceUrl": "https://i4c.mha.gov.in/ncrp.aspx",
+  "evidence": "…helpline number 1930 is running in all States/UTs.",
+  "checkedDate": "2026-11-09", "status": "published" }
+```
+- Stable IDs, EN+HI names/purposes, aliases, languages, channels (SMS/WhatsApp/web only when the operator documents them), notes, evidence quote, check date, lifecycle status (`published` / `quarantined` + reason).
+- **Never inferred:** 24×7, toll-free, nationwide scope, anonymity — only published when the source says so. `"Hours not published"` is a valid, honest value.
+- Short codes (≤5 digits) never get `+91`; STD landlines dial as `+91-STD-number` with digit-equivalence validated.
+
+### 🛡️ The publish gate (`src/validate.mjs`)
+A hard gate, not a lint suggestion — the build refuses to ship dirty data: required fields, unique IDs, duplicate number+scope detection, dial↔display digit equivalence (incl. STD `0`→`+91`), scope code validity, HTTPS-only sources, future/stale check dates, status hygiene (quarantined records must carry reasons), plus a `node --check` syntax gate on every shipped script.
+
+### 🇮🇳 True bilingual (not a translate widget)
+- **Complete parallel Hindi tree** at `/hi/` — every page, every empty state, every emergency action.
+- Language switch preserves the current page/filters; `hreflang` + canonicals are generated per page.
+- Interface language stays distinct from *operator* languages (documented per record when the source states them).
+- Devanagari search works natively (transliterator above). English fallback shows if a Hindi description is missing.
+
+### 📴 Offline-first PWA
+- Service worker (scope-aware — works at site root *and* under the GitHub Pages sub-path) caches the directory on first visit.
+- Offline banner states the **saved date**; the footer pill shows it too.
+- **Network-first navigations** mean a withdrawn record disappears on the visitor's next online visit — stale numbers can't linger offline.
+- Graceful offline fallback page that still offers `tel:112`.
+
+### 🔐 Privacy by architecture
+No accounts, no analytics, no ads, no third-party requests (fonts/icons/SVGs are bundled), no geolocation, **search terms never leave the device** and never enter URLs or logs. Location is a manual dropdown. "Report incorrect details" is a pre-filled mailto to the owner channel — clearly labelled as unable to send help.
+
+### ♿ Accessibility (WCAG 2.2 AA targets)
+Semantic headings, skip-link, visible focus everywhere (including keyboard-navigated search results), 44px+ touch targets, `aria-live` search status, tabular numerals for numbers, 320px-safe layout, light+dark themes, all motion behind `prefers-reduced-motion`. Every design token's contrast was verified programmatically (all pairs ≥ 4.5:1 after we fixed the ones that weren't).
+
+### 🖨️ Print & share
+`/print.html` — plain list of numbers, scope and check dates, `print`-optimized CSS (cards avoid page breaks, chrome hidden). Built for noticeboards at home, schools, workplaces, panchayat offices.
+
+### 🧾 Governance
+`MAINTENANCE.md` documents the named-owner review cycle (180-day interval, dispatch lines monthly), the exact "verify a replacement source" workflow, retire/rollback procedure, and the owner-contact handoff. `data/leads.md` is the quarantine ledger of unverified leads. `CHANGELOG.md` records every data change with reasons.
+
+---
+
+## 🧪 Engineering rigor — bugs we found in ourselves
+
+Shipped *after* fixing, each verified end-to-end:
+
+| Bug | Root cause | Fix |
+|---|---|---|
+| SW registration silently failing on every page | `await` inside a non-async `.then()` (syntax error) introduced by a string-patch that only replaced the first match | Fixed both functions; added a `node --check` **syntax gate** to the build |
+| Service worker killing controlled navigations (`ERR_FAILED`) | `cache.put()` called on a `Promise` (not the resolved cache) inside `respondWith` | Resolve the cache first; harden with catch → offline fallback |
+| `fetch()` rejecting navigations | navigation `Request` objects have `mode: 'navigate'` which `fetch()` forbids | Always fetch by URL string |
+| Search crashed on all 72 state pages | `wireRegion` assumed a `<form>`; state pages use a button → null deref killed the whole boot chain | Handle both; Go-button navigation verified |
+| Wrong state's numbers leaking into search | Out-of-state penalty (−200) couldn't beat a strong text match — a WB user saw Delhi's piped-gas line | **Hard exclusion** of other states' local records |
+| Region ignored until "Go" pressed | Persist-on-submit only | Persist on change — search is region-aware instantly |
+| Hindi-script search returned nothing | Index/aliases were Latin-only | Devanagari transliterator + HI fields in the haystack |
+| False-positive matches ("gas leak" → legal aid) | Edit-distance too loose for short words | d≤1 below 6 chars, deduped pools, best-match only |
+| Header/hero flush-left at narrow widths | double-class padding override (`wrap topbar-in`) zeroed horizontal padding | `padding-block` split |
+| Mobile horizontal overflow | fluid grid tracks (`1fr`) can't shrink below content | `minmax(0,1fr)` everywhere; shrinkable select |
+| Contrast failures (3.0, 2.5, 3.1) | faint/saffron tokens + dark-mode button text | New tokens; all pairs verified ≥ 4.5:1 |
+| PWA shortcuts 404 on Pages | root-absolute URLs under a sub-path | relative URLs |
+| Offline pill never showed its date | client never asked the SW | request/response message wired |
+
+---
+
+## 🏗️ Architecture & stack
 
 ```
-├── data/
-│   ├── states.json              # official 36 jurisdictions (ISO 3166-2)
-│   └── records/                 # verified records — the heart of the repo
-│       ├── national.json        # 112, 139, 181, 1098…
-│       ├── national-health.json # 108/102, Tele-MANAS 14416, poison centres…
-│       ├── national-travel.json # 182, 1033, 1363, 1078, 1554, NDRF…
-│       └── states/              # state/UT-level records (research in progress)
-├── i18n/en.json · hi.json       # every UI string, both languages
-├── src/
-│   ├── build.mjs                # the site generator
-│   ├── validate.mjs             # the publish gate
-│   ├── lib/                     # templates + SVG icon system
-│   └── assets/                  # design system, client search, service worker
-├── assets/readme/               # hand-drawn SVG banner, screens, architecture
-├── MAINTENANCE.md               # review cycle, retirement workflow, rollback
-└── CHANGELOG.md                 # what changed, when, why
+data/records/*.json  ─┐
+i18n/{en,hi}.json    ─┤   src/build.mjs (zero-dependency Node)
+data/states.json     ─┤        │  validate.mjs gates publish
+                      ┘        ▼
+                    site/  ── static HTML ×2 language trees (100+ pages)
+                      │        directory.json (search index + offline data)
+                      │        sw.js (scope-aware offline cache)
+                      └──────► GitHub Pages  ──► https://…/india-helpline/
 ```
 
-## Run it
+- **Zero runtime dependencies.** The whole toolchain is one dependency-free Node build script; output is plain static files — hostable anywhere for ~₹0.
+- **~40 KB HTML first load**; search index injected only where search lives.
+- **Deploy:** `main` holds source; a clean worktree push of the built `site/` goes to `gh-pages`. `--site-url`/`--base-path` flags generate canonicals, hreflang and a 102-URL `sitemap.xml`.
 
+### Run it locally
 ```bash
-node src/build.mjs      # → site/  (English at /, Hindi at /hi/)
-node src/validate.mjs   # must print RESULT: PASS
-# then serve site/ statically — any web server works
+node src/validate.mjs        # must print RESULT: PASS
+node src/build.mjs           # → site/
+npx serve site               # or any static server
 ```
 
-## Tested, not assumed
+### Add or fix a listing (the 5-minute workflow)
+Open the operator's official page → confirm digits/operator/purpose/jurisdiction → add the record with `evidence` + today's `checkedDate` → validate → build → deploy → changelog. Full guide: [MAINTENANCE.md](MAINTENANCE.md).
 
-Every release walks the acceptance scenarios: narrow phone with JS disabled → **112 still visible and dialable**; `medical help on train` → railway assistance; `UPI fraud` → the verified reporting route; cross-state search → never shows another state's control room as local; Hindi user → same number on screen as in the dialer; offline visitor → saved numbers + cache date; quarantined record → absent from site *and* cache.
+---
 
-## Found a wrong number?
+## 🗺️ Roadmap
 
-Every listing has **"Report incorrect details"** — it opens a pre-filled mail to the owner channel and cannot send help. For any emergency, call **112**; this site never places calls automatically.
+- [ ] Close the 4 declared gaps (AR · AS · LA · LD) — official pages needed (AR was blocked by research tooling, not by missing data)
+- [ ] District-level depth for high-population states (Mumbai, Bengaluru, Kolkata…)
+- [ ] Additional regional languages (MR, TA, BN, GU, KN…) once wording can be officially verified
+- [ ] Community submissions through a PR template with the evidence-quote requirement enforced
+- [ ] Quarterly automated source-link liveness checks
+
+## 📊 Repository map
+
+```
+├── data/records/national*.json   # 28 verified national services
+├── data/records/states/*.json    # 165 state/UT records (north/south/east/final batches)
+├── data/leads.md                 # unverified leads — never rendered
+├── i18n/{en,hi}.json             # every UI string
+├── src/build.mjs                 # the generator (syntax-gated)
+├── src/validate.mjs              # the publish gate
+├── src/assets/                   # design system, client search, service worker
+├── assets/readme/                # animated SVGs + real screenshots + voice tour
+├── MAINTENANCE.md · CHANGELOG.md · README.md
+```
+
+## 🤝 Contributing
+
+The best contribution is a **verified number**: open a PR adding a record with `sourceUrl` + `evidence` quote + `checkedDate`. A maintainer re-opens the source before merging — the gate runs in CI-spirit even without CI. Found a wrong number on the site? Use "Report incorrect details" on that card, or open an issue.
+
+## ⚖️ Notes
+
+Independent public-service project — **not a government website**. Numbers belong to their operators; the operators' own pages (linked on every card) are the source of truth. In an emergency, call **112**. This project never places calls automatically.
 
 ---
 
 <div align="center">
 
-*Built as an independent public service — not a government website. Numbers belong to their operators; the operators' own pages, linked on every card, are the source of truth.*
+<img src="assets/readme/finale.svg" alt="Hypnotic finale — orbiting verified numbers around the pulsing 112 core" width="100%">
 
-**If this repo helps you, a ⭐ helps it reach someone who might need it at 2 AM.**
+<sub>↻ the rings turn, the beacons glow, the number stays the same: <b>112</b> — police · fire · medical, anywhere in India.</sub>
 
-<img src="assets/readme/footer-animated.svg" alt="India Helpline animated footer — pulsing 112 badge, verify-publish-retire cycle, and the live numbers marquee" width="100%">
-
-*⚡ The badge pulses, the cycle glows and the numbers march — this footer is a live animation, no JavaScript required.*
+**If this repo could help someone at 2 AM, a ⭐ is how it finds them.**
 
 </div>
