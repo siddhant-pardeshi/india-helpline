@@ -134,6 +134,7 @@ ${content}
       <a href="mailto:${esc(cfg.contactEmail)}?subject=${encodeURIComponent('India Helpline — problem report')}">${esc(t9(t, 'record.report'))}</a>
     </div>
     <span class="offline-pill" id="offline-pill"><span class="dot"></span><span id="offline-pill-text">${esc(t9(t, 'footer.offlineNone'))}</span></span>
+    <p class="credit-band"><span class="heart" aria-hidden="true">${icons.heart(14)}</span><span>${esc(t9(t, 'footer.builtByPre'))} <span class="name">${esc(t9(t, 'footer.builtByName'))}</span> ${esc(t9(t, 'footer.builtByPost'))}</span></p>
   </div>
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>

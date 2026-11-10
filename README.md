@@ -272,6 +272,8 @@ Independent public-service project — **not a government website**. Numbers bel
 
 <sub>↻ the rings turn, the beacons glow, the number stays the same: <b>112</b> — police · fire · medical, anywhere in India.</sub>
 
+**Built by <span style="background:linear-gradient(90deg,#B45309,#0B7A5E,#1D4ED8,#B45309);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent">Siddhant Pardeshi</span> — for public welfare. 🇮🇳**
+
 **If this repo could help someone at 2 AM, a ⭐ is how it finds them.**
 
 </div>

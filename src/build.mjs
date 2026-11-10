@@ -167,6 +167,7 @@ function emergencyBanner(t, lang) {
     </div>
   </div>
   <div class="wrap"><p class="emg-note fade-up d2">${esc(t.emergency.note)} ${esc(t.emergency.powerButton)}</p></div>
+  <div class="emg-sparks" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
 </section>`;
 }
 
@@ -435,6 +436,7 @@ function pageAbout(lang) {
       <div class="cov-row"><span class="code">${i + 1}</span><span class="st">${esc(t.about[k])}</span></div>`).join('\n')}
     </div>
     <div class="notice blue" style="margin-top:1.5rem">${esc(cfg.ownerNote)}</div>
+    <p class="credit-band" style="margin-top:1.5rem"><span class="heart" aria-hidden="true">${icons.heart(14)}</span><span>${esc(t9(t, 'footer.builtByPre'))} <span class="name">${esc(t9(t, 'footer.builtByName'))}</span> ${esc(t9(t, 'footer.builtByPost'))}</span></p>
     <h2 class="section-title" style="margin-top:2.5rem">${esc(t.faq.title)}</h2>
     <div class="dir" style="grid-template-columns:1fr">
       ${faq}

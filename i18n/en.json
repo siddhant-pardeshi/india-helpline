@@ -114,7 +114,10 @@
     "offlineSaved": "Saved for offline use",
     "offlineNone": "Not saved offline yet",
     "offlineDate": "Saved {date}",
-    "links": "About · Coverage · Privacy · Print list · Report a problem"
+    "links": "About · Coverage · Privacy · Print list · Report a problem",
+    "builtByPre": "Built by",
+    "builtByName": "Siddhant Pardeshi",
+    "builtByPost": "— for public welfare"
   },
   "coverage": {
     "title": "What we have verified — and what is missing",
