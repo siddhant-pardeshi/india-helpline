@@ -637,3 +637,110 @@ html.offline .offbanner { display: block; }
 .svc.pre { opacity:0; transform: translateY(12px); }
 .svc.pre.in { opacity:1; transform:none; transition: opacity .5s var(--ease), transform .5s var(--ease); }
 @media (prefers-reduced-motion: reduce) { .svc.pre { opacity:1; transform:none; } .svc.pre.in { transition:none; } }
+
+/* ============================================================
+   signature animations — bold but calm, transform/opacity only,
+   everything dies under prefers-reduced-motion (global catch-all)
+   ============================================================ */
+
+/* --- hero aurora: slow drifting warm light blobs --- */
+.emg-banner::before {
+  content: ""; position: absolute; inset: -45%; z-index: -2;
+  background:
+    radial-gradient(38% 55% at 22% 30%, rgba(255,150,95,.30), transparent 70%),
+    radial-gradient(30% 45% at 78% 72%, rgba(255,90,90,.32), transparent 70%),
+    radial-gradient(26% 40% at 60% 18%, rgba(255,205,125,.18), transparent 70%);
+  animation: aurora 16s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+@keyframes aurora {
+  0%   { transform: translate3d(-4%, -3%, 0) scale(1); }
+  50%  { transform: translate3d(3%, 4%, 0) scale(1.07); }
+  100% { transform: translate3d(5%, -4%, 0) scale(1.03); }
+}
+
+/* --- rising embers in the hero --- */
+.emg-sparks { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.emg-sparks i {
+  position: absolute; bottom: -8px; width: 5px; height: 5px; border-radius: 50%;
+  background: #FFE3D0; box-shadow: 0 0 8px 2px rgba(255,190,150,.55);
+  opacity: 0; animation: spark 9.5s linear infinite;
+}
+.emg-sparks i:nth-child(1) { left: 5%;  animation-duration: 8.5s;  animation-delay: 0s; }
+.emg-sparks i:nth-child(2) { left: 16%; animation-duration: 10s;   animation-delay: 1.2s; width: 4px; height: 4px; }
+.emg-sparks i:nth-child(3) { left: 27%; animation-duration: 9s;    animation-delay: 2.6s; }
+.emg-sparks i:nth-child(4) { left: 41%; animation-duration: 11s;   animation-delay: .8s;  width: 3px; height: 3px; }
+.emg-sparks i:nth-child(5) { left: 54%; animation-duration: 8.8s;  animation-delay: 3.4s; }
+.emg-sparks i:nth-child(6) { left: 66%; animation-duration: 10.4s; animation-delay: 4.6s; width: 4px; height: 4px; }
+.emg-sparks i:nth-child(7) { left: 78%; animation-duration: 9.6s;  animation-delay: 2s; }
+.emg-sparks i:nth-child(8) { left: 90%; animation-duration: 10.8s; animation-delay: 5.8s; width: 3px; height: 3px; }
+@keyframes spark {
+  0%   { transform: translateY(0) scale(.6); opacity: 0; }
+  10%  { opacity: .95; }
+  70%  { opacity: .45; }
+  100% { transform: translateY(-190px) scale(1.2); opacity: 0; }
+}
+
+/* --- sonar echo rings on the 112 call actions --- */
+.emg-call { position: relative; }
+.emg-call::before, .emg-call::after {
+  content: ""; position: absolute; inset: -3px; border-radius: inherit;
+  border: 2px solid rgba(255,255,255,.6); opacity: 0;
+  animation: sonar 3.4s ease-out infinite; pointer-events: none;
+}
+.emg-call::after { animation-delay: 1.7s; }
+@keyframes sonar {
+  0%   { transform: scale(1); opacity: .5; }
+  70%  { transform: scale(1.3); opacity: 0; }
+  100% { transform: scale(1.3); opacity: 0; }
+}
+.call-chip { position: relative; }
+.call-chip::after {
+  content: ""; position: absolute; inset: -3px; border-radius: inherit;
+  border: 2px solid rgba(196,20,20,.5); opacity: 0;
+  animation: sonar 4.2s ease-out infinite; animation-delay: 1s;
+  pointer-events: none;
+}
+html[data-theme=dark] .call-chip::after { border-color: rgba(255,138,138,.5); }
+
+/* --- sheen sweep on the brand mark --- */
+.brand .mark { position: relative; overflow: hidden; }
+.brand .mark::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(115deg, transparent 32%, rgba(255,255,255,.55) 50%, transparent 68%);
+  transform: translateX(-130%); animation: sheen 7.5s ease-in-out infinite;
+}
+@keyframes sheen { 0%, 55% { transform: translateX(-130%); } 80%, 100% { transform: translateX(130%); } }
+
+/* --- flowing tri-color hairline on the footer --- */
+footer { position: relative; }
+footer::before {
+  content: ""; position: absolute; top: -1px; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, var(--red), var(--saffron), var(--green), var(--blue), var(--red));
+  background-size: 300% 100%; opacity: .65;
+  animation: hairflow 14s linear infinite;
+}
+@keyframes hairflow { from { background-position: 0% 50%; } to { background-position: 300% 50%; } }
+
+/* --- credit band: built by Siddhant Pardeshi --- */
+.credit-band {
+  display: inline-flex; align-items: center; gap: .5rem;
+  font-size: .92rem; font-weight: 700; color: var(--ink-soft);
+}
+.credit-band .heart {
+  color: var(--red); display: inline-grid; place-items: center;
+  animation: heartbeat 2.6s ease-in-out infinite; transform-origin: center;
+}
+.credit-band .heart svg { display: block; }
+@keyframes heartbeat {
+  0%, 42%, 100% { transform: scale(1); }
+  10% { transform: scale(1.3); }
+  22% { transform: scale(1.05); }
+  32% { transform: scale(1.18); }
+}
+.credit-band .name {
+  background: linear-gradient(90deg, var(--saffron-ink, #B45309), var(--green), var(--blue), var(--saffron-ink, #B45309));
+  background-size: 250% 100%;
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  animation: hairflow 9s linear infinite;
+}
