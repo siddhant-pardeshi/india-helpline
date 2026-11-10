@@ -200,6 +200,11 @@ export function recordCard(rec, o) {
 // ---------- search box ----------
 export function searchBox(t, o = {}) {
   const action = o.base ? `${o.base}/search.html` : './search.html';
+  const chips = (t.search.chips || []).map((c) =>
+    `<a class="chip" role="listitem" href="${esc(action)}?q=${encodeURIComponent(c)}" data-q="${esc(c)}">${esc(c)}</a>`).join('');
+  const chipsHtml = chips
+    ? `<div class="chips" role="list"><span class="chips-label">${esc(t.search.tryLabel || 'Try')}</span>${chips}</div>`
+    : '';
   return `<section class="searchbox" id="search" aria-labelledby="search-label">
   <h2 class="section-title" id="search-label">${esc(t9(t, 'search.label'))}</h2>
   <p class="section-sub">${esc(t9(t, 'search.byNumber'))}</p>
@@ -210,6 +215,7 @@ export function searchBox(t, o = {}) {
       <button type="submit" aria-label="${esc(t9(t, 'search.submit'))}">${icons.search(20)}</button>
     </div>
   </form>
+  ${chipsHtml}
   <div class="search-results" id="search-results" role="region" aria-live="polite" aria-label="${esc(t9(t, 'a11y.searchStatus'))}"></div>
 </section>`;
 }

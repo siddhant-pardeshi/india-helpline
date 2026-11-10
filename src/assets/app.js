@@ -234,10 +234,11 @@
       a.href = recLink(rec);
       const nm = lang === 'hi' && rec.nh ? rec.nh : rec.n;
       const dsc = lang === 'hi' && rec.ph ? rec.ph : rec.p;
+      const escH = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
       a.innerHTML =
         `<span class="num">${rec.num}</span>` +
-        `<span class="meta"><span class="t">${highlight(nm, words)}</span>` +
-        `<span class="d">${highlight(dsc, words)} · ${scopeTag(rec)}</span></span>`;
+        `<span class="meta"><span class="t">${highlight(escH(nm), words)}</span>` +
+        `<span class="d">${highlight(escH(dsc), words)} · ${escH(scopeTag(rec))}</span></span>`;
       results.appendChild(a);
     }
   }
@@ -355,6 +356,65 @@
     }
   }
 
+  /* ---------- search suggestion chips ---------- */
+  function wireChips() {
+    $$('.chip').forEach((chip) => {
+      chip.addEventListener('click', (e) => {
+        const input = $('#q');
+        if (!input) return; // no-JS path: the link navigates to ?q=
+        e.preventDefault();
+        input.value = chip.dataset.q || chip.textContent.trim();
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+        input.focus();
+        input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+    });
+  }
+
+  /* ---------- scroll-reveal for service cards (fail-safe) ----------
+     Content must never depend on IO firing: arm only below-fold cards,
+     let IO animate them in on scroll, and force-reveal everything on a
+     timeout so no listing can ever be left invisible. */
+  function wireReveal() {
+    if (!('IntersectionObserver' in window)) return;
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const cards = $$('.dir .svc');
+    if (!cards.length) return;
+    const vh = innerHeight;
+    const below = cards.filter((c) => c.getBoundingClientRect().top > vh - 40);
+    if (!below.length) return;
+    for (const c of below) c.classList.add('pre');
+    let io = null;
+    try {
+      io = new IntersectionObserver((entries) => {
+        for (const en of entries) {
+          if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+        }
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+      for (const c of below) io.observe(c);
+    } catch { io = null; }
+    // safety net: whatever IO does (background tab, throttled renderer, GC),
+    // nothing stays hidden for long
+    setTimeout(() => {
+      for (const c of below) c.classList.add('in');
+      if (io) io.disconnect();
+    }, 2600);
+  }
+
+  /* ---------- "/" focuses search ---------- */
+  function wireSlashFocus() {
+    addEventListener('keydown', (e) => {
+      if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+      const t = e.target;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return;
+      const input = $('#q');
+      if (!input) return;
+      e.preventDefault();
+      input.focus();
+      input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  }
+
   /* ---------- category page state filter ---------- */
   function wireCatFilter() {
     const sel = $('#cat-state-filter');
@@ -390,6 +450,9 @@
   /* ---------- record state filter on state pages (national vs local already server-rendered) ---------- */
   function boot() {
     wireSearch();
+    wireChips();
+    wireReveal();
+    wireSlashFocus();
     wireCopy();
     wireRegion();
     wireOffline();

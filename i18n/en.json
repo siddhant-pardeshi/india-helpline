@@ -28,7 +28,9 @@
     "noResultsTip": "If it is an emergency, call 112.",
     "showingCount": "{count} result(s)",
     "clear": "Clear search",
-    "byNumber": "Search by number, agency, situation or state"
+    "byNumber": "Search by number, agency, situation or state",
+    "tryLabel": "Try:",
+    "chips": ["aag", "बच्चा", "upi fraud", "gas leak", "139"]
   },
   "quick": {
     "title": "Choose what you need",
