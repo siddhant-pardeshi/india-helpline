@@ -29,6 +29,10 @@ directory data. **None of these appear anywhere on the website.**
 
 | MP Police WhatsApp emergency channel +91-7587600100 | Documented on the MP Dial-112 page; channels live on the quarantined state-112 card (see its statusNote) | verified but unrendered (see quarantine note) |
 | WB Paschim Medinipur Traffic Control Room 03222-267983/275125/275126 | District-level traffic number; kept out as district-scope | verified on official district page |
+| Arunachal Pradesh (AR) | No official helpline page could be opened — every search attempt for AR pages was blocked by an automated content filter; district/state pages must be retried next review | gap |
+| Assam (AS) | Numbers seen only in secondary listings; ASDMA 108 brochure is a PDF lead; no official HTML page with a quotable line was opened | lead only |
+| Ladakh (LA) | leh.nic.in/helpline lists only departmental scheme landlines; no emergency/helpline block; PHQ numbers appear in search results without a verified official page | lead only |
+| Lakshadweep (LD) | Official directory is officer landlines, not public-assistance helplines | gap |
 
 ## How to promote a lead into the directory
 
