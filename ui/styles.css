@@ -628,3 +628,12 @@ html.offline .offbanner { display: block; }
   .svc-call { flex-wrap: wrap; }
   .btn-call { width: 100%; order: 1; }
 }
+
+/* ---------- search chips + card reveal ---------- */
+.chips { display:flex; flex-wrap:wrap; gap:.45rem; align-items:center; margin-top:.65rem; }
+.chips-label { font-size:.8rem; font-weight:700; color:var(--ink-faint); letter-spacing:.04em; }
+.chip { display:inline-flex; align-items:center; font:inherit; font-size:.86rem; font-weight:700; color:var(--ink-soft); background:var(--surface); border:1px solid var(--line); border-radius:999px; padding:.3rem .85rem; min-height:34px; text-decoration:none; transition: transform .15s var(--ease), border-color .15s var(--ease), box-shadow .15s var(--ease), color .15s var(--ease); }
+.chip:hover { color:var(--ink); border-color: color-mix(in srgb, var(--ink) 35%, var(--line)); transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+.svc.pre { opacity:0; transform: translateY(12px); }
+.svc.pre.in { opacity:1; transform:none; transition: opacity .5s var(--ease), transform .5s var(--ease); }
+@media (prefers-reduced-motion: reduce) { .svc.pre { opacity:1; transform:none; } .svc.pre.in { transition:none; } }
