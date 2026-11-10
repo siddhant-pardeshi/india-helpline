@@ -10,7 +10,25 @@
 
 ---
 
-## 🔊 Listen to the walkthrough — a cute voice tour of the whole project
+## 🎬 Watch the video walkthrough — cute voice, full tour, emergency how-to
+
+<div align="center">
+
+**[▶ WATCH — 2-minute guided tour: how to use India Helpline in any emergency](assets/video/walkthrough.mp4)**
+
+[![India Helpline video walkthrough — how to use the site in an emergency](assets/video/poster.png)](assets/video/walkthrough.mp4)
+
+*A real screen recording with a friendly voice (2 min 13 s · 2.6 MB). It walks through exactly what to do in an emergency:*
+*tap **112** first → search what you need (typos and Hindi welcome: "upi frad", "बच्चा") → open your state's verified local services →*
+*check every number's official source and date → save the site for offline use — and remember: ambulance **108**, train help **139**, money fraud **1930**, but **112 always comes first**.*
+
+*(click the poster — GitHub opens its built-in video player. Prefer audio-only? [🔊 1:50 voice walkthrough](assets/voice/walkthrough.mp3))*
+
+</div>
+
+---
+
+## 🔊 Listen to the audio walkthrough — a cute voice tour of the whole project
 
 <div align="center">
 

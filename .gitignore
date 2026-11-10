@@ -3,3 +3,6 @@
 node_modules/
 site/
 .tmp_research/
+assets/video/raw-*.webm
+assets/video/merged.webm
+assets/video/parts/
